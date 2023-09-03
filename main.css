@@ -5,6 +5,10 @@
 
 /* header section media query */
 @media (min-width: 360px) and (max-width: 740px) {
+
+  .header1 h2{
+    font-size: 30px;
+  }
     .header-down{
       flex-direction: column;
       margin-left: 15px;

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="books.css">
     <title>books</title>
     
 </head>
@@ -34,8 +35,8 @@
     </header>
     <!-- books section starts -->
     
-    <div class=" mt-8 ml-20 mr-20 ">
-        <div class="flex place-content-evenly">
+    <div class="subjects mt-8 ml-20 mr-20 ">
+        <div class="books1 flex place-content-evenly">
             <div class="border border-blue-500 p-5">
                 <a href="#" class="cursor-pointer">
                     <img src="./images/css.jpeg" alt="CSS" height="150px" width="150px" loading="lazy">
@@ -95,19 +96,98 @@
                 </a>
             </div>
         </div>
+
+    </div>
+
+    <!-- media query section starts -->
+
+    <div class="mobile-books invisible sr-only mt-8 ml-20 mr-20 ">
+        <!-- 1st line boxes -->
+
+        <div class="flex place-content-evenly">
+            <div class="mobile-books1 border border-blue-500 p-5">
+                <a href="#" class="cursor-pointer">
+                    <img src="./images/css.jpeg" alt="CSS" height="150px" width="150px" loading="lazy">
+                <p class="font-extrabold font-poppins text-lg ml-12 mt-5">CSS</p>
+                </a>
+            </div>
+            <div class="mobile-books1a border border-blue-500 p-5 ">
+                <a href="#" class="cursor-pointer">
+                    <img src="./images/C.jpeg" alt="C" height="150px" width="150px" loading="lazy">
+                <p class="font-extrabold font-poppins text-lg ml-5 mt-5">C Language</p>
+                </a>
+            </div>
+        </div>
+        <!-- 2nd line boxes -->
+        <div class="flex place-content-evenly">
+            <div class="mobile-books2 border border-blue-500 p-5">
+                <a href="#" class="cursor-pointer">
+                    <img src="./images/java2.png" alt="java" height="150px" width="150px" loading="lazy">
+                    <p class="font-extrabold font-poppins text-lg ml-12 mt-16">JAVA</p>
+                </a>
+            </div>
+            <div class="mobile-books2a border border-blue-500 p-5">
+                <a href="#" class="cursor-pointer">
+                    <img src="./images/dbms.jpeg" alt="dbms" height="150px" width="150px" loading="lazy">
+                    <p class="font-extrabold font-poppins text-lg ml-12 mt-10">DBMS</p>
+                </a>
+            </div>
+        </div>
+        <!-- 3rd line boxes -->
+        <div class="flex place-content-evenly">
+            <div class="mobile-books3 border border-blue-500 p-5">
+                <a href="#" class="cursor-pointer">
+                    <img src="./images/html.jpeg" alt="html" height="150px" width="150px" loading="lazy">
+                    <p class="font-extrabold font-poppins text-lg ml-12 mt-5">HTML</p>
+                </a>
+            </div>
+            <div class="mobile-books3a border border-blue-500 p-5">
+                <a href="#" class="cursor-pointer">
+                    <img src="./images/js.jpg" alt="js" height="150px" width="150px" loading="lazy">
+                    <p class="font-extrabold font-poppins text-lg ml-8 mt-5">Javascript</p>
+                </a>
+            </div>
+        </div>
+        <!-- 4th line boxes -->
+        <div class="flex place-content-evenly">
+            <div class="mobile-books4 border border-blue-500 p-5">
+                <a href="#" class="cursor-pointer">
+                    <img src="./images/network3.png" alt="networking" height="150px" width="150px" loading="lazy">
+                    <p class="font-extrabold font-poppins text-lg ml-4 mt-10">Networking</p>
+                </a>
+            </div>
+            <div class="mobile-books4a border border-blue-500 p-5">
+                <a href="#" class="cursor-pointer">
+                    <img src="./images/html.jpeg" alt="html" height="150px" width="150px" loading="lazy">
+                    <p class="font-extrabold font-poppins text-lg ml-12 mt-5">HTML</p>
+                </a>
+            </div>
+        </div>
+
+        <!-- 5th line box -->
+
+        <div class="flex place-content-evenly">
+            <div class="mobile-books5 border border-blue-500 p-5">
+                <a href="#" class="cursor-pointer">
+                    <img src="./images/network3.png" alt="networking" height="150px" width="150px" loading="lazy">
+                    <p class="font-extrabold font-poppins text-lg ml-4 mt-10">Networking</p>
+                </a>
+            </div>
+        </div>
+
     </div>
 
 
     <!-- footer section starts  -->
 
-    <div class="  bg-stone-500 h-[300px] mt-10">
-        <div class="flex place-content-evenly">
-            <div class="w-[300px]">
+    <div class="footer bg-stone-500 h-[300px] mt-10">
+        <div class="footer1 flex place-content-evenly">
+            <div class="footer-p w-[300px]">
                 <h2 class="font-poppins font-bold text-3xl mt-7 text-orange-400">Community Notes</h2>
-                <div class="w-64 h-1 bg-orange-400"></div>
+                <div class="header-line w-64 h-1 bg-orange-400"></div>
                 <p class="font-poppins text-lg text-white mt-5">A Community Of Coders, Making The World a better place.</p>
             </div>
-            <div class="cursor-pointer">
+            <div class="quick-links cursor-pointer">
                 <h5 class="font-poppins font-bold text-2xl text-orange-400 mt-7">Quick Links</h5>
                 <a href="#aboutus"><h5 class="text-white">About Us</h5></a>
                 <h5 class="text-white">Privacy-Policy</h5>
@@ -116,7 +196,7 @@
                 <!-- <h5 id="aboutus">About us</h5> -->
     
             </div>
-            <div class="w-[150px] text-white mt-5 font-bold" >
+            <div class="footer-quotes w-[150px] text-white mt-5 font-bold" >
                 <p>DON'T LET YOUR DREAMS STAY DREAMS
                     BUILD YOUR SKILLS WITH US AND TURN THEM INTO REALITY</p>
             </div>
