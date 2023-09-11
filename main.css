@@ -4,6 +4,38 @@
 
 
 /* header section media query */
+
+nav {
+  background-color: #333; /* Background color for the menu */
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  flex: 1;
+  text-align: center;
+}
+
+.menu li a {
+  display: block;
+  text-decoration: none;
+  color: #fff; /* Text color for menu items */
+  padding: 15px 20px; /* Adjust padding to change button size */
+  transition: background-color 0.3s;
+}
+
+.menu li a:hover {
+  background-color: #555; /* Background color on hover */
+}
+
+
+
+
 @media (min-width: 360px) and (max-width: 740px) {
   .header1{
     width: 300px;
@@ -308,6 +340,15 @@
   }
   .contactus img{
     opacity: 0;
+  }
+  .feedback h1{
+    font-size: 25px;
+  }
+  .feedback span{
+    font-size: 25px;
+  }
+  .contact-line{
+    width: 150px;
   }
 
   /* footer section starts  */

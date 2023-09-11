@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="notes.css">
+
+    
+</head>
+<body>
+
+   
+    <header class="header bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ... ">
+        <div class="header1 relative w-[1080px] mx-auto flex items-center justify-between">
+            <h2 class="font-bold font-poppins text-3xl text-teal-400 backdrop-brightness-50">Community</h2>
+            <ul class="menu  ">
+                
+                    <div class="dropdown">
+                        <button class="dropdown-button" ><i class="fa-solid fa-bars "></i></button>
+                        <div class="dropdown-content">
+                            <a href="#">Login</a>
+                            <a href="#">Signup</a>
+                            <a href="#">Subjects</a>
+                            <a href="#">Papers</a>
+                            <a href="#">Notes</a>
+                        </div>
+                    </div>
+            </ul>
+           
+        </div>
+        <div>
+            
+        </div>
+
+    </header>
+
+    <!-- header-down side starts -->
+
+    <div class="curriculum">
+        <h1>MCA (Integrated) Syllabus</h1>
+    
+        <label for="yearDropdown">Select Year:</label>
+        <select id="yearDropdown">
+            <option value="2023">Year 1</option>
+            <option value="2022">Year 2</option>
+            <option value="2021">Year 3</option>
+            <option value="2020">Year 4</option>
+            <option value="2019">Year 5</option>
+        </select>
+    
+        <button id="downloadButton">Download Curriculum</button>
+
+        <div id="downloadLink" style="display: none;">
+            <a id="downloadAnchor" href="#" target="_blank">Click here to download</a>
+        </div>
+
+    </div>
+
+    <div class="subject-notes">
+        <div class="grid-cols-4 flex bg-red-500">
+            <div class="column1">
+                <h1>First Semester</h1>
+            </div>
+            <div class="column1">
+                <h1>second Semester</h1>
+            </div>
+            <div class="column1">
+                <h1>third Semester</h1>
+            </div>
+            <div class="column1">
+                <h1>fourth Semester</h1>
+            </div>
+            <div class="column1">
+                <h1>fifth Semester</h1>
+            </div>
+            <div class="column1">
+                <h1>sixth Semester</h1>
+            </div>
+            <div class="column1">
+                <h1>seven Semester</h1>
+            </div>
+            <div class="column1">
+                <h1>eight Semester</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        document.getElementById('downloadButton').addEventListener('click', function () {
+        const yearDropdown = document.getElementById('yearDropdown');
+        const selectedYear = yearDropdown.value;
+        const downloadLink = document.getElementById('downloadLink');
+        const downloadAnchor = document.getElementById('downloadAnchor');
+
+        // Define the curriculum file URLs for each year
+        const curriculumFiles = {
+            '2023': './course curriculum/MCA (Integrated) I Year.pdf',
+            // '2022': './course curriculum/MCA (Integrated) 2nd Year.pdf',
+            '2021': './course curriculum/MCA (Integrated) 3rd Year.pdf',
+            '2020': './course curriculum/MCA_Integrated_4_Year.pdf',
+            '2019': './course curriculum/MCA 5th year 2021-22.pdf',
+        };
+
+        if (curriculumFiles[selectedYear]) {
+            downloadAnchor.href = curriculumFiles[selectedYear];
+            downloadLink.style.display = 'block';
+        } else {
+            downloadLink.style.display = 'none';
+            alert('Curriculum not available for the selected year.');
+        }
+        });
+
+    </script>
+
+
+
+<!-- footer section starts -->
+
+<div class="  bg-stone-500 h-[300px] footer">
+    <div class="footer1 flex place-content-evenly">
+        <div class="w-[300px] footer-p">
+            <h2 class="font-poppins font-bold text-3xl mt-7 text-orange-400">Community Notes</h2>
+            <div class="w-64 h-1 bg-orange-400 header-line"></div>
+            <p class="font-poppins text-lg text-white mt-5">A Community Of Coders, Making The World a better place.</p>
+        </div>
+        <div class="quick-links cursor-pointer">
+            <h5 class="font-poppins font-bold text-2xl text-orange-400 mt-7">Quick Links</h5>
+            <a href="#aboutus"><h5 class="text-white">About Us</h5></a>
+            <h5 class="text-white">Privacy-Policy</h5>
+            <a href="#contactUs"><h5 class="text-white">Contact Us</h5></a>
+            <h5 class="text-white">T&Cs</h5>
+            <!-- <h5 id="aboutus">About us</h5> -->
+
+        </div>
+        <div class="footer-quotes w-[150px] text-white mt-5 font-bold">
+            <p>DON'T LET YOUR DREAMS STAY DREAMS
+                BUILD YOUR SKILLS WITH US AND TURN THEM INTO REALITY
+            </p>
+        </div>
+       
+    </div>
+    
+    <div class="copyright w-11/12 h-0.5 bg-white mx-auto mt-8 m"></div>
+    <div class="copyright1">
+        <p class="ml-12 mt-5 text-white">Copyright <i class="fa-regular fa-copyright"></i> 2023 By Innovative Developer's team</p>
+    </div>
+</div>
+
+ </body>
+</html>
