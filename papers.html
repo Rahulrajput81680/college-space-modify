@@ -36,273 +36,372 @@
 
 
     <div class="container">
-        <h1 class="text-3xl font-semibold mb-4">Papers Section</h1>
-
         <!-- MCA (Integrated) Papers -->
-        <div class="mca mb-8">
-            <h2 class="text-xl font-semibold mb-2">MCA (Integrated)</h2>
-            <div class="grid grid-cols-5 gap-4">
+            <h2>MCA (Integrated)</h2>
+            <div class="semesters">
 
                 <!-- Semester 1 -->
-                <div class="border-2 border-green-500 p-4 hover:border-red-500">
-                    <h3 class="text-lg font-semibold mb-2">Semester 1</h3>
-                    <label for="year" class="text-blue-500">Select a Year:</label>
-                    <select id="year1" class="year-select" data-semester="1">
-                        <option value="older" class="text-blue-500">older</option>
-                        <option value="2019-20" class="text-red-500">2019-20</option>
-                        <option value="2020-21" class="text-blue-500">2020-21</option>
-                        <option value="2021-22" class="text-blue-500">2021-22</option>
-                        <option value="2022-23" class="text-red-500">2022-23</option>
+                <div class="curriculum1">
+                    <h1>Semester 1</h1>
+                
+                    <label for="yearDropdown1">Select Year:</label>
+                    <select id="yearDropdown1">
+                        <option value="2019-20">2019-20</option>
+                        <option value="2020-21">2020-21</option>
+                        <option value="2021-22">2021-22</option>
+                        <option value="2022-23">2022-23</option>
+                        <!-- <option value="2019">2023-24</option> -->
                     </select>
+                
+                    <button id="downloadButton1">Download</button>
+            
+                    <div id="downloadLink1" style="display: none;">
+                        <a id="downloadAnchor1" href="#" target="_blank">Click here to download</a>
+                    </div>
+            
                 </div>
 
                 <!-- Semester 2 -->
-                <div class="border-2 border-green-500 p-4 hover:border-red-500">
-                    <h3 class="text-lg font-semibold mb-2">Semester 2</h3>
-                    <label for="year" class="text-blue-500">Select a Year:</label>
-                    <select id="year2" class="year-select" data-semester="2">
-                        <option value="older" class="text-blue-500">older</option>
-                        <option value="2019-20" class="text-red-500">2019-20</option>
-                        <option value="2020-21" class="text-red-500">2020-21</option>
-                        <option value="2021-22" class="text-red-500">2021-22</option>
-                        <option value="2022-23" class="text-red-500">2022-23</option>
+                <div class="curriculum2">
+                    <h1>Semester 2</h1>
+                
+                    <label for="yearDropdown2">Select Year:</label>
+                    <select id="yearDropdown2">
+                        <option value="2019-20">2019-20</option>
+                        <option value="2020-21">2020-21</option>
+                        <option value="2021-22">2021-22</option>
+                        <option value="2022-23">2022-23</option>
+                        <!-- <option value="2019">2023-24</option> -->
                     </select>
+                
+                    <button id="downloadButton2">Download</button>
+            
+                    <div id="downloadLink2" style="display: none;">
+                        <a id="downloadAnchor2" href="#" target="_blank">Click here to download</a>
+                    </div>
+            
                 </div>
 
                 <!-- Semester 3 -->
-                <div class="border-2 border-green-500 p-4 hover:border-red-500">
-                    <h3 class="text-lg font-semibold mb-2">Semester 3</h3>
-                    <label for="year" class="text-blue-500">Select a Year:</label>
-                    <select id="year" name="year">
-                        <a href="#"><option value="older" class="text-blue-500">older</option></a>
-                        <a href="#"><option value="2019-20" class="text-red-500">2019-20</option></a>
-                        <a href="#"><option value="2020-21" class="text-red-500">2020-21</option></a>
-                        <a href="./papers/MCA Int 3rd Sem (2021-22).pdf"><option value="2021-22" class="text-blue-500">2021-22</option></a>
-                        <a href="#"><option value="2022-23" class="text-red-500">2022-23</option></a>
+                <div class="curriculum3">
+                    <h1>Semester 3</h1>
+                
+                    <label for="yearDropdown3">Select Year:</label>
+                    <select id="yearDropdown3">
+                        <option value="2019-20">2019-20</option>
+                        <option value="2020-21">2020-21</option>
+                        <option value="2021-22">2021-22</option>
+                        <option value="2022-23">2022-23</option>
+                        <!-- <option value="2019">2023-24</option> -->
                     </select>
+                
+                    <button id="downloadButton3">Download</button>
+            
+                    <div id="downloadLink3" style="display: none;">
+                        <a id="downloadAnchor3" href="#" target="_blank">Click here to download</a>
+                    </div>
+            
                 </div>
 
                 <!-- Semester 4 -->
-                <div class="border-2 border-green-500 p-4 hover:border-red-500">
-                    <h3 class="text-lg font-semibold mb-2">Semester 4</h3>
-                    <label for="year" class="text-blue-500">Select a Year:</label>
-                    <select id="year" name="year">
-                        <a href="#"><option value="older" class="text-blue-500">older</option></a>
-                        <a href="#"><option value="2019-20" class="text-red-500">2019-20</option></a>
-                        <a href="#"><option value="2020-21" class="text-red-500">2020-21</option></a>
-                        <a href="./papers/MCA Int 4th Sem (2021-22).pdf"><option value="2021-22" class="text-blue-500">2021-22</option></a>
-                        <a href="#"><option value="2022-23" class="text-red-500">2022-23</option></a>
-                    </select>
-                </div>
 
-                <!-- Semester 5 -->
-                <div class="border-2 border-green-500 p-4 hover:border-red-500">
-                    <h3 class="text-lg font-semibold mb-2">Semester 5</h3>
-                    <label for="year" class="text-blue-500">Select a Year:</label>
-                    <select id="year" name="year">
-                        <a href="#"><option value="older" class="text-blue-500">older</option></a>
-                        <a href="#"><option value="2019-20" class="text-red-500">2019-20</option></a>
-                        <a href="#"><option value="2020-21" class="text-red-500">2020-21</option></a>
-                        <a href="./papers/MCA Int 5th Sem (2021-22).pdf"><option value="2021-22" class="text-blue-500">2021-22</option></a>
-                        <a href="./papers/MCA Int 5th Sem (2022-23).pdf"><option value="2022-23" class="text-blue-500">2022-23</option></a>
+                <div class="curriculum4">
+                    <h1>Semester 4</h1>
+                
+                    <label for="yearDropdown4">Select Year:</label>
+                    <select id="yearDropdown4">
+                        <option value="2019-20">2019-20</option>
+                        <option value="2020-21">2020-21</option>
+                        <option value="2021-22">2021-22</option>
+                        <option value="2022-23">2022-23</option>
+                        <!-- <option value="2019">2023-24</option> -->
                     </select>
-                </div>
-
-                <!-- Semester 6 -->
-                <div class="border-2 border-green-500 p-4 hover:border-red-500">
-                    <h3 class="text-lg font-semibold mb-2">Semester 6</h3>
-                    <label for="year" class="text-blue-500">Select a Year:</label>
-                    <select id="year" name="year">
-                        <a href="#"><option value="older" class="text-blue-500">older</option></a>
-                        <a href="#"><option value="2019-20" class="text-red-500">2019-20</option></a>
-                        <a href="#"><option value="2020-21" class="text-red-500">2020-21</option></a>
-                        <a href="#"><option value="2021-22" class="text-red-500">2021-22</option></a>
-                        <a href="#"><option value="2022-23" class="text-red-500">2022-23</option></a>
-                    </select>
-                </div>
-
-                <!-- Semester 7 -->
-                <div class="border-2 border-green-500 p-4 hover:border-red-500">
-                    <h3 class="text-lg font-semibold mb-2">Semester 7</h3>
-                    <label for="year" class="text-blue-500">Select a Year:</label>
-                    <select id="year" name="year">
-                        <a href="#"><option value="older" class="text-blue-500">older</option></a>
-                        <a href="#"><option value="2019-20" class="text-red-500">2019-20</option></a>
-                        <a href="#"><option value="2020-21" class="text-red-500">2020-21</option></a>
-                        <a href="./papers/MCA Int 7th Sem (2021-22).pdf"><option value="2021-22" class="text-blue-500">2021-22</option></a>
-                        <a href="#"><option value="2022-23" class="text-red-500">2022-23</option></a>
-                    </select>
-                </div>
-
-                <!-- Semester 8 -->
-                <div class="border-2 border-green-500 p-4 hover:border-red-500">
-                    <h3 class="text-lg font-semibold mb-2">Semester 8</h3>
-                    <label for="year" class="text-blue-500">Select a Year:</label>
-                    <select id="year" name="year">
-                        <a href="#"><option value="older" class="text-blue-500">older</option></a>
-                        <a href="#"><option value="2019-20" class="text-red-500">2019-20</option></a>
-                        <a href="#"><option value="2020-21" class="text-red-500">2020-21</option></a>
-                        <a href="./papers/MCA Int 8th Sem (2021-22).pdf"><option value="2021-22" class="text-blue-500">2021-22</option></a>
-                        <a href="#"><option value="2022-23" class="text-red-500">2022-23</option></a>
-                    </select>
-                </div>
-
-                <!-- Semester 9 -->
-                <div class="border-2 border-green-500 p-4 hover:border-red-500">
-                    <h3 class="text-lg font-semibold mb-2">Semester 9</h3>
-                    <label for="year" class="text-blue-500">Select a Year:</label>
-                    <select id="year" name="year">
-                        <a href="#"><option value="older" class="text-blue-500">older</option></a>
-                        <a href="#"><option value="2019-20" class="text-red-500">2019-20</option></a>
-                        <a href="#"><option value="2020-21" class="text-red-500">2020-21</option></a>
-                        <a href="#"><option value="2021-22" class="text-red-500">2021-22</option></a>
-                        <a href="#"><option value="2022-23" class="text-red-500">2022-23</option></a>
-                    </select>
-                </div>
-
-                <!-- Semester 10 -->
-                <div class="border-2 border-green-500 p-4 hover:border-red-500">
-                    <h3 class="text-lg font-semibold mb-2">Semester 10</h3>
-                    <label for="year" class="text-blue-500">Select a Year:</label>
-                    <select id="year" name="year">
-                        <a href="#"><option value="older" class="text-blue-500">older</option></a>
-                        <a href="#"><option value="2019-20" class="text-red-500">2019-20</option></a>
-                        <a href="#"><option value="2020-21" class="text-red-500">2020-21</option></a>
-                        <a href="#"><option value="2021-22" class="text-red-500">2021-22</option></a>
-                        <a href="#"><option value="2022-23" class="text-red-500">2022-23</option></a>
-                    </select>
+                
+                    <button id="downloadButton4">Download</button>
+            
+                    <div id="downloadLink4" style="display: none;">
+                        <a id="downloadAnchor4" href="#" target="_blank">Click here to download</a>
+                    </div>
+            
                 </div>
                 
-            </div>
-        </div>
-    </div>
+                <!-- semester 5 -->
 
-    <!-- MBA (Integrated) Papers -->
-    <div class="mba">
-        <h2 class="text-xl font-semibold mb-2">MBA (Integrated)</h2>
-        <div class="grid grid-cols-5 gap-4">
-            <!-- Semesters -->
-            <div class="border-2 border-green-500 p-4 hover:border-red-500">
-                <h3 class="text-lg font-semibold mb-2">Semester 1</h3>
-                <label for="year" class="text-blue-500">Select a Year:</label>
-                <select id="year" name="year">
-                    <a href="#"> <option value="older" download class="text-blue-500">older</option></a>
-                    <a href="#" > <option value="2019-20" download class="text-red-500">2019-20</option></a>
-                    <a href="#" > <option value="2020-21" download class="text-red-500">2020-21</option></a>
-                    <a href="#" > <option value="2021-22" download class="text-red-500">2021-22</option></a>
-                    <a href="#" > <option value="2022-23" download class="text-red-500">2022-23</option></a>  
-                </select>
-            </div>
-            <!-- semester2 -->
-            <div class="border-2 border-green-500 p-4 hover:border-red-500">
-                <h3 class="text-lg font-semibold mb-2">Semester 2</h3>
-                <label for="year" class="text-blue-500">Select a Year:</label>
-                <select id="year" name="year">
-                    <a href="#"> <option value="older" download class="text-blue-500">older</option></a>
-                    <a href="#" > <option value="2019-20" download class="text-red-500">2019-20</option></a>
-                    <a href="#" > <option value="2020-21" download class="text-red-500">2020-21</option></a>
-                    <a href="#" > <option value="2021-22" download class="text-red-500">2021-22</option></a>
-                    <a href="#" > <option value="2022-23" download class="text-red-500">2022-23</option></a>  
-                </select>
-            </div>
-            <!-- semester3 -->
-            <div class="border-2 border-green-500 p-4 hover:border-red-500">
-                <h3 class="text-lg font-semibold mb-2">Semester 3</h3>
-                <label for="year" class="text-blue-500">Select a Year:</label>
-                <select id="year" name="year">
-                    <a href="#"> <option value="older" download class="text-blue-500">older</option></a>
-                    <a href="#" > <option value="2019-20" download class="text-red-500">2019-20</option></a>
-                    <a href="#" > <option value="2020-21" download class="text-red-500">2020-21</option></a>
-                    <a href="#" > <option value="2021-22" download class="text-red-500">2021-22</option></a>
-                    <a href="#" > <option value="2022-23" download class="text-red-500">2022-23</option></a>  
-                </select>
-            </div>
-            <!-- semester4 -->
-            <div class="border-2 border-green-500 p-4 hover:border-red-500">
-                <h3 class="text-lg font-semibold mb-2">Semester 4</h3>
-                <label for="year" class="text-blue-500">Select a Year:</label>
-                <select id="year" name="year">
-                    <a href="#"> <option value="older" download class="text-blue-500">older</option></a>
-                    <a href="#" > <option value="2019-20" download class="text-red-500">2019-20</option></a>
-                    <a href="#" > <option value="2020-21" download class="text-red-500">2020-21</option></a>
-                    <a href="#" > <option value="2021-22" download class="text-red-500">2021-22</option></a>
-                    <a href="#" > <option value="2022-23" download class="text-red-500">2022-23</option></a>  
-                </select>
-            </div>
-            <!-- semester5 -->
-            <div class="border-2 border-green-500 p-4 hover:border-red-500">
-                <h3 class="text-lg font-semibold mb-2">Semester 5</h3>
-                <label for="year" class="text-blue-500">Select a Year:</label>
-                <select id="year" name="year">
-                    <a href="#"> <option value="older" download class="text-blue-500">older</option></a>
-                    <a href="#" > <option value="2019-20" download class="text-red-500">2019-20</option></a>
-                    <a href="#" > <option value="2020-21" download class="text-red-500">2020-21</option></a>
-                    <a href="#" > <option value="2021-22" download class="text-red-500">2021-22</option></a>
-                    <a href="#" > <option value="2022-23" download class="text-red-500">2022-23</option></a>  
-                </select>
-            </div>
-            <!-- semester6 -->
-            <div class="border-2 border-green-500 p-4 hover:border-red-500">
-                <h3 class="text-lg font-semibold mb-2">Semester 6</h3>
-                <label for="year" class="text-blue-500">Select a Year:</label>
-                <select id="year" name="year">
-                    <a href="#"> <option value="older" download class="text-blue-500">older</option></a>
-                    <a href="#" > <option value="2019-20" download class="text-red-500">2019-20</option></a>
-                    <a href="#" > <option value="2020-21" download class="text-red-500">2020-21</option></a>
-                    <a href="#" > <option value="2021-22" download class="text-red-500">2021-22</option></a>
-                    <a href="#" > <option value="2022-23" download class="text-red-500">2022-23</option></a>  
-                </select>
-            </div>
-            <!-- semester7 -->
-            <div class="border-2 border-green-500 p-4 hover:border-red-500">
-                <h3 class="text-lg font-semibold mb-2">Semester 7</h3>
-                <label for="year" class="text-blue-500">Select a Year:</label>
-                <select id="year" name="year">
-                    <a href="#"> <option value="older" download class="text-blue-500">older</option></a>
-                    <a href="#" > <option value="2019-20" download class="text-red-500">2019-20</option></a>
-                    <a href="#" > <option value="2020-21" download class="text-red-500">2020-21</option></a>
-                    <a href="#" > <option value="2021-22" download class="text-red-500">2021-22</option></a>
-                    <a href="#" > <option value="2022-23" download class="text-red-500">2022-23</option></a>  
-                </select>
-            </div>
-            <!-- semester8 -->
-            <div class="border-2 border-green-500 p-4 hover:border-red-500">
-                <h3 class="text-lg font-semibold mb-2">Semester 8</h3>
-                <label for="year" class="text-blue-500 ">Select a Year:</label>
-                <select id="year" name="year">
-                    <a href="#"> <option value="older" download class="text-blue-500">older</option></a>
-                    <a href="#" > <option value="2019-20" download class="text-red-500">2019-20</option></a>
-                    <a href="#" > <option value="2020-21" download class="text-red-500">2020-21</option></a>
-                    <a href="#" > <option value="2021-22" download class="text-red-500">2021-22</option></a>
-                    <a href="#" > <option value="2022-23" download class="text-red-500 ">2022-23</option></a>  
-                </select>
-            </div>
-            <!-- semester9 -->
-            <div class="border-2 border-green-500 p-4 hover:border-red-500">
-                <h3 class="text-lg font-semibold mb-2">Semester 9</h3>
-                <label for="year" class="text-blue-500 ">Select a Year:</label>
-                <select id="year" name="year">
-                    <a href="#"> <option value="older" download class="text-blue-500">older</option></a>
-                    <a href="#" > <option value="2019-20" download class="text-red-500">2019-20</option></a>
-                    <a href="#" > <option value="2020-21" download class="text-red-500">2020-21</option></a>
-                    <a href="#" > <option value="2021-22" download class="text-red-500">2021-22</option></a>
-                    <a href="#" > <option value="2022-23" download class="text-red-500 ">2022-23</option></a>  
-                </select>
-            </div>
-            <!-- semester10 -->
-            <div class="border-2 border-green-500 p-4 hover:border-red-500">
-                <h3 class="text-lg font-semibold mb-2">Semester 10</h3>
-                <label for="year" class="text-blue-500 ">Select a Year:</label>
-                <select id="year" name="year">
-                    <a href="#"> <option value="older" download class="text-blue-500">older</option></a>
-                    <a href="#" > <option value="2019-20" download class="text-red-500">2019-20</option></a>
-                    <a href="#" > <option value="2020-21" download class="text-red-500">2020-21</option></a>
-                    <a href="#" > <option value="2021-22" download class="text-red-500">2021-22</option></a>
-                    <a href="#" > <option value="2022-23" download class="text-red-500 ">2022-23</option></a>  
-                </select>
-            </div>
+                <div class="curriculum5">
+                    <h1>Semester 5</h1>
+                
+                    <label for="yearDropdown5">Select Year:</label>
+                    <select id="yearDropdown5">
+                        <option value="2019-20">2019-20</option>
+                        <option value="2020-21">2020-21</option>
+                        <option value="2021-22">2021-22</option>
+                        <option value="2022-23">2022-23</option>
+                        <!-- <option value="2019">2023-24</option> -->
+                    </select>
+                
+                    <button id="downloadButton5">Download</button>
+            
+                    <div id="downloadLink5" style="display: none;">
+                        <a id="downloadAnchor5" href="#" target="_blank">Click here to download</a>
+                    </div>
+            
+                </div>
+
+                <!-- semester 6 -->
+
+                <div class="curriculum6">
+                    <h1>Semester 6</h1>
+                
+                    <label for="yearDropdown6">Select Year:</label>
+                    <select id="yearDropdown6">
+                        <option value="2019-20">2019-20</option>
+                        <option value="2020-21">2020-21</option>
+                        <option value="2021-22">2021-22</option>
+                        <option value="2022-23">2022-23</option>
+                        <!-- <option value="2019">2023-24</option> -->
+                    </select>
+                
+                    <button id="downloadButton6">Download</button>
+            
+                    <div id="downloadLink6" style="display: none;">
+                        <a id="downloadAnchor6" href="#" target="_blank">Click here to download</a>
+                    </div>
+            
+                </div>
+
+                <!-- semester 7 -->
+
+                <div class="curriculum7">
+                    <h1>Semester 7</h1>
+                
+                    <label for="yearDropdown7">Select Year:</label>
+                    <select id="yearDropdown7">
+                        <option value="2019-20">2019-20</option>
+                        <option value="2020-21">2020-21</option>
+                        <option value="2021-22">2021-22</option>
+                        <option value="2022-23">2022-23</option>
+                        <!-- <option value="2019">2023-24</option> -->
+                    </select>
+                
+                    <button id="downloadButton7">Download</button>
+            
+                    <div id="downloadLink7" style="display: none;">
+                        <a id="downloadAnchor7" href="#" target="_blank">Click here to download</a>
+                    </div>
+            
+                </div>
+
+                <!-- semester 8 -->
+
+                <div class="curriculum8">
+                    <h1>Semester 8</h1>
+                
+                    <label for="yearDropdown8">Select Year:</label>
+                    <select id="yearDropdown8">
+                        <option value="2019-20">2019-20</option>
+                        <option value="2020-21">2020-21</option>
+                        <option value="2021-22">2021-22</option>
+                        <option value="2022-23">2022-23</option>
+                        <!-- <option value="2019">2023-24</option> -->
+                    </select>
+                
+                    <button id="downloadButton8">Download</button>
+            
+                    <div id="downloadLink8" style="display: none;">
+                        <a id="downloadAnchor8" href="#" target="_blank">Click here to download</a>
+                    </div>
+            
+                </div>
             <!-- Add more semesters here -->
         </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- mba section starts -->
+
+
+<div class="mba-container">
+    <!-- MCA (Integrated) Papers -->
+        <h2>MBA (Integrated)</h2>
+        <div class="mba-semesters">
+
+            <!-- Semester 1 -->
+            <div class="mba-curriculum1">
+                <h1>Semester 1</h1>
+            
+                <label for="mba-yearDropdown1">Select Year:</label>
+                <select id="mba-yearDropdown1">
+                    <option value="2019-20">2019-20</option>
+                    <option value="2020-21">2020-21</option>
+                    <option value="2021-22">2021-22</option>
+                    <option value="2022-23">2022-23</option>
+                    <!-- <option value="2019">2023-24</option> -->
+                </select>
+            
+                <button id="mba-downloadButton1">Download</button>
+        
+                <div id="mba-downloadLink1" style="display: none;">
+                    <a id="mba-downloadAnchor1" href="#" target="_blank">Click here to download</a>
+                </div>
+        
+            </div>
+
+            <!-- Semester 2 -->
+            <div class="mba-curriculum2">
+                <h1>Semester 2</h1>
+            
+                <label for="mba-yearDropdown2">Select Year:</label>
+                <select id="mba-yearDropdown2">
+                    <option value="2019-20">2019-20</option>
+                    <option value="2020-21">2020-21</option>
+                    <option value="2021-22">2021-22</option>
+                    <option value="2022-23">2022-23</option>
+                    <!-- <option value="2019">2023-24</option> -->
+                </select>
+            
+                <button id="mba-downloadButton2">Download</button>
+        
+                <div id="mba-downloadLink2" style="display: none;">
+                    <a id="mba-downloadAnchor2" href="#" target="_blank">Click here to download</a>
+                </div>
+        
+            </div>
+
+            <!-- Semester 3 -->
+            <div class="mba-curriculum3">
+                <h1>Semester 3</h1>
+            
+                <label for="mba-yearDropdown3">Select Year:</label>
+                <select id="mba-yearDropdown3">
+                    <option value="2019-20">2019-20</option>
+                    <option value="2020-21">2020-21</option>
+                    <option value="2021-22">2021-22</option>
+                    <option value="2022-23">2022-23</option>
+                    <!-- <option value="2019">2023-24</option> -->
+                </select>
+            
+                <button id="mba-downloadButton3">Download</button>
+        
+                <div id="mba-downloadLink3" style="display: none;">
+                    <a id="mba-downloadAnchor3" href="#" target="_blank">Click here to download</a>
+                </div>
+        
+            </div>
+
+            <!-- Semester 4 -->
+
+            <div class="mba-curriculum4">
+                <h1>Semester 4</h1>
+            
+                <label for="mba-yearDropdown4">Select Year:</label>
+                <select id="mba-yearDropdown4">
+                    <option value="2019-20">2019-20</option>
+                    <option value="2020-21">2020-21</option>
+                    <option value="2021-22">2021-22</option>
+                    <option value="2022-23">2022-23</option>
+                    <!-- <option value="2019">2023-24</option> -->
+                </select>
+            
+                <button id="mba-downloadButton4">Download</button>
+        
+                <div id="mba-downloadLink4" style="display: none;">
+                    <a id="mba-downloadAnchor4" href="#" target="_blank">Click here to download</a>
+                </div>
+        
+            </div>
+            
+            <!-- semester 5 -->
+
+            <div class="mba-curriculum5">
+                <h1>Semester 5</h1>
+            
+                <label for="mba-yearDropdown5">Select Year:</label>
+                <select id="mba-yearDropdown5">
+                    <option value="2019-20">2019-20</option>
+                    <option value="2020-21">2020-21</option>
+                    <option value="2021-22">2021-22</option>
+                    <option value="2022-23">2022-23</option>
+                    <!-- <option value="2019">2023-24</option> -->
+                </select>
+            
+                <button id="mba-downloadButton5">Download</button>
+        
+                <div id="mba-downloadLink5" style="display: none;">
+                    <a id="mba-downloadAnchor5" href="#" target="_blank">Click here to download</a>
+                </div>
+        
+            </div>
+
+            <!-- semester 6 -->
+
+            <div class="mba-curriculum6">
+                <h1>Semester 6</h1>
+            
+                <label for="mba-yearDropdown6">Select Year:</label>
+                <select id="mba-yearDropdown6">
+                    <option value="2019-20">2019-20</option>
+                    <option value="2020-21">2020-21</option>
+                    <option value="2021-22">2021-22</option>
+                    <option value="2022-23">2022-23</option>
+                    <!-- <option value="2019">2023-24</option> -->
+                </select>
+            
+                <button id="mba-downloadButton6">Download</button>
+        
+                <div id="mba-downloadLink6" style="display: none;">
+                    <a id="mba-downloadAnchor6" href="#" target="_blank">Click here to download</a>
+                </div>
+        
+            </div>
+
+            <!-- semester 7 -->
+
+            <div class="mba-curriculum7">
+                <h1>Semester 7</h1>
+            
+                <label for="mba-yearDropdown7">Select Year:</label>
+                <select id="mba-yearDropdown7">
+                    <option value="2019-20">2019-20</option>
+                    <option value="2020-21">2020-21</option>
+                    <option value="2021-22">2021-22</option>
+                    <option value="2022-23">2022-23</option>
+                    <!-- <option value="2019">2023-24</option> -->
+                </select>
+            
+                <button id="mba-downloadButton7">Download</button>
+        
+                <div id="mba-downloadLink7" style="display: none;">
+                    <a id="mba-downloadAnchor7" href="#" target="_blank">Click here to download</a>
+                </div>
+        
+            </div>
+
+            <!-- semester 8 -->
+
+            <div class="mba-curriculum8">
+                <h1>Semester 8</h1>
+            
+                <label for="mba-yearDropdown8">Select Year:</label>
+                <select id="mba-yearDropdown8">
+                    <option value="2019-20">2019-20</option>
+                    <option value="2020-21">2020-21</option>
+                    <option value="2021-22">2021-22</option>
+                    <option value="2022-23">2022-23</option>
+                    <!-- <option value="2019">2023-24</option> -->
+                </select>
+            
+                <button id="mba-downloadButton8">Download</button>
+        
+                <div id="mba-downloadLink8" style="display: none;">
+                    <a id="mba-downloadAnchor8" href="#" target="_blank">Click here to download</a>
+                </div>
+        
+            </div>
+        <!-- Add more semesters here -->
     </div>
 </div>
 
@@ -314,122 +413,7 @@
 
   <!-- MCA (Integrated) Papers -->
     
-  <div class="invisible sr-only media-mca mb-8">
-    <h2 class="text-xl font-semibold mb-2">MCA (Integrated)</h2>
-    <div class="grid grid-cols-3 gap-4 mt-10">
-        <!-- Semesters -->
-        <div class="w-[100px] h-[100px]">
-            <h3 class="text-lg font-semibold mb-2">Semester 1</h3>
-            <a href="./papers/MCA Int 1st Sem (2020-21).pdf" download class="text-blue-500">Download Paper</a>
-        </div>
-        <!-- semester2 -->
-        <div class="w-[100px] h-[100px] ">
-            <h3 class="text-lg font-semibold mb-2">Semester 2</h3>
-            <a href="#" download class="text-blue-500">Download Paper</a>
-        </div>
-        <!-- semester3 -->
-        <div class="w-[100px] h-[100px]">
-            <h3 class="text-lg font-semibold mb-2">Semester 3</h3>
-            <a href="./papers/MCA Int 3rd Sem (2021-22).pdf" download class="text-blue-500">Download Paper</a>
-        </div>
-        <!-- semester4 -->
-        <div class="w-[100px] h-[100px]">
-            <h3 class="text-lg font-semibold mb-2">Semester 4</h3>
-            <a href="./papers/MCA Int 4th Sem (2021-22).pdf" download class="text-blue-500">Download Paper</a>
-        </div>
-        <!-- semester5 -->
-        <div class="w-[100px] h-[100px]">
-            <h3 class="text-lg font-semibold mb-2">Semester 5</h3>
-            <a href="./papers/MCA Int 5th Sem (2021-22).pdf Sem (2020-21).pdf" download class="text-blue-500">Download Paper</a>
-        </div>
-        <!-- semester6 -->
-        <div class="w-[100px] h-[100px]">
-            <h3 class="text-lg font-semibold mb-2">Semester 6</h3>
-            <a href="#" download class="text-blue-500">Download Paper</a>
-        </div>
-        <!-- semester7 -->
-        <div class="w-[100px] h-[100px]">
-            <h3 class="text-lg font-semibold mb-2">Semester 7</h3>
-            <a href="./papers/MCA Int 7th Sem (2021-22).pdf" download class="text-blue-500">Download Paper</a>
-        </div>
-        <!-- semester8 -->
-        <div class="w-[100px] h-[100px]">
-            <h3 class="text-lg font-semibold mb-2">Semester 8</h3>
-            <a href="./papers/MCA Int 8th Sem (2021-22).pdf" download class="text-blue-500">Download Paper</a>
-        </div>
-        <!-- semester9 -->
-        <div class="w-[100px] h-[100px]">
-            <h3 class="text-lg font-semibold mb-2">Semester 9</h3>
-            <a href="#" class="text-blue-500 hover:underline">Download Paper</a>
-        </div>
-        <!-- semester10 -->
-        <div class="w-[100px] h-[100px]">
-            <h3 class="text-lg font-semibold mb-2">Semester 10</h3>
-            <a href="#" class="text-blue-500 hover:underline">Download Paper</a>
-        </div>
-        <!-- Add more semesters here -->
-    </div>
-</div>
-
-<!-- using media query mba integrated papers -->
-
-<div class="invisible sr-only media-mba">
-    <h2 class="text-xl font-semibold mb-2">MBA (Integrated)</h2>
-    <div class="grid grid-cols-3 gap-4 mt-10">
-        <!-- Semesters -->
-        <div class="mba1 w-[100px] h-[100px]">
-            <h3 class="text-lg font-semibold mb-2">Semester 1</h3>
-            <a href="#" class="text-blue-500 hover:underline">Download Paper</a>
-        </div>
-        <!-- semester2 -->
-        <div class="w-[100px] h-[100px]">
-            <h3 class="text-lg font-semibold mb-2">Semester 2</h3>
-            <a href="#" class="text-blue-500 hover:underline">Download Paper</a>
-        </div>
-        <!-- semester3 -->
-        <div class="w-[100px] h-[100px]">
-            <h3 class="text-lg font-semibold mb-2">Semester 3</h3>
-            <a href="#" class="text-blue-500 hover:underline">Download Paper</a>
-        </div>
-        <!-- semester4 -->
-        <div class="w-[100px] h-[100px]">
-            <h3 class="text-lg font-semibold mb-2">Semester 4</h3>
-            <a href="#" class="text-blue-500 hover:underline">Download Paper</a>
-        </div>
-        <!-- semester5 -->
-        <div class="w-[100px] h-[100px]">
-            <h3 class="text-lg font-semibold mb-2">Semester 5</h3>
-            <a href="#" class="text-blue-500 hover:underline">Download Paper</a>
-        </div>
-        <!-- semester6 -->
-        <div class="w-[100px] h-[100px]">
-            <h3 class="text-lg font-semibold mb-2">Semester 6</h3>
-            <a href="#" class="text-blue-500 hover:underline">Download Paper</a>
-        </div>
-        <!-- semester7 -->
-        <div class="w-[100px] h-[100px]">
-            <h3 class="text-lg font-semibold mb-2">Semester 7</h3>
-            <a href="#" class="text-blue-500 hover:underline">Download Paper</a>
-        </div>
-        <!-- semester8 -->
-        <div class="w-[100px] h-[100px]">
-            <h3 class="text-lg font-semibold mb-2">Semester 8</h3>
-            <a href="#" class="text-blue-500 hover:underline">Download Paper</a>
-        </div>
-        <!-- semester9 -->
-        <div class="w-[100px] h-[100px]">
-            <h3 class="text-lg font-semibold mb-2">Semester 9</h3>
-            <a href="#" class="text-blue-500 hover:underline">Download Paper</a>
-        </div>
-        <!-- semester10 -->
-        <div class="w-[100px] h-[100px]">
-            <h3 class="text-lg font-semibold mb-2">Semester 10</h3>
-            <a href="#" class="text-blue-500 hover:underline">Download Paper</a>
-        </div>
-        <!-- Add more semesters here -->
-    </div>
-</div>
-
+  
 
 
     <!-- footer section starts  -->
@@ -458,20 +442,5 @@
         </div>
     </div>
 </body>
-
-<script>
-    const yearSelects = document.querySelectorAll('.year-select');
-    yearSelects.forEach(select => {
-        select.addEventListener('change', () => {
-            const selectedYear = select.value;
-            const semester = select.getAttribute('data-semester');
-            const fileName = `MCA Int ${semester} Sem (${selectedYear}).pdf`;
-            const link = document.createElement('a');
-            link.href = `./papers/${fileName}`;
-            link.target = '_blank';
-            link.download = fileName;
-            link.click();
-        });
-    });
-</script>
+<script src="papers.js"></script>
 </html>
