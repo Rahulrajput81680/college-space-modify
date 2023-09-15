@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="aboutus.css">
+
+</head>
+<body>
+    <!-- header starts -->
+
+    <header class="header">
+        <div class="header1">
+
+            
+
+            <h2 class="font-bold font-poppins text-3xl text-teal-400">code crush</h2>
+            <!-- <img src="./images/id logo.png"> -->
+            <ul class="menu">
+                <div class="dropdown">
+                    <button class="dropdown-button"><i class="fa-solid fa-bars"></i></button>
+                    <div class="dropdown-content">
+                        <a href="#">Login</a>
+                        <a href="#">Signup</a>
+                        <a href="#">Subjects</a>
+                        <a href="#">Papers</a>
+                        <a href="#">Notes</a>
+                    </div>
+                </div>
+            </ul>
+        </div>
+        <div></div>
+    </header>
+
+    <!-- header down side starts -->
+
+    <section class="aboutus">
+        <!-- vision section starts -->
+        <div class="vision">
+            <div class="vision-desc">
+                <h2>Our Vision</h2>
+                <p>Our commitment is to provide a one-stop platform where college students can easily access 
+                    previous year papers, comprehensive study notes, career resources, and more. We aim to make learning more accessible,
+                     efficient, and enjoyable, helping students achieve their academic and career goals.
+                     Join us in this mission to unlock your full potential and embark on a path to a bright and promising future. Together,
+                      we're building a community that fosters knowledge, growth, and success for college students everywhere.
+                    </p>
+            </div>
+            <div class="vision-img">
+                <img src="./images/vision01.jpg">
+            </div>
+        </div>
+
+        <!-- our story secrion starts -->
+
+        <div class="our-story">
+            <div class="our-story-img">
+                <img src="./images/our story.jpeg">
+            </div>
+            <div class="our-story-desc">
+                <h2>Our Story</h2>
+                <p>
+                    Our story begins with a shared frustration. We, a group of friends, Semester exams were approaching, and we found 
+                    ourselves in a common struggle: the lack of easy access to previous year papers, study notes, and other essential resources.<br>
+
+                    We realized that this was a challenge faced by many of our fellow students.
+                    and we decided to do something about it.
+                    
+                    Driven by our own experiences, we embarked on a mission to create a solution. We gathered resources, 
+                    collaborated with professors, and tirelessly worked to build a platform that would make life easier for students just like us.<br>
+                    
+                    Today, that platform is [Resource Zone]. It's a place where you can find the study materials you need,
+                    and access career resources to plan your future. We're here to help you overcome the obstacles we once faced.
+                    
+                </p>
+            </div>
+        </div>
+
+       <!-- quotes slideshow starts -->
+
+      <main>
+        <img src="https://picsum.photos/id/237/1000/500" class="slide" id="slide1" alt="">
+        <img src="https://picsum.photos/id/238/1000/500" class="slide" id="slide2" alt="">
+        <img src="https://picsum.photos/id/239/1000/500" class="slide" id="slide3" alt="">
+        <img src="https://picsum.photos/id/240/1000/500" class="slide" id="slide4" alt="">
+        <img src="https://picsum.photos/id/241/1000/500" class="slide" id="slide5" alt="">
+      </main>
+      <div class="nav">
+        <button onclick="goPrev()">Prev</button>
+        <button onclick="goNext()">Next</button>
+      </div>
+
+
+     <script>
+        const slides = document.querySelectorAll(".slide");
+let counter = 0;
+
+slides.forEach((slide, index) => {
+  slide.style.left = `${index * 100}%`;
+});
+
+const goPrev = () => {
+  counter--;
+  if (counter < 0) {
+    counter = 0; // Ensure the counter doesn't go below 0
+  }
+  slideImage();
+};
+
+const goNext = () => {
+  counter++;
+  if (counter >= slides.length) {
+    counter = slides.length - 1; // Ensure the counter doesn't exceed the number of slides
+  }
+  slideImage();
+};
+
+const slideImage = () => {
+  slides.forEach((slide) => {
+    slide.style.transform = `translateX(-${counter * 100}%)`;
+  });
+};
+
+     </script>
+        <!-- Meet the Team section starts -->
+
+        <!-- <div class="container">
+            <h2 class="heading">Meet Our <span class="sub-heading">Team Members</span></h2>
+            <div class="team-members">
+                <div class="team-member">
+                    <img src="./images/rahul.png" alt="Rahul Rajput" class="member-image">
+                    <h3 class="member-name">Rahul Rajput</h3>
+                    <p class="member-role">Front End Developer</p>
+                    <p class="member-education">MCA(int)</p>
+                    <div class="social-links">
+                        <a href="https://github.com/" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/rahul-rajput-44246b232/" class="social-link"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://youtube.com/@trrfacts" class="social-link"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="./images/kunal.png" alt="Kunal" class="member-image">
+                    <h3 class="member-name">Kunal</h3>
+                    <p class="member-role">Java Developer</p>
+                    <p class="member-education">MCA(int)</p>
+                    <div class="social-links">
+                        <a href="https://kunalvvs.github.io/Kunals/" class="social-link"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/kunalvv/" class="social-link"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fkunalvvs" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="./images/shubh.png" alt="Shubh Agarwal" class="member-image">
+                    <h3 class="member-name">Shubh Agarwal</h3>
+                    <p class="member-role">Web Developer</p>
+                    <p class="member-education">MCA(int)</p>
+                    <div class="social-links">
+                        <a href="https://github.com/Shubh-Agarwal54" class="social-link"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/shubhagarwal054/" class="social-link"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/shubhagarwal54" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+    </section>
+    <!-- footer starts -->
+
+    <div class="footer">
+        <div class="footer1">
+            <div class="footer2">
+                <h2>Community Notes</h2>
+                <div class="header-line"></div>
+                <p>A Community Of Coders, Making The World a better place.</p>
+            </div>
+            <div class="quick-links">
+                <h5>Quick Links</h5>
+                <a href="#aboutus">About Us</a>
+                <a href="#contactUs">Contact Us</a>
+            </div>
+            <div class="footer-quotes">
+                <p>DON'T LET YOUR DREAMS STAY DREAMS
+                    BUILD YOUR SKILLS WITH US AND TURN THEM INTO REALITY
+                </p>
+            </div>
+        </div>
+        <div class="copyright"></div>
+        <div class="copyright-text">
+            <p>&#169; 2023 By Innovative Developer's team</p>
+        </div>
+    </div>
+
+
+
+
+
+    
+</body>
+</html>

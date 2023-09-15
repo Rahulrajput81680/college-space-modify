@@ -263,10 +263,10 @@ a:hover {
 
 }
 .semester-line{
-  width: 250px;
+  width: 480px;
   height: 2px;
   background-color: blue;
-  margin-left: 40%;
+  margin-left: 31%;
 }
 .semesters{
   display: flex;
