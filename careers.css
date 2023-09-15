@@ -1,6 +1,8 @@
 
 /* header starts */
-
+body{
+    font-family:Arial, Helvetica, sans-serif
+}
 nav {
     background-color: #333; /* Background color for the menu */
   }
@@ -147,6 +149,67 @@ header {
     display: block;
 }
 
+
+/* header down side starts */
+
+
+.hero {
+display: flex;
+width: 100%;
+background-color: lightgreen;
+}
+
+.hero-content {
+    max-width: 40%;
+    margin: 30px 0px 0px 56px;
+}
+
+.hero h2 {
+    font-size: 56px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+    color: #202124;
+}
+.hero h3{
+    font-size: 28px;
+    color: #202124;
+    opacity: 0.8;
+}
+.hero p{
+    font-size: 20px;
+    color: #202124;
+}
+
+.circle-images {
+    width: 60%;
+    margin-top: 20px;
+    
+    position: relative;
+}
+.circle{
+    display: flex;
+}
+.circle img{
+    width: 200px;
+    height: 200px;
+    border-radius: 30%;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 50%;
+    /* position: relative; */
+    /* margin-right: 100px; */
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.image1{
+    margin-left: 50px;
+    position: static;
+}
+.image2{
+   margin-top: 150px;
+   position: static;
+} 
 
 
 /* footer section starts */
