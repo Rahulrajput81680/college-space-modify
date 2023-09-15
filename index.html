@@ -169,6 +169,130 @@
     </div>
 </div>
 
+    <!-- slideshow section starts -->
+
+
+   <div class="slide-container">
+    
+        <div class="slideshow-container">
+           
+        <div class="slide">
+            <img src="./images/q1" alt="Image 1">
+        </div>
+        <div class="slide">
+            <img src="./images/q2" alt="Image 2">
+        </div>
+        <div class="slide">
+            <img src="./images/q3" alt="Image 3">
+        </div>
+        <div class="slide">
+            <img src="./images/q4" alt="Image 4">
+        </div>
+        <div class="slide">
+            <img src="./images/q5" alt="Image 5">
+        </div>
+        <div class="slide">
+            <img src="./images/q6" alt="Image 6">
+        </div>
+        <div class="slide">
+            <img src="./images/q7" alt="Image 7">
+        </div>
+        <div class="slide">
+            <img src="./images/q8" alt="Image 8">
+        </div>
+        <div class="slide">
+            <img src="./images/q9" alt="Image 9">
+        </div>
+        <!-- <div class="slide">
+            <img src="./images/q10" alt="Image 10">
+        </div> -->
+        <!-- Add more slides here -->
+        </div>
+   </div>
+
+    <!-- <div class="nav">
+        <button onclick="goPrev()">Prev</button>
+        <button onclick="goNext()">Next</button>
+    </div> -->
+
+    <div class="dots-container">
+        <!-- Dots will be added dynamically with JavaScript -->
+    </div>
+
+    <!-- script code  -->
+
+    <Script>
+        const slides = document.querySelectorAll(".slide");
+const dotsContainer = document.querySelector(".dots-container");
+let counter = 0;
+
+slides.forEach((slide, index) => {
+  slide.style.transform = `translateX(${index * 100}%)`;
+});
+
+// const goPrev = () => {
+//   counter--;
+//   if (counter < 0) {
+//     counter = 0;
+//   }
+//   slideImage();
+// };
+
+// const goNext = () => {
+//   counter++;
+//   if (counter >= slides.length - 2) {
+//     counter = slides.length - 3;
+//   }
+//   slideImage();
+// };
+
+const slideImage = () => {
+  slides.forEach((slide) => {
+    slide.style.transform = `translateX(-${counter * 100}%)`;
+  });
+  updateDots();
+};
+
+const updateDots = () => {
+  const dots = Array.from(dotsContainer.children);
+
+  dots.forEach((dot, index) => {
+    if (index === counter) {
+      dot.classList.add("active");
+    } else {
+      dot.classList.remove("active");
+    }
+  });
+};
+
+// Create and append dots
+slides.forEach((_, index) => {
+  const dot = document.createElement("div");
+  dot.classList.add("dot");
+  dot.addEventListener("click", () => {
+    counter = index;
+    slideImage();
+    clearInterval(autoSlideInterval);
+    autoSlide();
+  });
+  dotsContainer.appendChild(dot);
+});
+
+const autoSlide = () => {
+  autoSlideInterval = setInterval(() => {
+    counter++;
+    if (counter >= slides.length - 2) {
+      counter = 0;
+    }
+    slideImage();
+  }, 2500); // Change slide every 1 second
+};
+
+autoSlide(); // Start automatic slideshow
+
+    </Script>
+    
+
     <!-- contact section starts  -->
 
     <div class="feedback">
