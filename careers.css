@@ -211,7 +211,55 @@ background-color: lightgreen;
    position: static;
 } 
 
+/* companies section starts */
 
+.container {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    overflow-y: hidden;
+}
+
+.gradient-top {
+    background: linear-gradient(180deg, #f4f8ff, #fff0);
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    top: 0;
+    z-index: 50;
+}
+
+.moveImage {
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+}
+
+.gradient-bottom {
+    background: linear-gradient(0deg, #f4f8ff, #fff0);
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    bottom: 0;
+    z-index: 50;
+}
+.moveImage{
+    animation: 10s infinite linear moveCompany;
+}
+@keyframes moveCompany {
+    0%{
+        top: 0;
+    }
+    100%{
+        top:-90%;
+    }
+}
+
+/* Add styles for image movement if needed */
+.moveImage {
+    /* Add your movement styles here */
+}
 /* footer section starts */
 
 
