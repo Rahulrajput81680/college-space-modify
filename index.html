@@ -202,18 +202,8 @@
         <div class="slide">
             <img src="./images/q9" alt="Image 9">
         </div>
-        <!-- <div class="slide">
-            <img src="./images/q10" alt="Image 10">
-        </div> -->
-        <!-- Add more slides here -->
         </div>
-   </div>
-
-    <!-- <div class="nav">
-        <button onclick="goPrev()">Prev</button>
-        <button onclick="goNext()">Next</button>
-    </div> -->
-
+    </div>
     <div class="dots-container">
         <!-- Dots will be added dynamically with JavaScript -->
     </div>
@@ -228,22 +218,6 @@ let counter = 0;
 slides.forEach((slide, index) => {
   slide.style.transform = `translateX(${index * 100}%)`;
 });
-
-// const goPrev = () => {
-//   counter--;
-//   if (counter < 0) {
-//     counter = 0;
-//   }
-//   slideImage();
-// };
-
-// const goNext = () => {
-//   counter++;
-//   if (counter >= slides.length - 2) {
-//     counter = slides.length - 3;
-//   }
-//   slideImage();
-// };
 
 const slideImage = () => {
   slides.forEach((slide) => {

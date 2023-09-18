@@ -159,22 +159,6 @@ slides.forEach((slide, index) => {
 slide.style.transform = `translateX(${index * 100}%)`;
 });
 
-// const goPrev = () => {
-//   counter--;
-//   if (counter < 0) {
-//     counter = 0;
-//   }
-//   slideImage();
-// };
-
-// const goNext = () => {
-//   counter++;
-//   if (counter >= slides.length - 2) {
-//     counter = slides.length - 3;
-//   }
-//   slideImage();
-// };
-
 const slideImage = () => {
 slides.forEach((slide) => {
 slide.style.transform = `translateX(-${counter * 100}%)`;
@@ -214,12 +198,13 @@ if (counter >= slides.length - 2) {
   counter = 0;
 }
 slideImage();
-}, 100000); // Change slide every 1 second
+}, 2500); // Change slide every 1 second
 };
 
 autoSlide(); // Start automatic slideshow
 
 </Script>
+
 
 
 
@@ -236,166 +221,18 @@ autoSlide(); // Start automatic slideshow
 
 
   
-   <div class="companies-links1">
-    <div class="slide-container1">
-        <h1>Internships</h1>
-    
-        <div class="slideshow-container1">
-           
-        <div class="slide" id="job-slide0">
-            <img src="./images/google" alt="Image 1">
-            <div class="job-slide0-desc">
-                <h1>google</h1>
-               <a href="#"> <button>Know More</button></a>
-            </div>
-            
-        </div>
-        <div class="slide" id="job-slide1">
-            <img src="./images/airtel" alt="Image 2">
-            <div class="job-slide1-desc">
-                <h1>airtel</h1>
-                <a href="#"> <button>Know More</button></a>
-            </div>
-        </div>
-        <div class="slide" id="job-slide2">
-            <img src="./images/microsoft" alt="Image 3">
-            <div class="job-slide2-desc">
-                <h1>microsoft</h1>
-                <a href="#"> <button>Know More</button></a>
-            </div>
-        </div>
-        <div class="slide" id="job-slide3">
-            <img src="./images/amazon" alt="Image 4">
-            <div class="job-slide3-desc">
-                <h1>amazon</h1>
-                <a href="#"> <button>Know More</button></a>
-            </div>
-        </div>
-        <div class="slide" id="job-slide4">
-            <img src="./images/atlassian" alt="Image 5">
-            <div class="job-slide4-desc">
-                <h1>atlassian</h1>
-                <a href="#"> <button>Know More</button></a>
-            </div>
-        </div>
-        <div class="slide" id="job-slide5">
-            <img src="./images/facebook" alt="Image 6">
-           <div class="job-slide5-desc">
-            <h1>facebook</h1>
-            <a href="#"> <button>Know More</button></a>
-           </div>
-        </div>
-        <div class="slide" id="job-slide6">
-            <img src="./images/tcs" alt="Image 7">
-           <div class="job-slide6-desc">
-            <h1>TCS</h1>
-            <a href="#"> <button>Know More</button></a>
-           </div>
-        </div>
-        <div class="slide" id="job-slide7">
-            <img src="./images/infosys" alt="Image 8">
-            <div class="job-slide7-desc">
-                <h1>infosys</h1>
-                <a href="#"> <button>Know More</button></a>
-            </div>
-        </div>
-        <div class="slide" id="job-slide8">
-            <img src="./images/wipro" alt="Image 9">
-           <div class="job-slide8-desc">
-            <h1>Wipro</h1>
-            <a href="#"> <button>Know More</button></a>
-           </div>
-        </div>
-        <!-- <div class="slide">
-            <img src="./images/q10" alt="Image 10">
-        </div> -->
-        <!-- Add more slides here -->
-        </div>
-
-        <div class="dots-container1">
-            <!-- Dots will be added dynamically with JavaScript -->
-        </div>
-   </div>
-
-   </div>
-
 
    <!-- script code  -->
 
 
-   <Script>
-    const slides1 = document.querySelectorAll(".slide");
-const dotsContainer1 = document.querySelector(".dots-container1");
-let counter1 = 0;
+ 
+   
 
-slides.forEach((slide, index) => {
-slide.style.transform = `translateX(${index * 100}%)`;
-});
-
-// const goPrev = () => {
-//   counter--;
-//   if (counter < 0) {
-//     counter = 0;
-//   }
-//   slideImage();
-// };
-
-// const goNext = () => {
-//   counter++;
-//   if (counter >= slides.length - 2) {
-//     counter = slides.length - 3;
-//   }
-//   slideImage();
-// };
-
-const slideImage1 = () => {
-slides.forEach((slide) => {
-slide.style.transform = `translateX(-${counter * 100}%)`;
-});
-updateDots();
-};
-
-const updateDots1 = () => {
-const dots = Array.from(dotsContainer1.children);
-
-dots.forEach((dot, index) => {
-if (index === counter) {
-  dot.classList.add("active");
-} else {
-  dot.classList.remove("active");
-}
-});
-};
-
-// Create and append dots
-slides.forEach((_, index) => {
-const dot = document.createElement("div");
-dot.classList.add("dot1");
-dot.addEventListener("click", () => {
-counter = index;
-slideImage();
-clearInterval(autoSlideInterval);
-autoSlide();
-});
-dotsContainer.appendChild(dot);
-});
-
-const autoSlide1 = () => {
-autoSlideInterval = setInterval(() => {
-counter++;
-if (counter >= slides.length - 2) {
-  counter = 0;
-}
-slideImage();
-}, 2500); // Change slide every 1 second
-};
-
-autoSlide(); // Start automatic slideshow
-
-</Script>
+   <!-- script code  -->
 
 
 
+  
 
 
 
