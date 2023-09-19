@@ -259,6 +259,13 @@ section.header-down {
 /* Hover effect for buttons */
 .button:hover {
     background-color: #FFD700; /* Lighter orange color on hover */
+   
+}
+
+#button1{
+    transition: 0.5s;
+    scale: 1.1;
+    
 }
 /* .aboutus{
     margin-left: 15px;
