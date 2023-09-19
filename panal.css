@@ -1,0 +1,85 @@
+*{
+    border: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* header style start*/
+.nav-bar{
+    height: 70px;
+    width: 100%;
+    background-image:   linear-gradient(to left, #4b0082, #800080, #ff69b4);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    width: 30%;
+    align-items: center;
+    display: flex;
+    margin-left: 5%;
+}
+.logo-img{
+    height: 60px;
+    width: 100px;
+
+}
+.logo-icon{
+    height: 60px;
+    background-image: url(images/Zone.png);
+    width: 100%;
+    background-size: cover;
+}
+
+.nav-button{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-button a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+
+/*header style end*/
+
+/*footer style start*/
+footer{
+    margin-top: 50px;
+}
+
+.footer-home a{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1rem;
+    text-decoration: none;
+
+}
+
+.footer-content{
+    background-color: #222f3d;
+    color: white;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer-content a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+}
+.footer-copyright{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*footer style end*/

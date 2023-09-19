@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="papers.css">
+    <link rel="stylesheet" href="panal.css">
     <title>Notes</title>
     
 </head>
@@ -32,16 +33,13 @@
 
     <!-- papers section starts -->
     
-    
-
-
     <div class="container">
         <!-- MCA (Integrated) Papers -->
-            <h2>MCA (Integrated)</h2>
+            <h2><u>MCA (Integrated)</u></h2>
             <div class="semesters">
 
                 <!-- Semester 1 -->
-                <div class="curriculum1">
+                <div class="curriculum1 borber-hover">
                     <h1>Semester 1</h1>
                 
                     <label for="yearDropdown1">Select Year:</label>
@@ -62,7 +60,7 @@
                 </div>
 
                 <!-- Semester 2 -->
-                <div class="curriculum2">
+                <div class="curriculum2 borber-hover">
                     <h1>Semester 2</h1>
                 
                     <label for="yearDropdown2">Select Year:</label>
@@ -83,7 +81,7 @@
                 </div>
 
                 <!-- Semester 3 -->
-                <div class="curriculum3">
+                <div class="curriculum3 borber-hover">
                     <h1>Semester 3</h1>
                 
                     <label for="yearDropdown3">Select Year:</label>
@@ -105,7 +103,7 @@
 
                 <!-- Semester 4 -->
 
-                <div class="curriculum4">
+                <div class="curriculum4 borber-hover">
                     <h1>Semester 4</h1>
                 
                     <label for="yearDropdown4">Select Year:</label>
@@ -127,7 +125,7 @@
                 
                 <!-- semester 5 -->
 
-                <div class="curriculum5">
+                <div class="curriculum5 borber-hover">
                     <h1>Semester 5</h1>
                 
                     <label for="yearDropdown5">Select Year:</label>
@@ -149,7 +147,7 @@
 
                 <!-- semester 6 -->
 
-                <div class="curriculum6">
+                <div class="curriculum6 borber-hover">
                     <h1>Semester 6</h1>
                 
                     <label for="yearDropdown6">Select Year:</label>
@@ -171,7 +169,7 @@
 
                 <!-- semester 7 -->
 
-                <div class="curriculum7">
+                <div class="curriculum7 borber-hover">
                     <h1>Semester 7</h1>
                 
                     <label for="yearDropdown7">Select Year:</label>
@@ -193,7 +191,7 @@
 
                 <!-- semester 8 -->
 
-                <div class="curriculum8">
+                <div class="curriculum8 borber-hover">
                     <h1>Semester 8</h1>
                 
                     <label for="yearDropdown8">Select Year:</label>
@@ -212,6 +210,28 @@
                     </div>
             
                 </div>
+
+                <!-- semester 9 -->
+
+            <div class="curriculum9 borber-hover">
+                <h1>Semester 9</h1>
+            
+                <label for="yearDropdown9">Select Year:</label>
+                <select id="yearDropdown9">
+                    <option value="2019-20">2019-20</option>
+                    <option value="2020-21">2020-21</option>
+                    <option value="2021-22">2021-22</option>
+                    <option value="2022-23">2022-23</option>
+                    <!-- <option value="2019">2023-24</option> -->
+                </select>
+            
+                <button id="downloadButton9">Download</button>
+        
+                <div id="downloadLink9" style="display: none;">
+                    <a id="downloadAnchor9" href="#" target="_blank">Click here to download</a>
+                </div>
+        
+            </div>
             <!-- Add more semesters here -->
         </div>
     </div>
@@ -221,16 +241,17 @@
 
 
 
+
 <!-- mba section starts -->
 
 
 <div class="mba-container">
-    <!-- MCA (Integrated) Papers -->
+    <!-- MBA (Integrated) Papers -->
         <h2>MBA (Integrated)</h2>
         <div class="mba-semesters">
 
             <!-- Semester 1 -->
-            <div class="mba-curriculum1">
+            <div class="mba-curriculum1 borber-hover">
                 <h1>Semester 1</h1>
             
                 <label for="mba-yearDropdown1">Select Year:</label>
@@ -251,7 +272,7 @@
             </div>
 
             <!-- Semester 2 -->
-            <div class="mba-curriculum2">
+            <div class="mba-curriculum2 borber-hover">
                 <h1>Semester 2</h1>
             
                 <label for="mba-yearDropdown2">Select Year:</label>
@@ -272,7 +293,7 @@
             </div>
 
             <!-- Semester 3 -->
-            <div class="mba-curriculum3">
+            <div class="mba-curriculum3 borber-hover">
                 <h1>Semester 3</h1>
             
                 <label for="mba-yearDropdown3">Select Year:</label>
@@ -294,7 +315,7 @@
 
             <!-- Semester 4 -->
 
-            <div class="mba-curriculum4">
+            <div class="mba-curriculum4 borber-hover">
                 <h1>Semester 4</h1>
             
                 <label for="mba-yearDropdown4">Select Year:</label>
@@ -316,7 +337,7 @@
             
             <!-- semester 5 -->
 
-            <div class="mba-curriculum5">
+            <div class="mba-curriculum5 borber-hover">
                 <h1>Semester 5</h1>
             
                 <label for="mba-yearDropdown5">Select Year:</label>
@@ -338,7 +359,7 @@
 
             <!-- semester 6 -->
 
-            <div class="mba-curriculum6">
+            <div class="mba-curriculum6 borber-hover">
                 <h1>Semester 6</h1>
             
                 <label for="mba-yearDropdown6">Select Year:</label>
@@ -360,7 +381,7 @@
 
             <!-- semester 7 -->
 
-            <div class="mba-curriculum7">
+            <div class="mba-curriculum7 borber-hover">
                 <h1>Semester 7</h1>
             
                 <label for="mba-yearDropdown7">Select Year:</label>
@@ -382,7 +403,7 @@
 
             <!-- semester 8 -->
 
-            <div class="mba-curriculum8">
+            <div class="mba-curriculum8 borber-hover">
                 <h1>Semester 8</h1>
             
                 <label for="mba-yearDropdown8">Select Year:</label>
@@ -401,6 +422,29 @@
                 </div>
         
             </div>
+
+            <!-- semester 9 -->
+
+            <div class="mba-curriculum9 borber-hover">
+                <h1>Semester 9</h1>
+            
+                <label for="mba-yearDropdown9">Select Year:</label>
+                <select id="mba-yearDropdown9">
+                    <option value="2019-20">2019-20</option>
+                    <option value="2020-21">2020-21</option>
+                    <option value="2021-22">2021-22</option>
+                    <option value="2022-23">2022-23</option>
+                    <!-- <option value="2019">2023-24</option> -->
+                </select>
+            
+                <button id="mba-downloadButton9">Download</button>
+        
+                <div id="mba-downloadLink9" style="display: none;">
+                    <a id="mba-downloadAnchor9" href="#" target="_blank">Click here to download</a>
+                </div>
+        
+            </div>
+            
         <!-- Add more semesters here -->
     </div>
 </div>
@@ -418,29 +462,53 @@
 
     <!-- footer section starts  -->
 
-    <div class="footer">
-        <div class="footer1">
-            <div class="footer2">
-                <h2>Community Notes</h2>
-                <div class="header-line"></div>
-                <p>A Community Of Coders, Making The World a better place.</p>
-            </div>
-            <div class="quick-links">
-                <h5>Quick Links</h5>
-                <a href="#aboutus">About Us</a>
-                <a href="#contactUs">Contact Us</a>
-            </div>
-            <div class="footer-quotes">
-                <p>DON'T LET YOUR DREAMS STAY DREAMS
-                    BUILD YOUR SKILLS WITH US AND TURN THEM INTO REALITY
-                </p>
-            </div>
+    <!-- footer section starts  -->
+    <footer>
+        <div class="footer-home">
+            <a href="index.html">Back to Home</a> 
         </div>
-        <div class="copyright"></div>
-        <div class="copyright-text">
-            <p>&#169; 2023 By Innovative Developer's team</p>
+
+        <div class="footer-content">
+
+            <ul style="list-style:none;">
+                <h3><u>Notes</u></h3>
+                <li>A Community Of Coders,</li>
+                <li>Making The World a better place.</li>
+            </ul>
+            <ul id="beat">
+                <p><u>Quick Link</u></p>
+                <li><a href="notes.html"><i class="fa-regular fa-note-sticky fa-rotate-270"></i></i>&nbsp;&nbsp;Notes</a></li>
+                <li><a href="papers.html"><i class="fa-solid fa-clipboard-question"></i>&nbsp;&nbsp;Paper</a></li>
+                <li><a href=""><i class="fa-solid fa-briefcase"></i></i>&nbsp;&nbsp;Opportunity</a></li>
+                <li><a href="aboutus.html"><i class="fa-regular fa-address-card"></i>&nbsp;&nbsp;About Us</a></li>
+            </ul>
+            <ul style="list-style:disc;">
+                <p><u>Contact Us</u></p>
+                <li><a href="https://www.instagram.com/innovative.developer/"><i class="fa-brands fa-instagram"></i>&nbsp;&nbsp;Instagram</a></li>
+                <li><a href="https://www.youtube.com/@innovativedeveloper"><i class="fa-brands fa-youtube"></i>&nbsp;&nbsp;Youtube</a></li>
+                <li><a href="https://telegram.me/innovativedeveloper"><i class="fa-brands fa-telegram"></i>&nbsp;&nbsp;Telegram</a></li>
+                <li><a href="https://discord.gg/4pRWmz9YTN"><i class="fa-brands fa-discord"></i>&nbsp;Discord</a></li>
+                <li><a href="innovativedeveloper@pm.me"><i class="fa-solid fa-envelope-open-text"></i>&nbsp;&nbsp;E-mail</a></li>
+            </ul>
+
+            <ul style="list-style:none;">
+                <li>DON'T LET YOUR</li>
+                <li>DREAMS STAY</li>
+                <li>DREAMS BUILD</li>
+                <li>YOUR SKILLS</li>
+                <li>WITH US AND</li>
+                <li>TURN THEM INTO</li>
+                <li>REALITY</li>
+            </ul>
+
         </div>
-    </div>
+
+        <div class="footer-copyright">
+            &#169; 2023 By Innovative Developer
+        </div>
+
+    </footer>
+
 </body>
 <script src="papers.js"></script>
 </html>
