@@ -500,16 +500,16 @@ section.header-down {
 
 
 .container {
-    max-width: 80%;
+    max-width: 90%;
     margin: 0 auto;
     padding: 20px;
     /* box-sizing: border-box;
     box-shadow: 0px 0px 10px yellow; */
 }
-.container:hover{
+/* .container:hover{
     transition: 0.5s;
     scale: 1.2;
-}
+} */
 
 .heading {
     text-align: center;
@@ -546,11 +546,11 @@ section.header-down {
     text-align: center;
     margin-bottom: 20px;
 }
-
+/* 
 .team-member:hover{
     transition: 0.5s;
     scale: 1.2;
-}
+} */
 
 
 .member-image {
@@ -600,8 +600,10 @@ section.header-down {
 .slide-container{
     background: linear-gradient(to right, #bb33ff,   #00ffff);
     height: 430px;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    width: 90%;
+    margin: 0 auto;
+    /* margin-left: 2rem;
+    margin-right: 2rem; */
     box-sizing: border-box;
     box-shadow: 0px 0px 10px black;
     /* margin-top: 5rem; */
