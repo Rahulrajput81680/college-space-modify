@@ -1,10 +1,5 @@
  
  /* header starts */
-
-
-
-
-
  nav {
   background-color: #333; /* Background color for the menu */
 }
@@ -63,6 +58,7 @@ header {
   font-size: 24px;
   color: #008080;
 }
+
 
 /* Style the dropdown container */
 .dropdown {
@@ -161,23 +157,40 @@ margin-bottom: 20px;
   font-size: 25px;
   font-style: bold;
   color: blue;
+  text-align: center;
 }
+
+/* MCA Integrated */
+
+
 .semesters{
   display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Creates four equal columns */
-    gap: 10px;
+  grid-template-columns: repeat(3, 1fr); /* Creates four equal columns */
+  row-gap: 40px;
+  column-gap: 60px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .curriculum1{
   background-color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
   height: 140px;
+  text-align: center;
+}
+.borber-hover{
+  text-align: center;
+}
+
+:hover.borber-hover{
+  border: 2px solid blue;
+  transition: 0.5s;
+  scale: 1.1;
 }
 
 .curriculum1 h1{
   font-size: 25px;
   font-weight: bold;
-  text-align: center;
 }
 .curriculum1 label{
   font-weight: bold;
@@ -195,6 +208,10 @@ margin-bottom: 20px;
   font-weight: bold;
   margin-left: 20px;
   /* margin-bottom: 10px; */
+}
+
+#downloadLink1{
+  text-align: center;
 }
 
 
@@ -237,6 +254,7 @@ margin-bottom: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   height: 140px;
+  
 }
 .curriculum3 h1{
   font-size: 25px;
@@ -417,30 +435,70 @@ margin-bottom: 20px;
   /* margin-bottom: 10px; */
 }
 
+/* semester 9 */
+
+.curriculum9{
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  height: 140px;
+}
+.curriculum9 h1{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.curriculum9 label{
+  font-weight: bold;
+  margin-left: 10px;
+}
+#downloadButton9{
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 110px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 20px;
+  /* margin-bottom: 10px; */
+}
+
 
 
 /* mba section starts */
+
+
 
 
 .mba-container{
   margin-bottom: 20px;
   
   }
+
   .mba-container h2{
     font-size: 25px;
     font-style: bold;
     color: blue;
+    text-align: center;
+    text-decoration: underline;
   }
   .mba-semesters{
     display: grid;
-      grid-template-columns: repeat(4, 1fr); /* Creates four equal columns */
-      gap: 10px;
+    grid-template-columns: repeat(3, 1fr); /* Creates four equal columns */
+    row-gap: 40px;
+    column-gap: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .mba-curriculum1{
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     height: 140px;
+    text-align: center;
   }
   .mba-curriculum1 h1{
     font-size: 25px;
@@ -474,6 +532,7 @@ margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     height: 140px;
+    text-align: center;
   }
   .mba-curriculum2 h1{
     font-size: 25px;
@@ -506,6 +565,7 @@ margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     height: 140px;
+    text-align: center;
   }
   .mba-curriculum3 h1{
     font-size: 25px;
@@ -537,6 +597,7 @@ margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     height: 140px;
+    text-align: center;
   }
   .mba-curriculum4 h1{
     font-size: 25px;
@@ -568,6 +629,7 @@ margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     height: 140px;
+    text-align: center;
   }
   .mba-curriculum5 h1{
     font-size: 25px;
@@ -600,6 +662,7 @@ margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     height: 140px;
+    text-align: center;
   }
   .mba-curriculum6 h1{
     font-size: 25px;
@@ -631,6 +694,7 @@ margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     height: 140px;
+    text-align: center;
   }
   .mba-curriculum7 h1{
     font-size: 25px;
@@ -662,6 +726,7 @@ margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     height: 140px;
+    text-align: center;
   }
   .mba-curriculum8 h1{
     font-size: 25px;
@@ -673,6 +738,38 @@ margin-bottom: 20px;
     margin-left: 10px;
   }
   #mba-downloadButton8{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 110px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 20px;
+    /* margin-bottom: 10px; */
+  }
+
+  /* semester 9 */
+  
+  .mba-curriculum9{
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    height: 140px;
+    text-align: center;
+  }
+  .mba-curriculum9 h1{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .mba-curriculum9 label{
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  #mba-downloadButton9{
     padding: 10px 20px;
     background-color: #007bff;
     color: #fff;
@@ -746,6 +843,7 @@ margin-bottom: 20px;
   color: #fff;
   margin-left: 12px;
   margin-top: 5px;
+  text-align: center;
 }
 
 .quick-links h5 {
