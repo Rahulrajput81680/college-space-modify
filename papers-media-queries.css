@@ -2,6 +2,23 @@
 
     @media screen and (max-width: 6.35in) {
        
+
+        /* header media query starts  */
+
+
+       .nav-button a{
+        font-size: 16px;
+       
+       }
+       .logo-img{
+        height: 60px;
+        width: 100px;
+    
+    }
+
+
+
+        /* header down side starts  */
       
     .container{
 
@@ -36,6 +53,7 @@
         margin-top: 10px;
         font-size: 14px;
         margin-left: 10px;
+        margin-bottom: 10px;
     }
       
 
@@ -55,6 +73,7 @@
         margin-top: 10px;
         font-size: 14px;
         margin-left: 10px;
+        margin-bottom: 10px;
     }
 
     .curriculum3{
@@ -73,6 +92,7 @@
         margin-top: 10px;
         font-size: 14px;
         margin-left: 10px;
+        margin-bottom: 10px;
     }
 
     .curriculum4{
@@ -91,6 +111,7 @@
         margin-top: 10px;
         font-size: 14px;
         margin-left: 10px;
+        margin-bottom: 10px;
     }
 
     .curriculum5{
@@ -109,6 +130,7 @@
         margin-top: 10px;
         font-size: 14px;
         margin-left: 10px;
+        margin-bottom: 10px;
     }
 
 
@@ -128,6 +150,7 @@
         margin-top: 10px;
         font-size: 14px;
         margin-left: 10px;
+        margin-bottom: 10px;
     }
 
 
@@ -147,6 +170,7 @@
         margin-top: 10px;
         font-size: 14px;
         margin-left: 10px;
+        margin-bottom: 10px;
     }
 
 
@@ -166,6 +190,7 @@
         margin-top: 10px;
         font-size: 14px;
         margin-left: 10px;
+        margin-bottom: 10px;
     }
 
 
@@ -186,6 +211,7 @@
         margin-top: 10px;
         font-size: 14px;
         margin-left: 10px;
+        margin-bottom: 10px;
     }
 
 
@@ -227,6 +253,7 @@
         margin-top: 10px;
         font-size: 14px;
         margin-left: 10px;
+        margin-bottom: 10px;
     }
       
 
@@ -246,6 +273,7 @@
         margin-top: 10px;
         font-size: 14px;
         margin-left: 10px;
+        margin-bottom: 10px;
     }
 
     .mba-curriculum3{
@@ -264,6 +292,7 @@
         margin-top: 10px;
         font-size: 14px;
         margin-left: 10px;
+        margin-bottom: 10px;
     }
 
     .mba-curriculum4{
@@ -282,6 +311,7 @@
         margin-top: 10px;
         font-size: 14px;
         margin-left: 10px;
+        margin-bottom: 10px;
     }
 
     .mba-curriculum5{
@@ -300,6 +330,7 @@
         margin-top: 10px;
         font-size: 14px;
         margin-left: 10px;
+        margin-bottom: 10px;
     }
 
 
@@ -319,6 +350,7 @@
         margin-top: 10px;
         font-size: 14px;
         margin-left: 10px;
+        margin-bottom: 10px;
     }
 
 
@@ -338,6 +370,7 @@
         margin-top: 10px;
         font-size: 14px;
         margin-left: 10px;
+        margin-bottom: 10px;
     }
 
 
@@ -357,6 +390,7 @@
         margin-top: 10px;
         font-size: 14px;
         margin-left: 10px;
+        margin-bottom: 10px;
     }
 
 
@@ -377,5 +411,6 @@
         margin-top: 10px;
         font-size: 14px;
         margin-left: 10px;
+        margin-bottom: 10px;
     }
 }
