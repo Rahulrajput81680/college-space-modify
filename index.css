@@ -201,7 +201,7 @@ section.header-down {
     line-height: normal;
     margin-top: 20px;
     line-height: 30px;
-    text-shadow: 0px 0px 1px blue;
+    /* text-shadow: 0px 0px 1px blue; */
 }
 
 /* Style the right part of the section */
@@ -275,41 +275,60 @@ section.header-down {
     margin-right: 1rem;
 
     max-width: 250px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     padding: 10px;    
     /* background-color: yellow; */
 }
-
+:hover.box1-hover{
+    border: 2px solid blue;
+    transition: 0.5s;
+    scale: 1.1;
+  }
 /* Style the box content */
 .box2{
     margin-left: 1rem; 
     margin-right: 1rem;
 
     max-width: 250px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 5px;  
     padding: 10px;   
     /* background-color: #FFD700;  */
 }
+:hover.box2-hover{
+    border: 2px solid blue;
+    transition: 0.5s;
+    scale: 1.1;
+  }
 .box3{
     margin-left: 1rem; 
     margin-right: 1rem;
 
     max-width: 250px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 5px; 
     padding: 10px;    
 }
+:hover.box3-hover{
+    border: 2px solid blue;
+    transition: 0.5s;
+    scale: 1.1;
+  }
 .box4{
     margin-left: 1rem; 
     margin-right: 1rem;
 
     max-width: 250px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 5px; 
     padding: 10px;    
 }
+:hover.box4-hover{
+    border: 2px solid blue;
+    transition: 0.5s;
+    scale: 1.1;
+  }
 
 /* Style text part within the box content */
 .text-part {
@@ -351,6 +370,12 @@ section.header-down {
     margin-left: 35%;
     margin-bottom: 50px;
 }
+:hover.helper-hover{
+    border: 2px solid blue;
+    transition: 0.5s;
+    scale: 1.1;
+  }
+
 
 /* .max-w-md {
     max-width: 40rem;
