@@ -863,7 +863,7 @@ margin-bottom: 20px;
 }
 
  
- @media (min-width: 360px) and (max-width: 740px) {
+ /* @media (min-width: 360px) and (max-width: 740px) {
  
  
     .mca{
@@ -871,7 +871,7 @@ margin-bottom: 20px;
         opacity: 0;
         overflow: hidden;
         margin-top: 0px;
-        /* margin-bottom: 0px; */
+        
         
     }
     .mca-integrated{
@@ -886,29 +886,29 @@ margin-bottom: 20px;
     
     .media-mca{
         visibility: visible; 
-        position: static; /* Restore the default position */
-        /* width: auto;  */
+        position: static; 
+       
         height: auto; 
-        clip: auto; /* Restore the default clipping */
+        clip: auto; 
         white-space: normal; 
-        /* display: block; */
+        
         margin-top: 10px;
         width:300px;
         margin-left: 30px;
-        /* border: none; */
+       
     }
     .media-mba{
         visibility: visible; 
-        position: static; /* Restore the default position */
-        /* width: auto;  */
+        position: static; 
+        
         height: auto; 
-        clip: auto; /* Restore the default clipping */
+        clip: auto; 
         white-space: normal; 
-        /* display: block; */
+       
         margin-top: 50px;
         width:300px;
         margin-left: 30px;
-        /* border: none; */
+       
     }
     .container h1{
         margin-bottom: 0px;
@@ -916,19 +916,14 @@ margin-bottom: 20px;
         color: darkorange;
         font-size: 25px;
         text-decoration: underline;
-        padding: ;
     }
 
- 
- 
-    /* footer section starts  */
  .footer{
     display: flex;
     flex-direction: column;
     height: 700px;
   }
   .footer h2{
-    /* background-color: red; */
     font-size: 25px;
     margin-left: 60px;
     font-weight: 700;
@@ -948,10 +943,6 @@ margin-bottom: 20px;
     display: flex;
     flex-direction: column;
   }
-  /* .footer-p{
-    display: flex;
-    flex-direction:column;
-  } */
   .quick-links h5{
     font-size:18px;
     margin-left: 20px;
@@ -964,4 +955,4 @@ margin-bottom: 20px;
   }
 } 
 
-
+ */
