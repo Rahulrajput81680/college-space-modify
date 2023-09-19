@@ -29,13 +29,20 @@
   }
   
   .menu li a:hover {
+<<<<<<< HEAD
+    background-color: #555; /* Background color on hover */
+    
+=======
     background-color: #555; 
+>>>>>>> 01be1c1d84dc3ea02528ea1cd6c7617535af1dba
   }
 
 
 header {
     margin: 0;
     padding: 0;
+    margin-top: 5%;
+    
 }
 
 .header {
@@ -94,10 +101,13 @@ header {
 
 .dropdown-content a:hover {
     background-color: #ddd;
+   
+   
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+    
 }
 
  .dropdown {
@@ -236,6 +246,13 @@ section.header-down {
 /* Hover effect for buttons */
 .button:hover {
     background-color: #FFD700; /* Lighter orange color on hover */
+   
+}
+
+#button1{
+    transition: 0.5s;
+    scale: 1.1;
+    
 }
 /* .aboutus{
     margin-left: 15px;
@@ -482,11 +499,15 @@ section.header-down {
 
 
 .container {
-    max-width: 95%;
+    max-width: 80%;
     margin: 0 auto;
     padding: 20px;
     /* box-sizing: border-box;
     box-shadow: 0px 0px 10px yellow; */
+}
+.container:hover{
+    transition: 0.5s;
+    scale: 1.2;
 }
 
 .heading {
@@ -524,6 +545,12 @@ section.header-down {
     text-align: center;
     margin-bottom: 20px;
 }
+
+.team-member:hover{
+    transition: 0.5s;
+    scale: 1.2;
+}
+
 
 .member-image {
     width: 200px;
@@ -594,7 +621,7 @@ section.header-down {
 }
 .slideshow-container {
     display: flex;
-    overflow: hidden;
+   overflow: hidden;
     width: 100%;
     max-width: 800px;
     margin: 0 auto;

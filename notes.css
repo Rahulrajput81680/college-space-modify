@@ -14,6 +14,7 @@ nav {
   margin: 0;
   padding: 0;
   display: flex;
+  
 }
 
 .menu li {
@@ -206,6 +207,7 @@ header {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   text-align: center;
+  margin-top: 7%;
 }
 
 .curriculum h1 {
