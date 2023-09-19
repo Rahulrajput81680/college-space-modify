@@ -222,4 +222,32 @@
 
 
 
+
+    /* footer section starts  */
+    footer{
+        /* margin-top: 50px;
+        position: absolute;
+        left: 0%;
+        right: 0%; */
+    }
+    
+
+    .footer-content{
+        height: 350px;
+        margin-top: 0px;
+    }
+    .quotes li{
+        opacity: 0px;
+        display: none;
+    }
+    .footer-home a{
+        height: 30px;
+        margin-top: 0px;
+    }
+    .footer-content h3{
+        margin-top: 0px;
+    }
+
+
+
 }

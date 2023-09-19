@@ -704,9 +704,9 @@ img {
 
 
 
-
+/* 
 .footer {
-    /* background-color: #ccc; */
+   
     height: 230px;
     background-color: slategray;
 }
@@ -739,9 +739,6 @@ img {
    
 }
 
-/* .text-white {
-    color: #fff;
-} */
 
 .footer-quotes {
     width: 150px;
@@ -751,7 +748,7 @@ img {
 }
 
 .copyright {
-    width: 92%; /* 11/12 in percentage */
+    width: 92%; 
     height: 0.5px;
     background-color: #fff;
     margin: auto;
@@ -779,4 +776,4 @@ img {
     display: block;
     margin-top: 5px;
     font-size: 18px;
-}
+} */
