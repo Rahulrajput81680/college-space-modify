@@ -1,8 +1,6 @@
 @media (min-width: 500px) and (max-width:700px){
-    .container{
-        body{
-            touch-action: none;
-        }
-        
+
+    body{
+        touch-action: none;
     }
 }
