@@ -26,6 +26,7 @@
   
   .menu li a:hover {
     background-color: #555; /* Background color on hover */
+    
   }
 
  /* Reset default margin and padding for header */
@@ -99,11 +100,14 @@ header {
 /* Change color of dropdown menu items on hover */
 .dropdown-content a:hover {
     background-color: #ddd;
+   
+   
 }
 
 /* Show the dropdown menu when the button is hovered */
 .dropdown:hover .dropdown-content {
     display: block;
+    
 }
 
  /* Style the dropdown container */
@@ -499,11 +503,15 @@ section.header-down {
 
 
 .container {
-    max-width: 95%;
+    max-width: 80%;
     margin: 0 auto;
     padding: 20px;
     /* box-sizing: border-box;
     box-shadow: 0px 0px 10px yellow; */
+}
+.container:hover{
+    transition: 0.5s;
+    scale: 1.2;
 }
 
 .heading {
@@ -541,6 +549,12 @@ section.header-down {
     text-align: center;
     margin-bottom: 20px;
 }
+
+.team-member:hover{
+    transition: 0.5s;
+    scale: 1.2;
+}
+
 
 .member-image {
     width: 200px;
@@ -611,7 +625,7 @@ section.header-down {
 }
 .slideshow-container {
     display: flex;
-    overflow: hidden;
+   overflow: hidden;
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
