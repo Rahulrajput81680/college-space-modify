@@ -235,6 +235,7 @@
     .footer-content{
         height: 250px;
         margin-top: 0px;
+        /* margin-left: 20px; */
     }
     .quotes li{
         opacity: 0px;
