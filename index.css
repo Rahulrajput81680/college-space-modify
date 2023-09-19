@@ -1,9 +1,5 @@
  /* header section starts */
 
-
-
-
- 
  nav {
     background-color: #333; /* Background color for the menu */
   }
@@ -190,6 +186,7 @@ section.header-down {
     font-size: 50px;
     color: #002057;
     line-height: 1.2;
+    
 }
 
 /* Style the highlighted text */
@@ -204,6 +201,7 @@ section.header-down {
     line-height: normal;
     margin-top: 20px;
     line-height: 30px;
+    text-shadow: 0px 0px 1px blue;
 }
 
 /* Style the right part of the section */
@@ -377,6 +375,7 @@ section.header-down {
     margin-bottom: 0.5rem;
     text-align: center;
     margin-top: 20px;
+    /* text-shadow: 1px 1px 0.5px #ff9900; */
     /* margin-left: 40%; */
 }
 .helper2{
@@ -386,6 +385,7 @@ section.header-down {
     text-align: center;
     margin-top: 10px;
     padding: 4px;
+    /* text-shadow: 1px 1px 0.5px blue; */
 }
 
 .text-2xl {
@@ -396,7 +396,7 @@ section.header-down {
 }
 
 .helper-button {
-    width: 100%;
+    width: 50%;
     background-color: #0073e6;
     transition: background-color 0.2s ease-in-out;
     color: #fff;
@@ -407,6 +407,8 @@ section.header-down {
     border: none;
     cursor: pointer;
     margin-bottom: 20px;
+    font-size: 20px;
+    
 }
 
 .helper-button:hover {
@@ -505,7 +507,8 @@ section.header-down {
 .team-members {
     display: flex;
     justify-content: space-around;
-    background: linear-gradient(to right, #FFC0CB, #FF69B4, #FF1493);
+    background: linear-gradient(to right, lightskyblue, #FF69B4, orange);
+    box-shadow: 0px 0px 10px black;
     padding: 20px;
 }
 
@@ -524,20 +527,25 @@ section.header-down {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 18px;
-    color: #000;
+    color: oldlace;
     margin-top: 10px;
+    text-shadow: 0px 0px 10px black;
 }
 
 .member-role {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    color: #000;
+    font-weight: 700;
+    color: navy;
+    text-shadow: 0px 0px 10px yellow;
 }
 
 .member-education {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
+    font-weight: 700;
     color: #000;
+    text-shadow: 0px 0px 10px yellow;
 }
 
 .social-links {
@@ -554,13 +562,27 @@ section.header-down {
 /* slideshow css section starts */
 
 .slide-container{
-    background-color: lightpink;
-    height: 500px;
+    background: linear-gradient(to right, #bb33ff,   #00ffff);
+    height: 430px;
     margin-left: 2rem;
     margin-right: 2rem;
     box-sizing: border-box;
-    box-shadow: 0px 0px 10px blue;
+    box-shadow: 0px 0px 10px black;
     /* margin-top: 5rem; */
+}
+.slider-heading {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #333;
+    margin-top: 50px;
+}
+
+.slider-sub-heading {
+    font-weight: bold;
+    color: #FFA500;
+    font-size: 30px;
 }
 .slideshow-container {
     display: flex;
@@ -568,21 +590,26 @@ section.header-down {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
-    margin-top: 5rem;
+    margin-top: 0rem;
+    gap: 20px;
     /* background-color: lightskyblue; */
 }
 .slideshow-container img{
-    margin-top: 7rem;
+    margin-top: 5rem;
 }
 
 .slide {
     flex: 0 0 33.33%; /* Three images visible at a time */
     transition: transform 0.5s ease;
+    
 }
-
+/* .slide img{
+    gap: 20px;
+} */
 img {
     width: 100%;
     height: auto;
+    /* gap: 20px; */
 }
 
 .nav {
@@ -615,6 +642,7 @@ img {
 /* contact section starts */
 
 .feedback h1{
+    margin-top: 50px;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
@@ -629,6 +657,7 @@ img {
     justify-content: center;
     margin-left: 44%;
 }
+
 /* .feedback1{
     color: yellow;
 } */
