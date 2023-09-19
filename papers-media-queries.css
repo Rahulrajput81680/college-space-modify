@@ -1,6 +1,42 @@
-@media (min-width: 500px) and (max-width:700px){
+@media (min-width: 380px) and (max-width:850px){
 
-    body{
-        touch-action: none;
+    .container{
+
     }
+    .container h2{
+        font-size: 20px;
+    }
+    .semesters{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Creates four equal columns */
+        row-gap: 20px;
+        column-gap: 60px;
+        margin-left: 10px;
+        margin-right: 0px;
+      }
+      .curriculum1{
+        height: 120px;
+      }
+    .curriculum1 h1{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .curriculum1 label{
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    #downloadButton1{
+        padding: 5px 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        margin-top: 10px;
+        width: 110px;
+        font-size: 14px;
+        /* font-weight: bold; */
+        margin-left: 10px;
+        /* margin-bottom: 10px; */
+    }
+      
 }
