@@ -195,7 +195,12 @@ header {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+
+
 /* notes section starts */
+
+
 
 .detail-description{
 
@@ -271,12 +276,12 @@ a:hover {
   text-decoration: underline;
 
 }
-.semester-line{
+/* .semester-line{
   width: 480px;
   height: 2px;
   background-color: blue;
   margin-left: 31%;
-}
+} */
 .semesters{
   display: flex;
   display: grid;
