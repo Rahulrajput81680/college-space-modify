@@ -278,6 +278,44 @@
     #beat li a{
         font-size: 12px;
     }
-
-
 }
+
+@media screen and (max-width: 768px) {
+    .max-container {
+        margin: 50px 20px 20px 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .left-part {
+        margin-left: 0px;
+        
+    }
+    .title {
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        color: #002057;
+        /* line-height: 1.2; */
+    }
+    .description {
+        color: #002057;
+        font-size: 18px;
+        /* line-height: normal; */
+        margin-top: 10px;
+        line-height: 25px;
+        /* text-shadow: 0px 0px 1px blue; */
+    }
+    
+    /* Style the right part of the section */
+    .right-part {
+        margin-top: 20px;
+        /* flex: 1; */
+    }
+    
+    /* Style the image */
+    .image {
+        width: 500px;
+        height: 300px;
+        margin-top: 30px;
+    }
+  }
