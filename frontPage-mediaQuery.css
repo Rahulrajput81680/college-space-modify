@@ -248,7 +248,25 @@
     .footer-content h3{
         margin-top: 0px;
     }
-
+    .footer-heading{
+        font-size: 16px;
+    }
+    .footer-quote li{
+        font-size: 12px;
+    }
+    .footer-contact li a{
+        font-size: 12px;
+        /* background-color: red; */
+    }
+    .footer-contact p{
+        font-size: 15px;
+    }
+    #beat p{
+        font-size: 15px;
+    }
+    #beat li a{
+        font-size: 12px;
+    }
 
 
 }
