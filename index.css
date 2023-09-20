@@ -29,12 +29,7 @@
   }
   
   .menu li a:hover {
-<<<<<<< HEAD
-    background-color: #555; /* Background color on hover */
-    
-=======
     background-color: #555; 
->>>>>>> 01be1c1d84dc3ea02528ea1cd6c7617535af1dba
   }
 
 
@@ -240,12 +235,9 @@ section.header-down {
     text-decoration: none;
 }
 .button:hover {
-<<<<<<< HEAD
-    background-color: #FFD700; 
-=======
     background-color: #FFD700; /* Lighter orange color on hover */
    
-}
+
 
 #button1{
     transition: 0.5s;
@@ -256,7 +248,6 @@ section.header-down {
     margin-left: 15px;
     margin-top: 0px;
     background-color: red;
->>>>>>> 35c43783fd45c09b1bd10df86759a8c92b6388da
 } */
 .other-section1 {
     display: grid;
