@@ -221,6 +221,17 @@
     }
 
 
+    /* contact us section starts  */
+
+
+    .feedback h1{
+        font-size: 20px;
+    }
+    .contact-line{
+        opacity: 0;
+    }
+
+
 
 
     /* footer section starts  */
