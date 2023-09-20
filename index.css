@@ -159,7 +159,6 @@ section.header-down {
     align-items: center;
 }
 
-/* Style the left part of the section */
 .left-part {
     margin-top: 1.75rem; /* Equivalent to 28px */
     flex: 1;
