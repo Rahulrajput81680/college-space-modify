@@ -145,7 +145,7 @@ header {
     background-color: #ddd;
 }
 
-/* Show the dropdown menu when the button is hovered */
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
