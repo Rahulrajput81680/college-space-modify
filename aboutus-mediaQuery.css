@@ -1,0 +1,97 @@
+ 
+ 
+/* header-down side starts */
+
+
+.aboutus{
+    /* max-width: 90%; */
+    margin: 5rem 1rem 1rem 1rem;
+}
+.vision{
+    display: flex;
+    gap: 10%;
+    flex-direction: column;
+   
+}
+.vision-desc{
+    width: 100%;
+    /* margin-left: 20px; */
+}
+.vision-desc h2{
+    font-size: 20px;
+}
+.vision-desc p{
+    font-size: 16px;
+}
+.vision-img{
+   /* display: hidden; */
+ display: none;
+}
+.our-story{
+    flex-direction: column;
+}
+.our-story img{
+    display: none;
+}
+.our-story-desc{
+    width: 100%;
+}
+.our-story-desc p{
+    font-size: 16px;
+    width: 100%;
+}
+.our-story-desc h2{
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+
+
+
+
+ @media screen and (max-width: 6.35in) {
+ /* footer section starts  */
+ footer{
+    /* margin-top: 50px;
+    position: absolute;
+    left: 0%;
+    right: 0%; */
+}
+
+
+.footer-content{
+    height: 250px;
+    margin-top: 0px;
+    
+}
+.quotes li{
+    opacity: 0px;
+    display: none;
+}
+.footer-home a{
+    height: 30px;
+    margin-top: 0px;
+}
+.footer-content h3{
+    margin-top: 0px;
+}
+.footer-heading{
+    font-size: 16px;
+}
+.footer-quote li{
+    font-size: 12px;
+}
+.footer-contact li a{
+    font-size: 12px;
+    /* background-color: red; */
+}
+.footer-contact p{
+    font-size: 15px;
+}
+#beat p{
+    font-size: 15px;
+}
+#beat li a{
+    font-size: 12px;
+}
+ }
