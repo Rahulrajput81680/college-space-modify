@@ -29,6 +29,7 @@
 .logo-img:hover{
     transition:0.5s;
     rotate: 360deg;
+}
 .logo-icon{
     height: 60px;
     background-image: url(images/Zone.png);
@@ -55,7 +56,7 @@
 
 /*rahul code start*/
 
-/* Style the dropdown container */
+
 
 .dropdowns {
     position: relative;
