@@ -1,54 +1,63 @@
-/* curriculum download section starts */
+ 
+ 
 
-@media screen and (max-width: 6.35in) {
 
-.detail-description{
 
+
+
+ @media screen and (max-width: 6.35in) {
+
+
+
+    /* header-down side starts */
+
+
+.aboutus{
+    /* max-width: 90%; */
+    margin: 5rem 1rem 1rem 1rem;
+}
+.vision{
     display: flex;
-    align-items: center;
+    gap: 10%;
     flex-direction: column;
-    margin-top: 100px;
+   
 }
-
-.curriculum {
-    max-width: 400px;
-    padding: 20px;
-    margin: 0px 15px 20px 15px;
-    /* justify-content: space-evenly; */
+.vision-desc{
+    width: 100%;
+    /* margin-left: 20px; */
 }
-.curriculum h1 {
+.vision-desc h2{
     font-size: 20px;
 }
-label {
-    margin-right: 10px;
+.vision-desc p{
     font-size: 16px;
 }
-
-/* curriculum down side starts  */
-
-
-.subject-notes h1{
+.vision-img{
+   /* display: hidden; */
+ display: none;
+}
+.our-story{
+    flex-direction: column;
+}
+.our-story img{
+    display: none;
+}
+.our-story-desc{
+    width: 100%;
+}
+.our-story-desc p{
+    font-size: 16px;
+    width: 100%;
+}
+.our-story-desc h2{
     font-size: 20px;
-  
-  }
-
-  .semester{
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .all-sem a{
-    font-size: 15px;
-    font-style: italic;
-  }
-  .all-sem p{
-    font-size: 18px;
-    text-decoration: underline;
-    color: blueviolet;
-  }
-
-  /* footer section starts  */
+    margin-top: 0px;
+}
 
 
-  footer{
+
+ /* footer section starts  */
+ footer{
     /* margin-top: 50px;
     position: absolute;
     left: 0%;
@@ -91,8 +100,4 @@ label {
 #beat li a{
     font-size: 12px;
 }
-}
-
-
-
-
+ }

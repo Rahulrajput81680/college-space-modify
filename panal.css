@@ -4,6 +4,7 @@
 }
 /* header style start*/
 .nav-bar{
+    z-index: 1000;
     height: 70px;
     width: 100%;
     background-image:   linear-gradient(to left, #4b0082, #800080, #ff69b4);
@@ -36,11 +37,15 @@
 
 }
 .logo-img:hover{
+
     transition: 0.5s;
     scale: 1.1;
     rotate: 360deg; */
 
  }
+
+
+
 .logo-icon{
     height: 60px;
     background-image: url(images/Zone.png);
@@ -68,7 +73,7 @@
 
 /*rahul code start*/
 
-/* Style the dropdown container */
+
 
 .dropdowns {
     position: relative;
