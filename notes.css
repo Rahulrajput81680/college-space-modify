@@ -203,7 +203,7 @@ header {
 
 
 .detail-description{
-
+  margin-top: 50px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -264,6 +264,56 @@ a:hover {
 
 /* .curriculum se down side starts */
 
+/*notes downlode start*/
+
+.subject-notes{
+  margin-top: 50px;
+}
+.subject-notes h1{
+  color: blue ;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.semester{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-evenly;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.all-sem p{
+  font-size: 25px;
+  text-decoration: underline;
+  color: blueviolet;
+}
+.all-sem li{
+  margin-bottom: 5px;
+}
+.all-sem a{
+  font-size: 18px;
+  font-style: italic;
+}
+#subject-hover{
+  color: transparent;
+  background-image: linear-gradient(to right, #ff0000, #00ff00); /* Change colors here */
+  background-clip: text;
+  -webkit-background-clip: text; /* For Safari/Chrome */
+  transition: background-position 0.3s ease;
+}
+
+/* Hover effect */
+#subject-hover:hover {
+  background-position: 100% 0;
+  font-size: 20px;
+  background-image: linear-gradient(to left, #ff0000, #00ff00);
+  transition:0.5s;
+  text-decoration: underline;
+}
+
+/*notes downlode end*/
+
+/*
 .subject-notes{
   margin-bottom: 50px;
 }
@@ -434,7 +484,7 @@ cursor: pointer;
               }
               .semester8 a :hover{
                 color: blue;
-              }
+              }*/
 /* footer section starts */
 
 
