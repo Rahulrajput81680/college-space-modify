@@ -29,14 +29,14 @@
   }
   
   .menu li a:hover {
-<<<<<<< HEAD
-    background-color: #555; /* Background color on hover */
-    
-=======
-    background-color: #555; 
->>>>>>> 01be1c1d84dc3ea02528ea1cd6c7617535af1dba
-  }
 
+    background-color: #555; /* Background color on hover 
+    
+
+    background-color: #555; 
+
+  }
+*/
 
 header {
     margin: 0;
@@ -505,10 +505,7 @@ section.header-down {
     /* box-sizing: border-box;
     box-shadow: 0px 0px 10px yellow; */
 }
-.container:hover{
-    transition: 0.5s;
-    scale: 1.2;
-}
+
 
 .heading {
     text-align: center;
@@ -544,11 +541,14 @@ section.header-down {
 .team-member {
     text-align: center;
     margin-bottom: 20px;
+
 }
 
 .team-member:hover{
     transition: 0.5s;
     scale: 1.2;
+ 
+  
 }
 
 
@@ -556,6 +556,7 @@ section.header-down {
     width: 200px;
     height: 200px;
     margin-top: 16px;
+
 }
 
 .member-name {
@@ -605,6 +606,7 @@ section.header-down {
     box-shadow: 0px 0px 10px black;
     /* margin-top: 5rem; */
 }
+
 .slider-heading {
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -612,6 +614,7 @@ section.header-down {
     font-size: 30px;
     color: #333;
     margin-top: 50px;
+    
 }
 
 .slider-sub-heading {
@@ -628,9 +631,11 @@ section.header-down {
     margin-top: 0rem;
     gap: 20px;
     /* background-color: lightskyblue; */
+    
 }
 .slideshow-container img{
     margin-top: 5rem;
+   
 }
 
 .slide {
@@ -641,11 +646,11 @@ section.header-down {
 /* .slide img{
     gap: 20px;
 } */
-img {
+ img {
     width: 100%;
     height: auto;
     /* gap: 20px; */
-}
+} 
 
 .nav {
     margin-top: 20px;

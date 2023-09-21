@@ -22,7 +22,7 @@ nav {
   .menu li a {
     display: block;
     text-decoration: none;
-    color: #fff; /* Text color for menu items */
+    color: #fff; /*Text color for menu items*/ 
     padding: 15px 20px; /* Adjust padding to change button size */
     transition: background-color 0.3s;
   }
@@ -41,7 +41,7 @@ header {
 /* Style the header with a gradient background */
 .header {
     background-image: linear-gradient(to right, #4b0082, #800080, #ff69b4);
-    color: #fff;
+    /* color: #fff; */
     padding: 10px 0;
 }
 
@@ -169,13 +169,13 @@ margin-top: 4%;
 .hero h2 {
     font-size: 56px;
     margin-bottom: 20px;
-    opacity: 0.8;
+    /* opacity: 0.8; */
     color: #202124;
 }
 .hero h3{
     font-size: 28px;
     color: #202124;
-    opacity: 0.8;
+    /* opacity: 0.8; */
 }
 .hero p{
     font-size: 20px;
@@ -183,19 +183,33 @@ margin-top: 4%;
 }
 
 .circle-images {
-    width: 60%;
+    width: 80%;
     margin-top: 20px;
+    
     
     position: relative;
 }
 .circle{
     display: flex;
+    
 }
+.circle video{
+    width: 200px;
+    height: 200px;
+    border-radius: 30%;
+    object-fit: cover;
+    border-radius: 50%;
+    /* position: relative; */
+    /* margin-right: 100px; */
+    margin-top: 50px;
+    margin-bottom: 30px;
+ 
+}
+
 .circle img{
     width: 200px;
     height: 200px;
     border-radius: 30%;
-    overflow: hidden;
     object-fit: cover;
     border-radius: 50%;
     /* position: relative; */
@@ -204,9 +218,12 @@ margin-top: 4%;
     margin-bottom: 30px;
 }
 
+
+
 .image1{
     margin-left: 50px;
-    position: static;
+    
+
 }
 .image2{
    margin-top: 150px;
@@ -532,7 +549,7 @@ img {
 
 
 
-.container {
+.containers {
     position: relative;
     height: 500px;
     width: 35%;

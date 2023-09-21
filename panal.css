@@ -10,11 +10,19 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    position:fixed;
+    position:absolute;
+    position: fixed;
     left: 0%;
     right: 0%;
     top: 0%;
+    overflow-block: hidden;
+    z-index: 1000;
+   
+   
+        /* Your other styles for nav-bar */
+    
 }
+
 .nav-logo{
     width: 30%;
     align-items: center;
@@ -25,7 +33,14 @@
     height: 60px;
     width: 100px;
 
+
 }
+.logo-img:hover{
+    transition: 0.5s;
+    scale: 1.1;
+    rotate: 360deg; */
+
+ }
 .logo-icon{
     height: 60px;
     background-image: url(images/Zone.png);
@@ -48,6 +63,7 @@
 
 #button1:hover{
     text-decoration: underline 2px rgb(188, 208, 59);
+    
 }
 
 /*rahul code start*/
@@ -67,6 +83,7 @@
     padding: 10px 20px;
     cursor: pointer;
 }
+
 
 /* Style the dropdown menu */
 .dropdowns-content {
@@ -89,6 +106,7 @@
 /* Change color of dropdown menu items on hover */
 .dropdowns-content a:hover {
     background-color: #ddd;
+   
 }
 
 /* Show the dropdown menu when the button is hovered */
@@ -164,8 +182,11 @@ footer{
     display: flex;
     font-size: 1rem;
     text-decoration: none;
+   
 
 }
+
+
 
 .footer-content{
     background-color: #222f3d;
