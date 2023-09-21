@@ -208,24 +208,7 @@ header {
 }
 
 
-/* meet our team css starts */
 
-
-/* .container{
-    margin-top: 4rem;
-}
-.container h2{
-    font-size: 30px;
-    font-family: bold;
-    color: #2a2a2a;
-    text-align: center;
-
-} */
-
-
-/* quotes slideshow css starts */
-
-/* Slideshow container */
 
 /* footer css starts */
 
@@ -276,7 +259,7 @@ header {
 }
 
 .copyright {
-    width: 92%; /* 11/12 in percentage */
+    width: 92%;
     height: 0.5px;
     background-color: #fff;
     margin: auto;
