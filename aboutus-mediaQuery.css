@@ -1,6 +1,15 @@
  
  
-/* header-down side starts */
+
+
+
+
+
+ @media screen and (max-width: 6.35in) {
+
+
+
+    /* header-down side starts */
 
 
 .aboutus{
@@ -47,9 +56,6 @@
 
 
 
-
-
- @media screen and (max-width: 6.35in) {
  /* footer section starts  */
  footer{
     /* margin-top: 50px;
