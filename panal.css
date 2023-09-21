@@ -4,6 +4,7 @@
 }
 /* header style start*/
 .nav-bar{
+    z-index: 1000;
     height: 70px;
     width: 100%;
     background-image:   linear-gradient(to left, #4b0082, #800080, #ff69b4);

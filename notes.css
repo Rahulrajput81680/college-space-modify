@@ -4,9 +4,9 @@
 
 
 
-
+/* 
 nav {
-  background-color: #333; /* Background color for the menu */
+  background-color: #333; 
 }
 
 .menu {
@@ -25,29 +25,29 @@ nav {
 .menu li a {
   display: block;
   text-decoration: none;
-  color: #fff; /* Text color for menu items */
-  padding: 15px 20px; /* Adjust padding to change button size */
+  color: #fff; 
+  padding: 15px 20px; 
   transition: background-color 0.3s;
 }
 
 .menu li a:hover {
-  background-color: #555; /* Background color on hover */
+  background-color: #555; 
 }
 
-/* Reset default margin and padding for header */
+
 header {
   margin: 0;
   padding: 0;
 }
 
-/* Style the header with a gradient background */
+
 .header {
   background-image: linear-gradient(to right, #4b0082, #800080, #ff69b4);
   color: #fff;
   padding: 10px 0;
 }
 
-/* Style the container within the header */
+
 .header1 {
   max-width: 1080px;
   margin: 0 auto;
@@ -57,7 +57,7 @@ header {
   padding: 0 20px;
 }
 
-/* Style the "code crush" heading */
+
 .header1 h2 {
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
@@ -65,13 +65,13 @@ header {
   color: #008080;
 }
 
-/* Style the dropdown container */
+
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* Style the button that toggles the dropdown */
+
 .dropdown-button {
   background-color: #3498db;
   color: #fff;
@@ -80,7 +80,7 @@ header {
   cursor: pointer;
 }
 
-/* Style the dropdown menu */
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -90,7 +90,7 @@ header {
   z-index: 1;
 }
 
-/* Style the dropdown menu items */
+
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -98,24 +98,23 @@ header {
   display: block;
 }
 
-/* Change color of dropdown menu items on hover */
+
 .dropdown-content a:hover {
   background-color: #ddd;
 }
 
-/* Show the dropdown menu when the button is hovered */
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* Style the dropdown container */
 
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* Style the button that toggles the dropdown */
+
 .dropdown-button {
   background-color: #3498db;
   color: #fff;
@@ -124,7 +123,7 @@ header {
   cursor: pointer;
 }
 
-/* Style the dropdown menu */
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -134,7 +133,7 @@ header {
   z-index: 1;
 }
 
-/* Style the dropdown menu items */
+
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -142,12 +141,12 @@ header {
   display: block;
 }
 
-/* Change color of dropdown menu items on hover */
+
 .dropdown-content a:hover {
   background-color: #ddd;
 }
 
-/* Show the dropdown menu when the button is hovered */
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
@@ -159,7 +158,7 @@ header {
     display: inline-block;
 }
 
-/* Style the button that toggles the dropdown */
+
 .dropdown-button {
     background-color: #3498db;
     color: #fff;
@@ -168,7 +167,7 @@ header {
     cursor: pointer;
 }
 
-/* Style the dropdown menu */
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -178,7 +177,7 @@ header {
     z-index: 1;
 }
 
-/* Style the dropdown menu items */
+
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -186,19 +185,41 @@ header {
     display: block;
 }
 
-/* Change color of dropdown menu items on hover */
+
 .dropdown-content a:hover {
     background-color: #ddd;
 }
 
-/* Show the dropdown menu when the button is hovered */
+
 .dropdown:hover .dropdown-content {
     display: block;
-}
+} */
 
 
 
 /* notes section starts */
+
+
+
+/* scroll bar css starts */
+
+
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+/* Customize the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to right, cyan, orange);
+  border-radius: 10px; /* Rounded corners for the thumb */
+}
+
+/* Customize the scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Track color */
+}
+
+
 
 
 
@@ -251,6 +272,9 @@ button:hover {
 #downloadLink {
   margin-top: 20px;
 }
+#mba-downloadLink{
+  margin-top: 20px;
+}
 
 a {
   text-decoration: none;
@@ -296,7 +320,7 @@ a:hover {
 }
 #subject-hover{
   color: transparent;
-  background-image: linear-gradient(to right, #ff0000, #00ff00); /* Change colors here */
+  background-image: linear-gradient(to right, #ff0000, blue); /* Change colors here */
   background-clip: text;
   -webkit-background-clip: text; /* For Safari/Chrome */
   transition: background-position 0.3s ease;
@@ -332,7 +356,7 @@ a:hover {
   background-color: blue;
   margin-left: 31%;
 } */
-.semesters{
+/* .semesters{
   display: flex;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -348,7 +372,7 @@ text-decoration: none;
 line-height: 5px;
 font-family: Arial, Helvetica, sans-serif;
 cursor: pointer;
-/* margin-right: 10px; */
+
 }
 .semester1 a :hover{
   color: blue;
@@ -365,7 +389,7 @@ cursor: pointer;
   line-height: 5px;
   font-family: Arial, Helvetica, sans-serif;
   cursor: pointer;
-  /* margin-right: 10px; */
+
   }
   .semester2 a :hover{
     color: blue;
@@ -386,7 +410,7 @@ cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
     width: 300px;
-    /* margin-right: 10px; */
+   
     }
     .semester3 a :hover{
       color: blue;
@@ -405,14 +429,14 @@ cursor: pointer;
       line-height: 5px;
       font-family: Arial, Helvetica, sans-serif;
       cursor: pointer;
-      /* margin-right: 10px; */
+      
       }
       .semester4 a :hover{
         color: blue;
       }
 
       .semester5 a{
-        /* width: 300px; */
+     
         display: flex;
         flex-direction: column;
         margin-left: 50px;
@@ -422,7 +446,7 @@ cursor: pointer;
         line-height: 5px;
         font-family: Arial, Helvetica, sans-serif;
         cursor: pointer;
-        /* margin-right: 10px; */
+      
         }
         .semester5 a :hover{
           color: blue;
@@ -431,7 +455,7 @@ cursor: pointer;
 
 
         .semester6 a{
-          /* width: 200px; */
+        
           display: flex;
           flex-direction: column;
           margin-left: 50px;
@@ -441,7 +465,7 @@ cursor: pointer;
           line-height: 5px;
           font-family: Arial, Helvetica, sans-serif;
           cursor: pointer;
-          /* margin-right: 10px; */
+       
           }
           .semester6 a :hover{
             color: blue;
@@ -461,7 +485,7 @@ cursor: pointer;
             line-height: 5px;
             font-family: Arial, Helvetica, sans-serif;
             cursor: pointer;
-            /* margin-right: 10px; */
+        
             }
             .semester7 a :hover{
               color: blue;
@@ -480,16 +504,15 @@ cursor: pointer;
               line-height: 5px;
               font-family: Arial, Helvetica, sans-serif;
               cursor: pointer;
-              /* margin-right: 10px; */
-              }
-              .semester8 a :hover{
-                color: blue;
-              }*/
+           /
+              } */
+              
+
 /* footer section starts */
 
-
+/* 
 .footer {
-  /* background-color: #ccc; */
+ 
   height: 230px;
   background-color: slategray;
 }
@@ -522,9 +545,7 @@ cursor: pointer;
  
 }
 
-/* .text-white {
-  color: #fff;
-} */
+
 
 .footer-quotes {
   width: 150px;
@@ -534,7 +555,7 @@ cursor: pointer;
 }
 
 .copyright {
-  width: 92%; /* 11/12 in percentage */
+  width: 92%; 
   height: 0.5px;
   background-color: #fff;
   margin: auto;
@@ -562,7 +583,17 @@ cursor: pointer;
   display: block;
   margin-top: 5px;
   font-size: 18px;
-}
+} */
+
+
+
+
+
+
+
+
+
+
 
 /* @media (min-width: 360px) and (max-width: 740px) {
  

@@ -32,50 +32,18 @@ label {
   
   }
 
-  .semesters{
+  .semester{
     grid-template-columns: repeat(1, 1fr);
   }
-  .semester1 h1{
-    margin-left: 50px;
-    text-decoration: none;
-    text-align: start;
+  .all-sem a{
+    font-size: 15px;
+    font-style: italic;
   }
-  .semester2 h1{
-    margin-left: 50px;
-    text-decoration: none;
-    text-align: start;
+  .all-sem p{
+    font-size: 18px;
+    text-decoration: underline;
+    color: blueviolet;
   }
-  .semester3 h1{
-    margin-left: 50px;
-    text-decoration: none;
-    text-align: start;
-  }
-  .semester4 h1{
-    margin-left: 50px;
-    text-decoration: none;
-    text-align: start;
-  }
-  .semester5 h1{
-    margin-left: 50px;
-    text-decoration: none;
-    text-align: start;
-  }
-  .semester6 h1{
-    margin-left: 50px;
-    text-decoration: none;
-    text-align: start;
-  }
-  .semester7 h1{
-    margin-left: 50px;
-    text-decoration: none;
-    text-align: start;
-  }
-  .semester8 h1{
-    margin-left: 50px;
-    text-decoration: none;
-    text-align: start;
-  }
-
 
   /* footer section starts  */
 
