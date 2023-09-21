@@ -2,25 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
+<<<<<<< HEAD
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notes</title>
-
+=======
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-   
-
+    <title>Document</title>
+>>>>>>> 01be1c1d84dc3ea02528ea1cd6c7617535af1dba
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="notes.css">
     <link rel="stylesheet" href="panal.css">
+    <link rel="stylesheet" href="notes-mediaQuery.css">
 
     <link id='favicon' rel="shortcut icon" href="images\favicon4.png" type="image/x-png">
 </head>
+
 <body>
 
-   
     <!--Header start-->
-
     <header>
         <div class="nav-bar">
             <div class="nav-logo">
@@ -50,44 +50,67 @@
             </div>
         </div>
     </header>
-    
     <!--Header end-->
-
-
+    
+    
+    
+ 
+    
     <!-- header-down side starts -->
-
-    <div class="curriculum">
-        <h1>MCA (Integrated) Syllabus</h1>
     
-        <label for="yearDropdown">Select Year:</label>
-        <select id="yearDropdown">
-            <option value="2023">Year 1</option>
-            <option value="2022">Year 2</option>
-            <option value="2021">Year 3</option>
-            <option value="2020">Year 4</option>
-            <option value="2019">Year 5</option>
-        </select>
-    
-        <button id="downloadButton">Download Curriculum</button>
-
-        <div id="downloadLink" style="display: none;">
-            <a id="downloadAnchor" href="#" target="_blank">Click here to download</a>
+    <!--syllabus downlode section start-->
+    <div class="detail-description">
+        <div class="curriculum">
+            <h1>MCA (Integrated) Syllabus</h1>
+            <label for="yearDropdown">Select Year:</label>
+            <select id="yearDropdown">
+                <option value="2023">Year 1</option>
+                <option value="2022">Year 2</option>
+                <option value="2021">Year 3</option>
+                <option value="2020">Year 4</option>
+                <option value="2019">Year 5</option>
+            </select>
+            <button id="downloadButton">Download Curriculum</button>
+            <div id="downloadLink" style="display: none;">
+                <a id="downloadAnchor" href="#" target="_blank">Click here to download</a>
+            </div>
         </div>
-
+        
+        <div class="curriculum">
+            <h1>MBA (Integrated) Syllabus</h1>
+            <label for="yearDropdown">Select Year:</label>
+            <select id="yearDropdown">
+                <option value="2023">Year 1</option>
+                <option value="2022">Year 2</option>
+                <option value="2021">Year 3</option>
+                <option value="2020">Year 4</option>
+                <option value="2019">Year 5</option>
+            </select>
+            <button id="downloadButton">Download Curriculum</button>
+            <div id="downloadLink" style="display: none;">
+                <a id="downloadAnchor" href="#" target="_blank">Click here to download</a>
+            </div>
+        </div>
     </div>
-
+    <!--syllabus downlode section End-->
+    
+    
+    
+    
+    
+    <!--subject-notes downlode start-->
     <div class="subject-notes">
         <h1>Semester wise notes of MCA(Integrated)</h1>
-        <div class="semester-line"></div>
         <div class="semesters">
             <div class="semester1">
-                 <h1>First Semester:</h1>
-                    <a href="#"><p><span class="checkmark">&#10003;</span> Programming in C</p></a>
-                    <a href="#"><p><span class="checkmark">&#10003;</span> Office Automation</p></a>
-                    <a href="#"><p><span class="checkmark">&#10003;</span> Business Communication</p></a>
-                    <a href="#"><p><span class="checkmark">&#10003;</span> Fundamentals of Computer</p></a>
-                    <a href="#"><p><span class="checkmark">&#10003;</span> Mathematics</p></a>
+                <h1>First Semester:</h1>
+                <a href="#"><p><span class="checkmark">&#10003;</span> Programming in C</p></a>
+                <a href="#"><p><span class="checkmark">&#10003;</span> Office Automation</p></a>
+                <a href="#"><p><span class="checkmark">&#10003;</span> Business Communication</p></a>
+                <a href="#"><p><span class="checkmark">&#10003;</span> Fundamentals of Computer</p></a>
+                <a href="#"><p><span class="checkmark">&#10003;</span> Mathematics</p></a>
             </div>
+            
             <div class="semester2">
                 <h1>Second Semester:</h1>
                    <a href="#"><p><span class="checkmark">&#10003;</span>Professional Communication</p></a>
@@ -100,25 +123,11 @@
             <h1>Third Semester:</h1>
                <a href="#"><p class="sem3"><span class="checkmark1">&#10003;</span> Object Oriented Programming in 
                 C++</p></a>
-               <!-- <a href="#"><p><span class="checkmark">&#10003;</span> Introduction to Web Designing</p></a> -->
-               <select id="isNotes">
-                <option value="2023" selected>Web Designing</option>
-                <option value="2022">  <button> <a href="Notes\Sem3\WD\WD-UNIT-I.pdf"></a>UNIT - 1  </a></button></option>
-                <option value="2021">Year 3</option>
-                <option value="2020">Year 4</option>
-                <option value="2019">Year 5</option>
-            </select>
+               <a href="#"><p><span class="checkmark">&#10003;</span> Introduction to Web Designing</p></a>
                <a href="#"><p><span class="checkmark">&#10003;</span> Applied Linear Algebra</p></a>
                <a href="#"><p><span class="checkmark">&#10003;</span> Accounting and financial 
                 Management</p></a>
-               <!-- <a href="#"><p><span class="checkmark">&#10003;</span> Information Systems </p></a> -->
-               <select id="isNotes">
-                <option value="2023" selected>Information System</option>
-                <option value="2022">Year 2</option>
-                <option value="2021">Year 3</option>
-                <option value="2020">Year 4</option>
-                <option value="2019">Year 5</option>
-            </select>
+               <a href="#"><p><span class="checkmark">&#10003;</span> Information Systems </p></a>
        </div>
        <div class="semester4">
         <h1>Fourth Semester:</h1>
@@ -169,10 +178,12 @@
 </div>
         </div>
     </div>
-
-
-
-
+    <!--subject-notes downlode start-->
+    
+    
+    
+    
+    <!--scripting start-->
     <script>
         document.getElementById('downloadButton').addEventListener('click', function () {
         const yearDropdown = document.getElementById('yearDropdown');
@@ -199,56 +210,59 @@
         });
 
     </script>
+    <!--scripting end-->
 
 
 
-<!-- footer section starts  -->
-<footer>
-    <div class="footer-home">
-        <a href="index.html">Back to Home</a> 
-    </div>
-
-    <div class="footer-content">
-
-        <ul style="list-style:none;">
-            <h3><u>Notes</u></h3>
-            <li>A Community Of Coders,</li>
-            <li>Making The World a better place.</li>
-        </ul>
-        <ul id="beat">
-            <p><u>Quick Link</u></p>
-            <li><a href="notes.html"><i class="fa-regular fa-note-sticky fa-rotate-270"></i></i>&nbsp;&nbsp;Notes</a></li>
-            <li><a href="papers.html"><i class="fa-solid fa-clipboard-question"></i>&nbsp;&nbsp;Paper</a></li>
-            <li><a href="careers.html"><i class="fa-solid fa-briefcase"></i></i>&nbsp;&nbsp;Opportunity</a></li>
-            <li><a href="aboutus.html"><i class="fa-regular fa-address-card"></i>&nbsp;&nbsp;About Us</a></li>
-        </ul>
-        <ul style="list-style:disc;">
-            <p><u>Contact Us</u></p>
-            <li><a href="https://www.instagram.com/innovative.developer/"><i class="fa-brands fa-instagram"></i>&nbsp;&nbsp;Instagram</a></li>
-            <li><a href="https://www.youtube.com/@innovativedeveloper"><i class="fa-brands fa-youtube"></i>&nbsp;&nbsp;Youtube</a></li>
-            <li><a href="https://telegram.me/innovativedeveloper"><i class="fa-brands fa-telegram"></i>&nbsp;&nbsp;Telegram</a></li>
-            <li><a href="https://discord.gg/4pRWmz9YTN"><i class="fa-brands fa-discord"></i>&nbsp;Discord</a></li>
-            <li><a href="mailto:innovativedeveloper@pm.me"><i class="fa-solid fa-envelope-open-text"></i>&nbsp;&nbsp;E-mail</a></li>
-        </ul>
-
-        <ul style="list-style:none;">
-            <li>DON'T LET YOUR</li>
-            <li>DREAMS STAY</li>
-            <li>DREAMS BUILD</li>
-            <li>YOUR SKILLS</li>
-            <li>WITH US AND</li>
-            <li>TURN THEM INTO</li>
-            <li>REALITY</li>
-        </ul>
-
-    </div>
-
-    <div class="footer-copyright">
-        &#169; 2023 By Innovative Developer
-    </div>
-
-</footer>
 
 
- </body>
+    <!-- footer section starts  -->
+    <footer>
+        <div class="footer-home">
+            <a href="#head">Back to Top</a> 
+        </div>
+
+        <div class="footer-content">
+
+            <ul style="list-style:none;" class="footer-quote">
+                <h3 class="footer-heading"><u>Notes</u></h3>
+                <li>A Community Of Coders,</li>
+                <li>Making The World a better place.</li>
+            </ul>
+            <ul id="beat">
+                <p><u>Quick Link</u></p>
+                <li><a href="notes.html"><i class="fa-regular fa-note-sticky fa-rotate-270"></i></i>&nbsp;&nbsp;Notes</a></li>
+                <li><a href="papers.html"><i class="fa-solid fa-clipboard-question"></i>&nbsp;&nbsp;Paper</a></li>
+                <li><a href="careers.html"><i class="fa-solid fa-briefcase"></i></i>&nbsp;&nbsp;Opportunity</a></li>
+                <li><a href="aboutus.html"><i class="fa-regular fa-address-card"></i>&nbsp;&nbsp;About Us</a></li>
+            </ul>
+            <ul style="list-style:disc;" class="footer-contact">
+                <p><u>Contact Us</u></p>
+                <li><a href="https://www.instagram.com/innovative.developer/"><i class="fa-brands fa-instagram"></i>&nbsp;&nbsp;Instagram</a></li>
+                <li><a href="https://www.youtube.com/@innovativedeveloper"><i class="fa-brands fa-youtube"></i>&nbsp;&nbsp;Youtube</a></li>
+                <li><a href="https://telegram.me/innovativedeveloper"><i class="fa-brands fa-telegram"></i>&nbsp;&nbsp;Telegram</a></li>
+                <li><a href="https://discord.gg/4pRWmz9YTN"><i class="fa-brands fa-discord"></i>&nbsp;Discord</a></li>
+                <li><a href="mailto:innovativedeveloper@pm.me"><i class="fa-solid fa-envelope-open-text"></i>&nbsp;&nbsp;E-mail</a></li>
+            </ul>
+
+            <ul style="list-style:none;" class="quotes">
+                <li>DON'T LET YOUR</li>
+                <li>DREAMS STAY</li>
+                <li>DREAMS BUILD</li>
+                <li>YOUR SKILLS</li>
+                <li>WITH US AND</li>
+                <li>TURN THEM INTO</li>
+                <li>REALITY</li>
+            </ul>
+
+        </div>
+
+        <div class="footer-copyright">
+            &#169; 2023 By Innovative Developer
+        </div>
+
+    </footer>
+    <!--footer section end-->
+
+</body>
 </html>

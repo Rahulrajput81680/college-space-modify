@@ -195,19 +195,30 @@ header {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+
+
 /* notes section starts */
 
+
+
+.detail-description{
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 .curriculum {
   max-width: 400px;
   margin-top: 70px;
   margin-bottom: 50px;
-  margin-left: 35%;
   padding: 20px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   text-align: center;
   margin-top: 7%;
+  justify-content: space-evenly;
 }
 
 .curriculum h1 {
@@ -262,14 +273,15 @@ a:hover {
   color: blue;
   text-align: center;
   margin-top: 20px;
+  text-decoration: underline;
 
 }
-.semester-line{
+/* .semester-line{
   width: 480px;
   height: 2px;
   background-color: blue;
   margin-left: 31%;
-}
+} */
 .semesters{
   display: flex;
   display: grid;

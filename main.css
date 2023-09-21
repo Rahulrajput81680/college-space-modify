@@ -7,7 +7,7 @@
 
 
 
-@media (min-width: 360px) and (max-width: 740px) {
+/* @media (min-width: 360px) and (max-width: 740px) {
   .header1{
     width: 300px;
     margin-left: 0px;
@@ -27,12 +27,11 @@
     font-size: 15px;
     width: 80px;
     height: 40px;
-    /* margin: none; */
     margin-top: 23px;
-    /* margin-right: 100px; */
-    
-    
-  }
+  } */
+
+
+
   /* .header-list{
     font-size: 10px;
   } */
@@ -41,7 +40,7 @@
 
 
 
-
+/* 
     .header-down{
       flex-direction: column;
       margin-left: 15px;
@@ -59,24 +58,26 @@
     .header-down img{
       margin-top:20px;
     }
+ */
+
 
     /* header down side starts  */
-    .buttons{
+
+
+
+    /* .buttons{
       width: 300px;
       display: flex;
       margin-left: 30px;
       margin-top: 50px;
       justify-content: space-evenly;
       display: flex;
-      /* flex-direction: column; */
-      /* font-size: 10px; */
-      /* margin-right: 20px; */
       
     }
     .header-down1 a{
       width: 50px;
       font-size: 15px;
-      /* height: 100px; */
+      
       
     }
     .header-down2 a{
@@ -91,10 +92,9 @@
     }
     .subjects{
       display: flex;
-      /* margin-left: 0px; */
+      
       font-family: poppins;
       font-size: 18px;
-      /* margin: 0px; */
       align-items: center;
       width: 100px;
       height: 40px;
@@ -103,10 +103,10 @@
     }
     .papers{
       display: flex;
-      /* margin-left: 0px; */
+      
       font-family: poppins;
       font-size: 18px;
-      /* margin: 0px; */
+     
       align-items: center;
       width: 100px;
       height: 40px;
@@ -115,10 +115,9 @@
     }
     .notes{
       display: flex;
-      /* margin-left: 0px; */
+      
       font-family: poppins;
       font-size: 18px;
-      /* margin: 0px; */
       align-items: center;
       width: 100px;
       height: 40px;
@@ -126,10 +125,13 @@
       
     
     }
+ */
+
 
     /* other section starts  */
-    .other-section{
-      /* background-color: blue; */
+
+    
+    /* .other-section{
       height: 640px;
       width: full;
       background-color: red;
@@ -142,60 +144,37 @@
       
     }
     .other-section1{
-      /* background-color: blue; */
       margin-left: 0px;
-      /* height: 100px; */
-      /* border: 2px solid black; */
-      /* width: full; */
-      /* display: grid;
-      grid-auto-flow: column; */
-      
-      /* display: flex;
-      flex-direction: row; */
-
     }
     .other-section2{
-      /* display: flex;
       flex-direction: row;
-      flex-wrap: wrap; */
+      flex-wrap: wrap; 
       margin-left: 0px;
-      /* gap: 0px; */
-      /* display: grid;
-      grid-auto-flow: column; */
-      /* display: flex;
-      flex-direction: row; */
+      flex-direction: row; 
     }
     .box1{
-      /* position: relative; */
+      
       height: 120px;
-      /* z-index: 0px; */
-      /* position: relative; */
     }
     .box1 h3{
-      /* background-color: blue; */
+     
       font-size: 18px;
       margin-left: 0px;
-      /* margin-left: 0px; */
-      /* align-items: start;
-      margin-top: 0px;
-      margin-right: 0px; */
+      
      
     }
     
     .box1 p{
       font-size: 18px;
       margin-left: 0px;
-      /* margin-left: 0px; */
-      /* gap: 0px; */
-      
+     
     }
     .box2{
-      /* position: relative; */
+      
       height: 140px;
     }
     .box2 h3{
-      /* gap: 0px; */
-      /* background-color: blue; */
+      
       font-size: 18px;
       margin-left: 0px;
       
@@ -210,10 +189,8 @@
       height: 140px;
     }
     .box3 h3{
-      /* background-color: blue; */
       font-size: 18px;
       margin-left: 0px;
-      /* margin-top: 10px; */
       
     }
     .box3 p{
@@ -223,7 +200,7 @@
       
     }
     .box4 h3{
-      /* background-color: blue; */
+      
       font-size: 18px;
       margin-left: 0px;
       
@@ -247,14 +224,19 @@
     align-items: center; 
     margin-left: 60px;
   }
-  
+   */
+
+
   /* team members section starts  */
-  .aboutus{
+
+
+
+  /* .aboutus{
     display: flex;
     flex-direction: column;
   }
   .aboutus h1{
-    /* background-color: red; */
+   
     font-size: 25px;
   }
   .aboutus span{
@@ -320,16 +302,20 @@
   }
   .contact-line{
     width: 150px;
-  }
+  } */
 
+
+  
   /* footer section starts  */
-  .footer{
+
+
+
+  /* .footer{
     display: flex;
     flex-direction: column;
     height: 650px;
   }
   .footer h2{
-    /* background-color: red; */
     font-size: 23px;
     margin-left: 60px;
     font-weight: 700;
@@ -349,10 +335,6 @@
     display: flex;
     flex-direction: column;
   }
-  /* .footer-p{
-    display: flex;
-    flex-direction:column;
-  } */
   .quick-links h5{
     font-size: 16px;
     margin-left: 20px;
@@ -366,6 +348,5 @@
    .copyright1 p{
     font-size: 16px;
     margin-right: 20px;
-    /* background-color: red; */
   }
-} 
+}  */

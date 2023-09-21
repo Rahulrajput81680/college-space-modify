@@ -29,12 +29,12 @@
   }
   
   .menu li a:hover {
-
-    background-color: #555; /* Background color on hover 
+<<<<<<< HEAD
+    background-color: #555; /* Background color on hover */
     
-
+=======
     background-color: #555; 
-
+>>>>>>> 01be1c1d84dc3ea02528ea1cd6c7617535af1dba
   }
 */
 
@@ -203,23 +203,21 @@ section.header-down {
     flex: 1;
 }
 
-/* Style the image */
+
 .image {
     width: 500px;
     height: 350px;
     margin-top: 40px;
 }
 
-/* Style the buttons container */
-.buttons {
+/* .buttons {
     display: flex;
-    /* justify-content: space-between; */
     margin-left: 36px;
     justify-content: space-around;
     margin-right: 40%;
 }
 
-/* Style the buttons */
+
 .button {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
@@ -228,26 +226,23 @@ section.header-down {
     border: 2px solid #090;
     border-radius: 8px;
     text-align: center;
-    /* width: 30%; */
+    
     height: 48px;
     padding: 12px 16px;
     margin-top: 0px;
-    background-color: #FFA500; /* Orange color */
-    /* justify-self: auto; */
-    /* margin-left: 80px; */
-}
+    background-color: #FFA500; 
+   
+} */
 
-/* Style the button links */
-.button a {
+
+/* .button a {
     color: black;
     text-decoration: none;
 }
-
-/* Hover effect for buttons */
 .button:hover {
     background-color: #FFD700; /* Lighter orange color on hover */
    
-}
+
 
 #button1{
     transition: 0.5s;
@@ -393,6 +388,8 @@ section.header-down {
     padding-right: 1.5rem;
 } */
 
+
+
 .helper1 {
     color: #ff9900;
     font-size: 1.5rem;
@@ -462,7 +459,7 @@ section.header-down {
 } */
 
 .aboutus {
-    width: 92%;
+    width: 90%;
     margin: auto;
     text-align: center;
     margin-top: 20px;
@@ -499,13 +496,16 @@ section.header-down {
 
 
 .container {
-    max-width: 80%;
+    max-width: 90%;
     margin: 0 auto;
     padding: 20px;
     /* box-sizing: border-box;
     box-shadow: 0px 0px 10px yellow; */
 }
-
+.container:hover{
+    transition: 0.5s;
+    scale: 1.2;
+}
 
 .heading {
     text-align: center;
@@ -543,12 +543,10 @@ section.header-down {
     margin-bottom: 20px;
 
 }
-
+/* 
 .team-member:hover{
     transition: 0.5s;
     scale: 1.2;
- 
-  
 }
 
 
@@ -600,8 +598,10 @@ section.header-down {
 .slide-container{
     background: linear-gradient(to right, #bb33ff,   #00ffff);
     height: 430px;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    /* margin-left: 2rem;
+    margin-right: 2rem; */
+    width: 90%;
+    margin: 0 auto;
     box-sizing: border-box;
     box-shadow: 0px 0px 10px black;
     /* margin-top: 5rem; */
@@ -706,9 +706,9 @@ section.header-down {
 
 
 
-
+/* 
 .footer {
-    /* background-color: #ccc; */
+   
     height: 230px;
     background-color: slategray;
 }
@@ -741,9 +741,6 @@ section.header-down {
    
 }
 
-/* .text-white {
-    color: #fff;
-} */
 
 .footer-quotes {
     width: 150px;
@@ -753,7 +750,7 @@ section.header-down {
 }
 
 .copyright {
-    width: 92%; /* 11/12 in percentage */
+    width: 92%; 
     height: 0.5px;
     background-color: #fff;
     margin: auto;
@@ -781,4 +778,4 @@ section.header-down {
     display: block;
     margin-top: 5px;
     font-size: 18px;
-}
+} */
