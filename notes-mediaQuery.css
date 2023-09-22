@@ -2,6 +2,12 @@
 
 @media screen and (max-width: 6.35in) {
 
+    /* header starts  */
+
+    .header{
+        display: block;
+    }
+
 .detail-description{
 
     display: flex;
