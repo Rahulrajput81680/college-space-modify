@@ -5,15 +5,18 @@
 
 }
 
-
+body::-webkit-scrollbar {
+    display: none;
+}
 
 .career_page {
-    margin-top: 70px;
-    height: 100vh;
+    height: 65vh;
     width: 100%;
     color: white;
     background-image: linear-gradient(to right, #141e30, #243b55);
 }
+
+
 
 .career_page .navbar {
     height: 17vh;
@@ -92,7 +95,7 @@
     transition: 0.5s;
     scale: 1.1;
 
-    background-image: linear-gradient(to left, rgb(222, 163, 26),rgb(234, 254, 161));
+    background-image: linear-gradient(to left, rgb(147, 137, 255),rgb(254, 161, 161));
     transition:1s;
     
 }
