@@ -1,5 +1,21 @@
 @media screen and (max-width: 6.35in) {
 
+
+    /* header media query starts  */
+    body{
+        overflow-x: hidden;
+    }
+    .header{
+        display: block;
+    }
+   
+
+    
+
+
+    /* header down side starts  */
+
+
     .max-container {
         margin: 50px 20px 20px 20px;
         display: flex;
