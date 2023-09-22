@@ -1,8 +1,14 @@
 @media screen and (max-width: 6.35in) {
 
 
-    /* footer section starts  */
-
+    /* header media query starts  */
+    body{
+        overflow-x: hidden;
+    }
+    .header{
+        display: block;
+    }
+   
 
     
 
