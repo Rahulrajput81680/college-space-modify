@@ -24,9 +24,10 @@ html {
     position: relative;
     display: grid;
     grid-template-columns: repeat(5, auto);
-    margin: 70px 0;
+    margin: 10px 0;
     background-color: antiquewhite;
     padding-bottom: 0%;
+    box-shadow: 0 0 10px red;
    }
    .wrapper section .item {
     padding: 5px 1px;
