@@ -104,6 +104,12 @@
 #mailofID{
     font-size: 37px;
 }
+.youtube-video-container1{
+    display: none;
+}
+.youtube-video-container{
+    display: block;
+}
 
 
 /* media query for responsiveness  */
