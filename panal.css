@@ -1,6 +1,6 @@
 *{
     border: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
 }
 /* header style start*/
 .header{
@@ -20,11 +20,7 @@
     right: 0%;
     top: 0%;
     overflow-block: hidden;
-    z-index: 1000;
-   
-   
-        /* Your other styles for nav-bar */
-    
+    z-index: 1000;      /* Your other styles for nav-bar */ 
 }
 
 .nav-logo{
