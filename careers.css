@@ -23,159 +23,6 @@
 
 
 
-
-/* header starts */
-body{
-    font-family:Arial, Helvetica, sans-serif
-}
-nav {
-    background-color: #333; /* Background color for the menu */
-  }
-  
-  .menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  .menu li {
-    flex: 1;
-    text-align: center;
-  }
-  
-  .menu li a {
-    display: block;
-    text-decoration: none;
-    color: #fff; /*Text color for menu items*/ 
-    padding: 15px 20px; /* Adjust padding to change button size */
-    transition: background-color 0.3s;
-  }
-  
-  .menu li a:hover {
-    background-color: #555; /* Background color on hover */
-  }
-
- /* Reset default margin and padding for header */
-header {
-    margin: 0;
-    padding: 0;
-   
-}
-
-/* Style the header with a gradient background */
-.header {
-    background-image: linear-gradient(to right, #4b0082, #800080, #ff69b4);
-    /* color: #fff; */
-    padding: 10px 0;
-}
-
-/* Style the container within the header */
-.header1 {
-    max-width: 1080px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-}
-
-/* Style the "code crush" heading */
-.header1 h2 {
-    font-weight: bold;
-    font-family: 'Poppins', sans-serif;
-    font-size: 24px;
-    color: #008080;
-}
-
-/* Style the dropdown container */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-/* Style the button that toggles the dropdown */
-.dropdown-button {
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-/* Style the dropdown menu */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-/* Style the dropdown menu items */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Change color of dropdown menu items on hover */
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-/* Show the dropdown menu when the button is hovered */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
- /* Style the dropdown container */
-
- .dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-/* Style the button that toggles the dropdown */
-.dropdown-button {
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-/* Style the dropdown menu */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-/* Style the dropdown menu items */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Change color of dropdown menu items on hover */
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-/* Show the dropdown menu when the button is hovered */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-
 /* header down side starts */
 
 
@@ -237,14 +84,11 @@ margin-top: 4%;
 .circle-images {
     width: 80%;
     margin-top: 20px;
-    
-    
     position: relative;
 }
 .circle{
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;  
 }
 .circle video{
     width: 200px;
@@ -258,21 +102,6 @@ margin-top: 4%;
     margin-bottom: 30px;
  
 }
-
-.circle img{
-    width: 200px;
-    height: 200px;
-    border-radius: 30%;
-    object-fit: cover;
-    border-radius: 50%;
-    /* position: relative; */
-    /* margin-right: 100px; */
-    margin-top: 50px;
-    margin-bottom: 30px;
-}
-
-
-
 .image1{
     margin-left: 50px;
     
@@ -325,7 +154,7 @@ margin-top: 4%;
     width: 150px;
     
 }
-.slide-container1 h1{
+.slide-container h1{
     text-align: center;
 }
 .slide0-desc{
@@ -342,167 +171,10 @@ margin-top: 4%;
     padding: 5px;
     margin-top: 20px;
 }
-.slide1 h1{
+.slide0-desc h1{
     font-size: 30px;
-
-}
-
-.slide1-desc{
-    display: flex;
-    justify-content: space-around;
-}
-.slide1-desc button{
-    width: 100px;
-    height: 40px;
-    font-size: 16px;
-    font-family: bold;
-    background-color: yellow;
-    color: blue;
-    padding: 5px;
     margin-top: 20px;
 }
-.slide2 h1{
-    font-size: 30px;
-
-}
-
-.slide2-desc{
-    display: flex;
-    justify-content: space-around;
-}
-.slide2-desc button{
-    width: 100px;
-    height: 40px;
-    font-size: 16px;
-    font-family: bold;
-    background-color: yellow;
-    color: blue;
-    padding: 5px;
-    margin-top: 20px;
-}
-.slide2 h1{
-    font-size: 30px;
-
-}
-
-.slide3-desc{
-    display: flex;
-    justify-content: space-around;
-}
-.slide3-desc button{
-    width: 100px;
-    height: 40px;
-    font-size: 16px;
-    font-family: bold;
-    background-color: yellow;
-    color: blue;
-    padding: 5px;
-    margin-top: 20px;
-}
-.slide3 h1{
-    font-size: 30px;
-
-}
-
-.slide4-desc{
-    display: flex;
-    justify-content: space-around;
-}
-.slide4-desc button{
-    width: 100px;
-    height: 40px;
-    font-size: 16px;
-    font-family: bold;
-    background-color: yellow;
-    color: blue;
-    padding: 5px;
-    margin-top: 20px;
-}
-.slide4 h1{
-    font-size: 30px;
-
-}
-
-.slide5-desc{
-    display: flex;
-    justify-content: space-around;
-}
-.slide5-desc button{
-    width: 100px;
-    height: 40px;
-    font-size: 16px;
-    font-family: bold;
-    background-color: yellow;
-    color: blue;
-    padding: 5px;
-    margin-top: 20px;
-}
-.slide5 h1{
-    font-size: 30px;
-
-}
-
-.slide6-desc{
-    display: flex;
-    justify-content: space-around;
-}
-.slide6-desc button{
-    width: 100px;
-    height: 40px;
-    font-size: 16px;
-    font-family: bold;
-    background-color: yellow;
-    color: blue;
-    padding: 5px;
-    margin-top: 20px;
-}
-.slide6 h1{
-    font-size: 30px;
-
-}
-
-.slide7-desc{
-    display: flex;
-    justify-content: space-around;
-}
-.slide7-desc button{
-    width: 100px;
-    height: 40px;
-    font-size: 16px;
-    font-family: bold;
-    background-color: yellow;
-    color: blue;
-    padding: 5px;
-    margin-top: 20px;
-}
-.slide7 h1{
-    font-size: 30px;
-
-}
-
-.slide8-desc{
-    display: flex;
-    justify-content: space-around;
-}
-.slide8-desc button{
-    width: 100px;
-    height: 40px;
-    font-size: 16px;
-    font-family: bold;
-    background-color: yellow;
-    color: blue;
-    padding: 5px;
-    margin-top: 20px;
-}
-.slide8 h1{
-    font-size: 30px;
-
-}
-/* .slide-desc{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-} */
 .slide {
     flex: 0 0 33.33%; /* Three images visible at a time */
     transition: transform 0.5s ease;
@@ -513,59 +185,8 @@ margin-top: 4%;
     box-sizing: border-box;
     background-color: white;
     margin-left: 20px;
-    /* box-shadow: 10px 10px 10px blue; */
+    box-shadow: 0 0 10px black;
 }
-#slide1{
-    height: 300px;
-    width: 200px;
-   
-    background-color: white;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-}
-#slide2{
-    height: 300px;
-    width: 200px;
-    box-sizing: border-box;
-    background-color: white;
-}
-#slide3{
-    height: 300px;
-    width: 200px;
-    box-sizing: border-box;
-    background-color: white;
-}
-#slide4{
-    height: 300px;
-    width: 200px;
-    box-sizing: border-box;
-    background-color: white;
-}
-#slide5{
-    height: 300px;
-    width: 200px;
-    box-sizing: border-box;
-    background-color: white;
-}
-#slide6{
-    height: 300px;
-    width: 200px;
-    box-sizing: border-box;
-    background-color: white;
-}
-#slide7{
-    height: 300px;
-    width: 200px;
-    box-sizing: border-box;
-    background-color: white;
-}
-#slide8{
-    height: 300px;
-    width: 200px;
-    box-sizing: border-box;
-    background-color: white;
-}
-
-
 img {
     width: 100%;
     height: auto;
