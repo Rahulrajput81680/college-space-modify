@@ -19,7 +19,7 @@
     left: 0%;
     right: 0%;
     top: 0%;
-    overflow-block: hidden;
+    /* overflow-block: hidden; */
     z-index: 1000;      /* Your other styles for nav-bar */ 
 }
 
@@ -36,13 +36,12 @@
 .logo-img:hover{
     transition: 0.5s;
     scale: 1.1;
-    rotate: 360deg; */
-
- }
+    rotate: 360deg; 
+}
 .logo-icon{
     height: 60px;
     background-image: url(images/Zone.png);
-    width: 100%;
+    /* width: 100%; */
     background-size: cover;
 }
 

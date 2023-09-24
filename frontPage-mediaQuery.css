@@ -1,10 +1,46 @@
 @media screen and (max-width: 6.35in) {
 
-
+    *{
+        border: none;
+        /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    }
     /* header media query starts  */
     .header{
         display: block;
     }
+    .nav-bar{
+        z-index: 1000;
+        height: 70px;
+        width: 100%;
+        background-image:   linear-gradient(to left, #4b0082, #800080, #ff69b4);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        position:absolute;
+        position: fixed;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        /* overflow-block: hidden; */
+        z-index: 1000;      /* Your other styles for nav-bar */ 
+    }
+
+    /* header media query starts  */
+
+   .nav-button a{
+    font-size: 16px;
+   
+   }
+   .logo-img{
+    height: 60px;
+    width: 100px;
+}
+.nav-logo{
+    width: 30%;
+    align-items: center;
+    display: flex;
+}
+
 
    
 
@@ -15,7 +51,7 @@
 
 
     .max-container {
-        margin: 50px 20px 20px 20px;
+        margin: 50px 20px 0px 20px;
         display: flex;
         /* width: 100%; */
         flex-direction: column;
@@ -49,7 +85,7 @@
     
     /* Style the image */
     .image {
-        width: 500px;
+        width: 350px;
         height: 300px;
         margin-top: 30px;
     }

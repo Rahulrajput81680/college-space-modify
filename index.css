@@ -23,10 +23,7 @@
   
 
 /* Reset default margin and padding for section */
-section.header-down {
-    margin: 0;
-    padding: 0;
-}
+
 
 
 /* Style the container within the section */
