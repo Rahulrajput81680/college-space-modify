@@ -389,6 +389,12 @@
     color: #000;
 }
 
+:hover.social-link{
+    
+    font-size:36px;
+    transition: 0.5s;
+}
+
 
 /* slideshow css section starts */
 
