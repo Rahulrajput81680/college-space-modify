@@ -1,3 +1,22 @@
+
+// dark mode section starts 
+
+
+  // dark theme section starts 
+
+  var icon = document.getElementById("icon");
+
+  icon.onclick = function(){
+      document.body.classList.toggle("dark-theme");
+      if(document.body.classList.contains("dark-theme")){
+          icon.src = "./images/sun.png";
+      }
+      else{
+          icon.src= "./images/moon.png";
+      }
+  }
+
+
 // semester 1
 
 document.getElementById('downloadButton1').addEventListener('click', function () {

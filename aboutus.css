@@ -1,4 +1,28 @@
- 
+
+
+/* dark mode section starts  */
+
+
+:root{
+    --primary-color:white;
+    --secondry-color: #212121;
+  }
+  .dark-theme{
+     --primary-color: #212121;
+     --secondry-color:white;
+  }
+  body{
+    background-color: var(--primary-color);
+  }
+  
+  #icon{
+    width: 30px;
+    cursor: pointer;
+  }
+
+
+
+
  nav {
     background-color: #333; /* Background color for the menu */
   }
@@ -171,13 +195,14 @@ header {
 .vision-desc h2{
     font-size: 30px;
     font-family: bold;
-    color: #2a2a2a;
+    color: var(--secondry-color);
     text-align: center;
 }
 .vision-desc p{
     font-size: 20px;
     line-height: 30px;
     opacity: 0.7;
+    color: var(--secondry-color);
 }
 .vision-img{
     margin-top: 2rem;
@@ -195,13 +220,14 @@ header {
 .our-story-desc h2{
     font-size: 30px;
     font-family: bold;
-    color: #2a2a2a;
+    color: var(--secondry-color);
     text-align: center;
 }
 .our-story-desc p{
     font-size: 20px;
     line-height: 30px;
     opacity: 0.7;
+    color: var(--secondry-color);
 }
 .our-story img{
     margin-top: 4rem;

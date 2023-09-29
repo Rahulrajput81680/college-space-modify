@@ -20,6 +20,27 @@
 }
 
 
+/* dark mode section starts  */
+
+:root{
+  --primary-color:white;
+  --secondry-color: linear-gradient(to right, #ff0000, blue);
+  --secondry-color2: #212121;
+}
+.dark-theme{
+   --primary-color: #212121;
+   --secondry-color: linear-gradient(to right, cyan, orange);
+   --secondry-color2:white;
+}
+body{
+  background-color: var(--primary-color);
+}
+
+#icon{
+  width: 30px;
+  cursor: pointer;
+}
+
 
 /* header-down side starts */
 

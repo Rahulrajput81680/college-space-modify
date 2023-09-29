@@ -1,3 +1,16 @@
+
+:root{
+    --primary-color:white;
+    --secondry-color2: #212121;
+    --primary-color2: linear-gradient(to right, #141e30, #243b55);
+  }
+  .dark-theme{
+     --primary-color: #212121;
+     --secondry-color2:white;
+     --primary-color2:#212121;
+  }
+
+
 * {
     margin: 0;
     padding: 0;
@@ -9,11 +22,8 @@
     height: 65vh;
     width: 100%;
     color: white;
-    background-image: linear-gradient(to right, #141e30, #243b55);
+    background: var(--primary-color2);
 }
-
-
-
 .career_page .navbar {
     height: 17vh;
     width: 100%;
@@ -50,6 +60,7 @@
 .about-container {
     min-height: 70vh;
     width: 100%;
+    background-color: var(--primary-color);
 }
 
 .about-container div {
@@ -61,14 +72,19 @@
     height: auto;
     width: 100%;
 }
+.about{
+    color: var(--secondry-color2);
+}
 
 .job-opening {
     min-height: 80vh;
     width: 100%;
-    background: #f7f7f7;
+    background: var(--primary-color);
     padding: 2rem;
 }
-
+.current-opportunities{
+    color: var(--secondry-color2);
+}
 .cards-container {
     width: 85vw;
     min-height: 60vh;
@@ -85,7 +101,7 @@
 }
 
 .cards-container .card .btn {
-    color: #fff;
+    color: var(--primary-color);
     margin-top: 1rem;
 }
 
@@ -96,6 +112,9 @@
     background-image: linear-gradient(to left, rgb(147, 137, 255),rgb(254, 161, 161));
     transition:1s;
     
+}
+.carreer-last-p{
+    color: var(--secondry-color2);
 }
 
 .card{

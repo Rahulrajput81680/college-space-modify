@@ -51,6 +51,7 @@
                         </div>
                     </ul>
                 </div>
+                <img src="./images/moon.png" id="icon">
             </div>
         </div>
     </header>
@@ -297,7 +298,7 @@
 <section class="about-container d-flex flex-wrap justify-content-around align-items-center">
 <!-- aricle section  -->
 <div class="about-section">
-    <h2>About Opportunity</h2>
+    <h2 class="about">About Opportunity</h2>
     <p style="color: #858585;">Here you can explore various career option for diffrent tech fields
     </p>
 </div>
@@ -341,7 +342,7 @@
     <h6 class="py-3" style="color: #50ebec;">WE'RE HIRING!</h6>
 </center>
 <center>
-    <h1>Current Opportunities</h1>
+    <h1 class="current-opportunities">Current Opportunities</h1>
 </center>
 <div class="cards-container d-flex flex-wrap justify-content-between">
     <div class="card" style="width: 20rem;">
@@ -517,7 +518,7 @@
 <!-- job opening section ends  -->
 <!-- mail through link  para starts-->
 <center>
-    <p>“If you are excited about the prospect of building awesome career, we’d love to hear from you”.
+    <p class="carreer-last-p">“If you are excited about the prospect of building awesome career, we’d love to hear from you”.
         Please email us
         at <a href="mailto:innovativedeveloper@pm.me" id="mailofID" >📧</a></p>
 </center>
@@ -594,6 +595,25 @@ slideImage();
 };
 
 autoSlide(); // Start automatic slideshow
+
+
+
+// dark mode section starts 
+
+
+var icon = document.getElementById("icon");
+
+icon.onclick = function(){
+    document.body.classList.toggle("dark-theme");
+    if(document.body.classList.contains("dark-theme")){
+        icon.src = "./images/sun.png";
+    }
+    else{
+        icon.src= "./images/moon.png";
+    }
+}
+
+
 
 </Script>
 

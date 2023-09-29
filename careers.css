@@ -20,7 +20,25 @@
   }
   
 
+  /* dark mode section starts  */
 
+
+  :root{
+    --primary-color:white;
+    --secondry-color: #212121;
+  }
+  .dark-theme{
+     --primary-color: #212121;
+     --secondry-color:white;
+  }
+  body{
+    background-color: var(--primary-color);
+  }
+  
+  #icon{
+    width: 30px;
+    cursor: pointer;
+  }
 
 
 /* header down side starts */
@@ -29,7 +47,9 @@
 .hero {
 display: flex;
 width: 100%;
-background-color: rgb(245, 223, 223);
+/* background-color: rgb(245, 223, 223); */
+
+background-color: var(--primary-color);
 margin-top: 4%;
 
 }
@@ -69,16 +89,16 @@ margin-top: 4%;
     font-size: 56px;
     margin-bottom: 20px;
     /* opacity: 0.8; */
-    color: #202124;
+    color: var(--secondry-color);
 }
 .hero h3{
     font-size: 28px;
-    color: #202124;
+    color: var(--secondry-color);
     /* opacity: 0.8; */
 }
 .hero p{
     font-size: 20px;
-    color: #202124;
+    color: var(--secondry-color);
 }
 
 .circle-images {
@@ -124,7 +144,7 @@ margin-top: 4%;
     margin-top: 30px;
     margin-bottom: 30px;
     /* width: 750px; */
-    background-color: lightpink;
+    background-color: var(--primary-color);
     height: 500px;
     margin-left: 0rem;
     margin-right: 2rem;
@@ -135,6 +155,7 @@ margin-top: 4%;
 .slide-container h1{
     text-align: center;
     font-size: 30px;
+    color: var(--secondry-color);
 
 }
 .slideshow-container {
@@ -156,6 +177,7 @@ margin-top: 4%;
 }
 .slide-container h1{
     text-align: center;
+    color: #212121;
 }
 .slide0-desc{
     display: flex;

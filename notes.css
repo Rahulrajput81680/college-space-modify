@@ -220,6 +220,28 @@ header {
 }
 
 
+/* darkmode section starts  */
+
+:root{
+  --primary-color:white;
+  --secondry-color: linear-gradient(to right, #ff0000, blue);
+  --secondry-color2: #212121;
+}
+.dark-theme{
+   --primary-color: #212121;
+   --secondry-color: linear-gradient(to right, cyan, orange);
+   --secondry-color2:white;
+}
+body{
+  background-color: var(--primary-color);
+}
+
+#icon{
+  width: 30px;
+  cursor: pointer;
+}
+
+
 
 
 
@@ -235,7 +257,7 @@ header {
   margin-bottom: 50px;
   padding: 20px;
   background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px var(--secondry-color2);
   border-radius: 5px;
   text-align: center;
   margin-top: 7%;
@@ -294,7 +316,7 @@ a:hover {
   margin-top: 50px;
 }
 .subject-notes h1{
-  color: blue ;
+  color: var(--secondry-color2);
   text-align: center;
   text-decoration: underline;
 }
@@ -319,7 +341,7 @@ a:hover {
 }
 #subject-hover{
   color: transparent;
-  background-image: linear-gradient(to right, #ff0000, blue); /* Change colors here */
+  background-image: var(--secondry-color); /* Change colors here */
   background-clip: text;
   -webkit-background-clip: text; /* For Safari/Chrome */
   transition: background-position 0.3s ease;
@@ -329,7 +351,6 @@ a:hover {
 #subject-hover:hover {
   background-position: 100% 0;
   font-size: 20px;
-  background-image: linear-gradient(to left, #ff0000, #00ff00);
   transition:0.5s;
   text-decoration: underline;
 }
