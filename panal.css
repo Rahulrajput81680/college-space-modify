@@ -179,11 +179,7 @@ footer{
     display: flex;
     font-size: 1rem;
     text-decoration: none;
-   
-
 }
-
-
 
 .footer-content{
     background-color: #222f3d;
@@ -193,11 +189,15 @@ footer{
     align-items: center;
     justify-content: space-evenly;
 }
+.footer-content li{
+    padding-bottom: 4px;
+}
 .footer-content a{
     text-decoration: none;
     color: white;
     font-size: 0.9rem;
 }
+
 .footer-copyright{
     background-color: #37475a;
     color: white;

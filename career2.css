@@ -74,7 +74,9 @@
     min-height: 60vh;
     margin: 3.5rem auto;
 }
-
+.companyImage{
+    height:30vh;
+}
 .cards-container .card {
     height: 100%;
     padding: 2rem 0;
