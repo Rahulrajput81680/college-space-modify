@@ -1,8 +1,8 @@
 
 html {
-    scroll-behavior: smooth;
-  }
-  
+  scroll-behavior: smooth;
+}
+
 :root{
     --primary-color:white;
     --secondry-color2: #212121;
