@@ -3,6 +3,10 @@
 
 /* scroll bar css starts */
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 ::-webkit-scrollbar {
   width: 12px; /* Width of the scrollbar */
@@ -83,7 +87,6 @@ margin-top: 7%;
   transition: 0.5s;
   scale: 1.1;
 }
-
 .curriculum1 h1{
   font-size: 25px;
   font-weight: bold;

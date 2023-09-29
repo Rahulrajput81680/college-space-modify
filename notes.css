@@ -204,6 +204,11 @@ header {
 /* scroll bar css starts */
 
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 ::-webkit-scrollbar {
   width: 12px; /* Width of the scrollbar */
 }

@@ -1,6 +1,11 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+  
 *{
     border: border-box;
-    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    
 }
 /* header style start*/
 .header{
@@ -70,6 +75,7 @@
 .dropdowns {
     position: relative;
     display: inline-block;
+    /* justify-content: space-evenly; */
 }
 
 /* Style the button that toggles the dropdown */
