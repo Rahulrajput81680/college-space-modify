@@ -278,7 +278,7 @@ body{
 
 }
 
-.helper {
+/* .helper {
     max-width: 400px;
     display: flex;
     justify-content: center;
@@ -305,8 +305,6 @@ body{
     margin-bottom: 0.5rem;
     text-align: center;
     margin-top: 20px;
-    /* text-shadow: 1px 1px 0.5px #ff9900; */
-    /* margin-left: 40%; */
 }
 .helper2{
     font-size: 1.5rem;
@@ -316,7 +314,6 @@ body{
     margin-top: 10px;
     padding: 4px;
     color: blue;
-    /* text-shadow: 1px 1px 0.5px blue; */
 }
 
 .text-2xl {
@@ -357,7 +354,7 @@ body{
 
 .focus\:ring-blue-200:focus {
     box-shadow: 0 0 0 2px rgba(0, 115, 230, 0.5);
-}
+} */
 
 
 /* contribution section starts */
@@ -405,7 +402,9 @@ body{
     
   }
 
-.aboutus {
+  /* about us section starts  */
+
+/* .aboutus {
     width: 90%;
     margin: auto;
     text-align: center;
@@ -424,7 +423,6 @@ body{
 .team-members {
     display: flex;
     justify-content: space-around;
-    /* background: linear-gradient(to right, #f3a0f7, #f3c7f7, #f3e9f7); */
     padding: 20px;
 }
 
@@ -435,7 +433,7 @@ body{
 
 .fa-github, .fa-linkedin, .fa-twitter {
     font-size: 2rem;
-}
+} */
 
 
 
@@ -446,6 +444,8 @@ body{
     max-width: 90%;
     margin: 0 auto;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
     /* box-sizing: border-box;
     box-shadow: 0px 0px 10px yellow; */
 }
@@ -469,20 +469,21 @@ body{
     font-size: 24px;
 }
 
-.divider {
+/* .divider {
     width: 250px;
     height: 2px;
     background-color: var(--primary-color);
     margin: 0 auto;
     margin-bottom: 20px;
-}
+} */
 
-.team-members {
+.container .team-members {
     display: flex;
     justify-content: space-around;
     background: linear-gradient(to right, lightskyblue, #FF69B4, orange);
     box-shadow: 0px 0px 10px black;
     padding: 20px;
+
 }
 
 .team-member {
