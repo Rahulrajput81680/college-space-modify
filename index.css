@@ -279,7 +279,50 @@ body{
 }
 
 
+/* contribution section starts */
 
+/* .contribution-banner{
+    margin: 4rem 2rem 4rem 2rem;
+    position: relative;
+}
+.contribution-banner video{
+    width: 100%;
+    height: 300px;
+}
+.contribution-button{
+    position:absolute;
+    height: 15px;
+    width: 30px;
+    background-color: red;
+} */
+
+
+
+/* Style for the video container */
+.video-container {
+    position: relative;
+  }
+
+  /* Style for the video */
+  video {
+    width: 90%;
+    height: auto;
+    margin: 4rem 2rem 2rem 4rem;
+  }
+
+  /* Style for the button */
+  .overlay-button {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    
+  }
 
 .aboutus {
     width: 90%;
