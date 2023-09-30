@@ -321,7 +321,10 @@
         font-size: 16px;
     }
     .footer-quote li{
-        font-size: 12px;
+        font-size: 15px;
+    }
+    .footer-contact{
+        /* display: none; */
     }
     .footer-contact li a{
         font-size: 12px;
