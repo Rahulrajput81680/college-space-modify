@@ -55,6 +55,25 @@
 
     <header id="head" class="header">
         <div class="nav-bar">
+
+            <div class="container">
+                <div class="menu-icon" id="menu-icon">
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                  <div class="bar"></div>
+                </div>
+                <div class="sidebar" id="sidebar">
+                  <div class="close-icon" id="close-icon">&times;</div>
+                  <ul>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Signup</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contribute</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+
             <div class="nav-logo">
                 <a href="index.html">
                     <div class="logo-img">
@@ -63,20 +82,6 @@
                 </a>
             </div>
             <div class="nav-button">
-
-                <ul class="menu">
-                    <div class="dropdowns">
-                        <button class="dropdowns-button"><i class="fa-solid fa-bars"></i></button>
-                        <div class="dropdowns-content">
-                            <a href="Login.html">Login</a>
-                            <a href="signup.html">Signup</a>
-                            <a href="aboutus.html">Aboutus</a>
-                            <a href="#">ContactUs</a>
-                            <a href="careers.html">Opportunity</a>
-                        </div>
-                    </div>
-                </ul>
-
                 <div id="button1"><a href="papers.html">Paper</a></div>
                 <div id="button1"><a href="notes.html">Notes</a></div>
                 <div id="button1">
@@ -349,6 +354,25 @@ icon.onclick = function(){
         icon.src= "./images/moon.png";
     }
 }
+
+
+// sidebar section starts 
+
+
+const menuIcon = document.getElementById('menu-icon');
+const sidebar = document.getElementById('sidebar');
+const closeIcon = document.getElementById('close-icon');
+
+menuIcon.addEventListener('click', () => {
+  sidebar.classList.add('active');
+});
+
+closeIcon.addEventListener('click', () => {
+  sidebar.classList.remove('active');
+});
+
+
+
     </Script>
     
 
