@@ -51,15 +51,15 @@ body{
   
   .menu-icon {
     cursor: pointer;
-    padding: 15px;
-    background-color: orange;
+    padding: 10px;
     color: white;
+    
   }
   
   .bar {
     width: 25px;
-    height: 3px;
-    background-color:white;
+    height: 2px;
+    background-color: orange;
     margin: 4px 0;
     transition: 0.4s;
   }
@@ -70,7 +70,7 @@ body{
     position: fixed;
     top: 0;
     left: -250px;
-    background-color: orange;
+    background-image:linear-gradient(to left, #4b0082, #800080, #ff69b4);
     overflow-x: hidden;
     transition: 0.4s;
   }
@@ -92,7 +92,7 @@ body{
   
   .sidebar a {
     text-decoration: none;
-    color: blue;
+    color: white;
     font-size: 22px;
     font-weight: bold;
   }
