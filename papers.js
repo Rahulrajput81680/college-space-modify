@@ -57,11 +57,9 @@ document.getElementById('downloadButton1').addEventListener('click', function ()
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
-        // '2019-20': './papers/',
-        '2020-21': './papers/MCA Int 1st Sem (2020-21).pdf',
-        '2021-22': './papers/MCA Int 1st Sem (2021-22).pdf',
-        // '2022-23': './course curriculum/MCA_Integrated_4_Year.pdf',
-        // '2019': './course curriculum/MCA 5th year 2021-22.pdf',
+        '2020-21': './papers/MCA Int/MCA Int 1st Sem (2020-21).pdf',
+        '2021-22': './papers/MCA Int/MCA Int 1st Sem (2021-22).pdf',
+        '2022-23': './papers/MCA Int/MCA Int 1st Sem (2022-23).pdf',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -69,7 +67,7 @@ document.getElementById('downloadButton1').addEventListener('click', function ()
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('Curriculum not available for the selected year.');
+        alert('coming soon');
     }
 });
 
@@ -85,10 +83,8 @@ document.getElementById('downloadButton2').addEventListener('click', function ()
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2019-20': './papers/',
-        // '2020-21': './papers/MCA Int 1st Sem (2020-21).pdf',
-        // '2021-22': './papers/MCA Int 1st Sem (2021-22).pdf',
-        // '2022-23': './course curriculum/MCA_Integrated_4_Year.pdf',
-        // '2019': './course curriculum/MCA 5th year 2021-22.pdf',
+        '2021-22': './papers/MCA Int/MCA Int 2nd Sem (2021-22).pdf',
+        '2022-23': './papers/MCA Int/MCA Int 2nd Sem (2022-23).pdf',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -96,7 +92,7 @@ document.getElementById('downloadButton2').addEventListener('click', function ()
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('Curriculum not available for the selected year.');
+        alert('coming soon');
     }
 });
 
@@ -111,10 +107,8 @@ document.getElementById('downloadButton3').addEventListener('click', function ()
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2019-20': './papers/',
-        // '2020-21': './papers/MCA Int 1st Sem (2020-21).pdf',
-        '2021-22': './papers/MCA Int 3rd Sem (2021-22).pdf',
-        // '2022-23': './course curriculum/MCA_Integrated_4_Year.pdf',
-        // '2019': './course curriculum/MCA 5th year 2021-22.pdf',
+        '2021-22': './papers/MCA Int/MCA Int 3rd Sem (2021-22).pdf',
+        '2022-23': './papers/MCA Int/MCA Int 3rd Sem (2022-23).pdf',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -122,7 +116,7 @@ document.getElementById('downloadButton3').addEventListener('click', function ()
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('Curriculum not available for the selected year.');
+        alert('coming soon');
     }
 });
 
@@ -137,10 +131,8 @@ document.getElementById('downloadButton4').addEventListener('click', function ()
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2019-20': './papers/',
-        // '2020-21': './papers/MCA Int 1st Sem (2020-21).pdf',
-        '2021-22': './papers/MCA Int 4th Sem (2021-22).pdf',
-        // '2022-23': './course curriculum/MCA_Integrated_4_Year.pdf',
-        // '2019': './course curriculum/MCA 5th year 2021-22.pdf',
+        '2021-22': './papers/MCA Int/MCA Int 4th Sem (2021-22).pdf',
+        '2022-23': './papers/MCA Int/MCA Int 4th Sem (2022-23).pdf',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -148,7 +140,7 @@ document.getElementById('downloadButton4').addEventListener('click', function ()
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('Curriculum not available for the selected year.');
+        alert('coming soon');
     }
 });
 
@@ -163,10 +155,8 @@ document.getElementById('downloadButton5').addEventListener('click', function ()
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2019-20': './papers/',
-        // '2020-21': './papers/MCA Int 1st Sem (2020-21).pdf',
-        '2021-22': './papers/MCA Int 5th Sem (2021-22).pdf',
-        '2022-23': './papers/MCA Int 5th Sem (2022-23).pdf',
-        // '2019': './course curriculum/MCA 5th year 2021-22.pdf',
+        '2021-22': './papers/MCA Int/MCA Int 5th Sem (2021-22).pdf',
+        '2022-23': './papers/MCA Int/MCA Int 5th Sem (2022-23).pdf',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -174,7 +164,7 @@ document.getElementById('downloadButton5').addEventListener('click', function ()
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('Curriculum not available for the selected year.');
+        alert('coming soon');
     }
 });
 
@@ -189,10 +179,8 @@ document.getElementById('downloadButton6').addEventListener('click', function ()
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2019-20': './papers/',
-        // '2020-21': './papers/MCA Int 1st Sem (2020-21).pdf',
-        // '2021-22': './papers/MCA Int 1st Sem (2021-22).pdf',
-        // '2022-23': './course curriculum/MCA_Integrated_4_Year.pdf',
-        // '2019': './course curriculum/MCA 5th year 2021-22.pdf',
+        // '2021-22': './papers/MCA Int/MCA Int 6th Sem (2021-22).pdf',
+        '2022-23': './papers/MCA Int/MCA Int 6th Sem (2022-23).pdf',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -200,7 +188,7 @@ document.getElementById('downloadButton6').addEventListener('click', function ()
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('Curriculum not available for the selected year.');
+        alert('coming soon');
     }
 });
 
@@ -215,10 +203,8 @@ document.getElementById('downloadButton7').addEventListener('click', function ()
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2019-20': './papers/',
-        // '2020-21': './papers/MCA Int 1st Sem (2020-21).pdf',
-        '2021-22': './papers/MCA Int 7th Sem (2021-22).pdf',
-        // '2022-23': './course curriculum/MCA_Integrated_4_Year.pdf',
-        // '2019': './course curriculum/MCA 5th year 2021-22.pdf',
+        '2021-22': './papers/MCA Int/MCA Int 7th Sem (2021-22).pdf',
+        '2022-23': './papers/MCA Int/MCA Int 7th Sem (2022-23).pdf',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -226,7 +212,7 @@ document.getElementById('downloadButton7').addEventListener('click', function ()
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('Curriculum not available for the selected year.');
+        alert('coming soon');
     }
 });
 
@@ -241,10 +227,8 @@ document.getElementById('downloadButton8').addEventListener('click', function ()
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2019-20': './papers/',
-        // '2020-21': './papers/MCA Int 1st Sem (2020-21).pdf',
-        '2021-22': './papers/MCA Int 8th Sem (2021-22).pdf',
-        // '2022-23': './course curriculum/MCA_Integrated_4_Year.pdf',
-        // '2019': './course curriculum/MCA 5th year 2021-22.pdf',
+        '2021-22': './papers/MCA Int/MCA Int 8th Sem (2021-22).pdf',
+        '2022-23': './papers/MCA Int/MCA Int 8th Sem (2022-23).pdf',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -252,10 +236,33 @@ document.getElementById('downloadButton8').addEventListener('click', function ()
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('Curriculum not available for the selected year.');
+        alert('coming soon');
     }
 });
 
+// semester 9
+
+document.getElementById('downloadButton9').addEventListener('click', function () {
+    const yearDropdown = document.getElementById('yearDropdown9');
+    const selectedYear = yearDropdown.value;
+    const downloadLink = document.getElementById('downloadLink9');
+    const downloadAnchor = document.getElementById('downloadAnchor9');
+
+    // Define the curriculum file URLs for each year
+    const curriculumFiles = {
+        // '2019-20': './papers/',
+        '2021-22': './papers/MCA Int/MCA Int 9th Sem (2021-22).pdf',
+        '2022-23': './papers/MCA Int/MCA Int 9th Sem (2022-23).pdf',
+    };
+
+    if (curriculumFiles[selectedYear]) {
+        downloadAnchor.href = curriculumFiles[selectedYear];
+        downloadLink.style.display = 'block';
+    } else {
+        downloadLink.style.display = 'none';
+        alert('coming soon');
+    }
+});
 
 
 // mba section starts 
@@ -285,7 +292,7 @@ document.getElementById('mba-downloadButton1').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('Curriculum not available for the selected year.');
+        alert('coming soon');
     }
 });
 
@@ -312,7 +319,7 @@ document.getElementById('mba-downloadButton2').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('Curriculum not available for the selected year.');
+        alert('coming soon');
     }
 });
 
@@ -338,7 +345,7 @@ document.getElementById('mba-downloadButton3').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('Curriculum not available for the selected year.');
+        alert('coming soon');
     }
 });
 
@@ -364,7 +371,7 @@ document.getElementById('mba-downloadButton4').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('Curriculum not available for the selected year.');
+        alert('coming soon');
     }
 });
 
@@ -390,7 +397,7 @@ document.getElementById('mba-downloadButton5').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('Curriculum not available for the selected year.');
+        alert('coming soon');
     }
 });
 
@@ -416,7 +423,7 @@ document.getElementById('mba-downloadButton6').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('Curriculum not available for the selected year.');
+        alert('coming soon');
     }
 });
 
@@ -442,7 +449,7 @@ document.getElementById('mba-downloadButton7').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('Curriculum not available for the selected year.');
+        alert('coming soon');
     }
 });
 
@@ -468,6 +475,32 @@ document.getElementById('mba-downloadButton8').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('Curriculum not available for the selected year.');
+        alert('coming soon');
+    }
+});
+
+// semester 9
+
+document.getElementById('mba-downloadButton9').addEventListener('click', function () {
+    const yearDropdown = document.getElementById('mba-yearDropdown9');
+    const selectedYear = yearDropdown.value;
+    const downloadLink = document.getElementById('mba-downloadLink9');
+    const downloadAnchor = document.getElementById('mba-downloadAnchor9');
+
+    // Define the curriculum file URLs for each year
+    const curriculumFiles = {
+        // '2019-20': './papers/',
+        // '2020-21': './papers/MCA Int 1st Sem (2020-21).pdf',
+        // '2021-22': './papers/MCA Int 8th Sem (2021-22).pdf',
+        // '2022-23': './course curriculum/MCA_Integrated_4_Year.pdf',
+        // '2019': './course curriculum/MCA 5th year 2021-22.pdf',
+    };
+
+    if (curriculumFiles[selectedYear]) {
+        downloadAnchor.href = curriculumFiles[selectedYear];
+        downloadLink.style.display = 'block';
+    } else {
+        downloadLink.style.display = 'none';
+        alert('coming soon');
     }
 });
