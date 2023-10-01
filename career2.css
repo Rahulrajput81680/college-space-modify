@@ -5,12 +5,12 @@ html {
 
 :root{
     --primary-color:white;
-    --secondry-color2: #212121;
+    --secondry-color3: #212121;
     --primary-color2: linear-gradient(to right, #141e30, #243b55);
   }
   .dark-theme{
      --primary-color: #212121;
-     --secondry-color2:white;
+     --secondry-color3:white;
      --primary-color2:#212121;
   }
 
@@ -77,7 +77,7 @@ html {
     width: 100%;
 }
 .about{
-    color: var(--secondry-color2);
+    color: var(--secondry-color3);
 }
 
 .job-opening {
@@ -87,7 +87,7 @@ html {
     padding: 2rem;
 }
 .current-opportunities{
-    color: var(--secondry-color2);
+    color: var(--secondry-color3);
 }
 .cards-container {
     width: 85vw;
@@ -118,7 +118,7 @@ html {
     
 }
 .carreer-last-p{
-    color: var(--secondry-color2);
+    color: var(--secondry-color3);
 }
 
 .card{
