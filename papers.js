@@ -12,7 +12,7 @@ icon.onclick = function () {
         icon.src = "./images/sun.png";
     }
     else {
-        icon.src = "./images/moon.png";
+        icon.src = "./images/moon2.png";
     }
 }
 
