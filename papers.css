@@ -153,7 +153,7 @@
  .container h2 {
    font-size: 25px;
    font-style: bold;
-   color: blue;
+   color: var(--secondry-color2);
    text-align: center;
  }
 
@@ -498,7 +498,7 @@
  .mba-container h2 {
    font-size: 25px;
    font-style: bold;
-   color: blue;
+   color: var(--secondry-color2);
    text-align: center;
    text-decoration: underline;
  }
@@ -843,7 +843,7 @@
 .bca-container h2 {
   font-size: 25px;
   font-style: bold;
-  color: blue;
+  color: var(--secondry-color2);
   text-align: center;
 }
 
@@ -909,7 +909,7 @@
 .bba-container h2 {
   font-size: 25px;
   font-style: bold;
-  color: blue;
+  color: var(--secondry-color2);
   text-align: center;
 }
  /* BBA */
