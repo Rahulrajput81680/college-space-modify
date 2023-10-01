@@ -878,7 +878,7 @@
   margin-left: 10px;
 }
 
-#bca-downloadButton {
+.bca-downloadButton {
   padding: 10px 20px;
   background-color: #007bff;
   color: #fff;
@@ -892,7 +892,7 @@
   /* margin-bottom: 10px; */
 }
 
-#bca-downloadLink {
+.bca-downloadLink {
   text-align: center;
 }
  /*BCA end*/
@@ -943,7 +943,7 @@
   margin-left: 10px;
 }
 
-#bba-downloadButton {
+.bba-downloadButton {
   padding: 10px 20px;
   background-color: #007bff;
   color: #fff;
@@ -957,7 +957,7 @@
   /* margin-bottom: 10px; */
 }
 
-#bba-downloadLink {
+.bba-downloadLink {
   text-align: center;
 }
  /*BBA end*/
