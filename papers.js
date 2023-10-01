@@ -6,13 +6,13 @@
 
 var icon = document.getElementById("icon");
 
-icon.onclick = function(){
+icon.onclick = function () {
     document.body.classList.toggle("dark-theme");
-    if(document.body.classList.contains("dark-theme")){
+    if (document.body.classList.contains("dark-theme")) {
         icon.src = "./images/sun.png";
     }
-    else{
-        icon.src= "./images/moon2.png";
+    else {
+        icon.src = "./images/moon2.png";
     }
 }
 
@@ -20,13 +20,13 @@ icon.onclick = function(){
 
 var icon1 = document.getElementById("dark-icon");
 
-icon1.onclick = function(){
+icon1.onclick = function () {
     document.body.classList.toggle("dark-theme1");
-    if(document.body.classList.contains("dark-theme1")){
+    if (document.body.classList.contains("dark-theme1")) {
         icon1.src = "./images/sun.png";
     }
-    else{
-        icon1.src= "./images/moon2.png";
+    else {
+        icon1.src = "./images/moon2.png";
     }
 }
 
@@ -628,7 +628,7 @@ document.getElementById('bca-downloadButton6').addEventListener('click', functio
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
-       // '2022-23': './papers/BCA.pdf',
+        // '2022-23': './papers/BCA.pdf',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -766,7 +766,7 @@ document.getElementById('bba-downloadButton6').addEventListener('click', functio
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
-       // '2022-23': './papers/BCA.pdf',
+        // '2022-23': './papers/BCA.pdf',
     };
 
     if (curriculumFiles[selectedYear]) {
