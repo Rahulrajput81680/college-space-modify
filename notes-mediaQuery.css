@@ -2,6 +2,28 @@
 
 @media screen and (max-width: 6.35in) {
 
+
+    /* dark mode section starts  */
+    :root{
+        --primary-color:white;
+        --secondry-color: linear-gradient(to right, #ff0000, blue);
+        --secondry-color2: #212121;
+      }
+      .dark-theme1{
+         --primary-color: #212121;
+         --secondry-color: linear-gradient(to right, cyan, orange);
+         --secondry-color2:white;
+      }
+      body{
+        background-color: var(--primary-color);
+      }
+      
+      #dark-icon{
+        width: 40px;
+        cursor: pointer;
+        margin: 50px 0px 0px 50%;
+      }
+
     /* header starts  */
 
     .header{
@@ -41,6 +63,7 @@
     max-width: 400px;
     padding: 20px;
     margin: 0px 15px 20px 15px;
+    box-shadow: 0 0 10px var(--secondry-color2);
     /* justify-content: space-evenly; */
 }
 .curriculum h1 {
@@ -56,6 +79,7 @@ label {
 
 .subject-notes h1{
     font-size: 20px;
+    color: var(--secondry-color2);
   
   }
 

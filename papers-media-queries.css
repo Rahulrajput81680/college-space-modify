@@ -4,6 +4,32 @@
 
     /* header starts  */
 
+    /* dark theme section starts  */
+
+    :root {
+        --primary-color: white;
+        --secondry-color: linear-gradient(to right, #ff0000, blue);
+        --secondry-color2: #212121;
+      }
+     
+      .dark-theme1 {
+        --primary-color: #000106;
+        --secondry-color: linear-gradient(to right, cyan, orange);
+        --secondry-color2: white;
+      }
+     
+      body {
+        background-color: var(--primary-color);
+      }
+
+
+
+    #dark-icon{
+        width: 40px;
+        cursor: pointer;
+        margin: 50px 0px 0px 50%;
+    }
+    /* dark theme section ends  */
 
     .header {
         display: block;
@@ -578,70 +604,6 @@
 
     /* footer section starts  */
 
-<<<<<<< HEAD
-   /* footer section starts  */
-   #contact-us{
-    display: none;
-}
-#mobile-contact-us{
-    display: block;
-}
-.mobile-footer{
-    margin-top: 50px;
-    position: absolute;
-    left: 0%;
-    right: 0%;
-}
-
-.mobile-footer-home a{
-    background-color: #37475a;
-    color: white;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    font-size: 1rem;
-    text-decoration: none;
-}
-
-.mobile-footer-content{
-    background-color: #222f3d;
-    color: white;
-    height: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.mobile-footer-content li{
-    padding-bottom: 4px;
-}
-.mobile-footer-content a{
-    text-decoration: none;
-    color: white;
-    font-size: 0.9rem;
-}
-
-.mobile-footer-copyright{
-    background-color: #37475a;
-    color: white;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.mobile-footer-contact-mobile{
-    display: none;
-}
-.mobile-footer-contact{
-    background-color: #222f3d;
-}
-.mobile-footer-contact p{
-    color: white;
-}
-
-}
-
-=======
     footer {
         /* margin-top: 50px;
         position: absolute;
@@ -695,4 +657,3 @@
         font-size: 12px;
     }
 }
->>>>>>> 111fe2d03429479c00b8053b201345ebdc2dfa89

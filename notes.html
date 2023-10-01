@@ -47,7 +47,7 @@
                         </div>
                     </ul>
                 </div>
-                <img src="./images/moon2.png" id="icon">
+                <img src="./images/moon2.png" id="icon1">
             </div>
         </div>
     </header>
@@ -79,6 +79,7 @@
                 </div>
                 <div class="sidebar" id="sidebar">
                   <div class="close-icon" id="close-icon">&times;</div>
+                  <img src="./images/moon2.png" id="dark-icon">
                   <ul>
                     <li><a href="Login.html">Login</a></li>
                     <li><a href="signup.html">Signup</a></li>
@@ -316,7 +317,9 @@
 
         // dark theme section starts 
 
-var icon = document.getElementById("icon");
+// dark theme section starts 
+
+var icon = document.getElementById("icon1");
 
 icon.onclick = function(){
     document.body.classList.toggle("dark-theme");
@@ -325,6 +328,20 @@ icon.onclick = function(){
     }
     else{
         icon.src= "./images/moon2.png";
+    }
+}
+
+// mobile darkmode script starts 
+
+var icon2 = document.getElementById("dark-icon");
+
+icon2.onclick = function(){
+    document.body.classList.toggle("dark-theme1");
+    if(document.body.classList.contains("dark-theme1")){
+        icon2.src = "./images/sun.png";
+    }
+    else{
+        icon2.src= "./images/moon2.png";
     }
 }
   
