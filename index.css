@@ -386,8 +386,17 @@ body{
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+    border: 2px solid #0059b3;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
   }
 
+  .overlay-button:hover {
+    background-color: #0059b3;
+    transition: 0.5s;
+    scale: 1.1;
+  }
   /* about us section starts  */
 
 /* .aboutus {
