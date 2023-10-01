@@ -167,6 +167,10 @@ html {
 /*header style end*/
 
 /*footer style start*/
+
+#mobile-contact-us{
+    display: none;
+}
 footer{
     margin-top: 50px;
     position: absolute;
@@ -211,5 +215,8 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.footer-contact-mobile{
+    display: none;
 }
 /*footer style end*/
