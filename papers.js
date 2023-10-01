@@ -6,13 +6,27 @@
 
 var icon = document.getElementById("icon");
 
-icon.onclick = function () {
+icon.onclick = function(){
     document.body.classList.toggle("dark-theme");
-    if (document.body.classList.contains("dark-theme")) {
+    if(document.body.classList.contains("dark-theme")){
         icon.src = "./images/sun.png";
     }
-    else {
-        icon.src = "./images/moon2.png";
+    else{
+        icon.src= "./images/moon2.png";
+    }
+}
+
+// mobile darkmode script starts 
+
+var icon1 = document.getElementById("dark-icon");
+
+icon1.onclick = function(){
+    document.body.classList.toggle("dark-theme1");
+    if(document.body.classList.contains("dark-theme1")){
+        icon1.src = "./images/sun.png";
+    }
+    else{
+        icon1.src= "./images/moon2.png";
     }
 }
 

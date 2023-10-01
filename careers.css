@@ -284,6 +284,8 @@ margin-top: 4%;
 .slide0-desc h1{
     font-size: 30px;
     margin-top: 20px;
+    /* color: var(--secondry-color); */
+    color: black;
 }
 .slide {
     flex: 0 0 33.33%; /* Three images visible at a time */

@@ -16,7 +16,6 @@
 </head>
 <body>
     <!--Header start-->
-
     <header id="head" >
         <div class="nav-bar">
             <div class="nav-logo">
@@ -53,6 +52,16 @@
 
     <!-- media query head starts  -->
 
+     <!-- pop up code starts  -->
+
+
+     <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <p>Open this website on laptop/desktop for better experience.</p>
+        </div>
+    </div>
+
     <header id="head" class="header">
         <div class="nav-bar">
             <div class="nav-logo">
@@ -65,9 +74,6 @@
             <div class="nav-button">
                 <div id="button1"><a href="papers.html">Paper</a></div>
                 <div id="button1"><a href="notes.html">Notes</a></div>
-                <div id="button1">
-                   
-                </div>
             </div>
             <div class="container">
                 <div class="menu-icon" id="menu-icon">
@@ -77,6 +83,7 @@
                 </div>
                 <div class="sidebar" id="sidebar">
                   <div class="close-icon" id="close-icon">&times;</div>
+                  <img src="./images/moon2.png" id="dark-icon">
                   <ul>
                     <li><a href="Login.html">Login</a></li>
                     <li><a href="signup.html">Signup</a></li>
@@ -89,6 +96,7 @@
               </div>
         </div>
     </header>
+
 
     <!-- media query header ends -->
 
@@ -348,6 +356,19 @@ icon.onclick = function(){
     }
 }
 
+// mobile darkmode script starts 
+
+var icon1 = document.getElementById("dark-icon");
+
+icon1.onclick = function(){
+    document.body.classList.toggle("dark-theme1");
+    if(document.body.classList.contains("dark-theme1")){
+        icon1.src = "./images/sun.png";
+    }
+    else{
+        icon1.src= "./images/moon2.png";
+    }
+}
 
 // sidebar section starts 
 
@@ -363,6 +384,24 @@ menuIcon.addEventListener('click', () => {
 closeIcon.addEventListener('click', () => {
   sidebar.classList.remove('active');
 });
+
+
+// popup  script starts 
+
+// script.js
+function openPopup() {
+    var popup = document.getElementById('popup');
+    popup.style.display = 'block';
+}
+
+function closePopup() {
+    var popup = document.getElementById('popup');
+    popup.style.display = 'none';
+}
+
+// Show the popup when the page is loaded
+window.onload = openPopup;
+
 
 
 

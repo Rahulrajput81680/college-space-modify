@@ -9,6 +9,30 @@
 
  /* header starts  */
 
+
+ /* dark mode starts  */
+
+
+ 
+ :root{
+    --primary-color:white;
+    --secondry-color: #212121;
+  }
+  .dark-theme1{
+     --primary-color: #212121;
+     --secondry-color:white;
+  }
+  body{
+    background-color: var(--primary-color);
+  }
+  
+  #dark-icon{
+    width: 40px;
+    cursor: pointer;
+    margin: 50px 0px 0px 50%;
+  }
+
+
  .header{
     display: block;
 }

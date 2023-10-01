@@ -12,7 +12,7 @@
   
   /* Customize the scrollbar thumb */
   ::-webkit-scrollbar-thumb {
-    background-color: darkgreen;
+    background-color: gray;
     border-radius: 10px; /* Rounded corners for the thumb */
   }
   
@@ -34,6 +34,10 @@ body{
 }
 
 /* Reset default margin and padding for section */
+
+/* pop up css starts  */
+
+
 
 
 #icon{
