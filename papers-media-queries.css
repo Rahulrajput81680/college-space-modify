@@ -1,26 +1,28 @@
 /* @media (min-width: 380px) and (max-width:850px){ */
 
-    @media screen and (max-width: 6.35in) {
-       
-        /* header starts  */
+@media screen and (max-width: 6.35in) {
+
+    /* header starts  */
 
 
-        .header{
-            display: block;
-        }
+    .header {
+        display: block;
+    }
 
-        /* header media query starts  */
+    /* header media query starts  */
 
 
-       .nav-button a{
+    .nav-button a {
         font-size: 16px;
-       
-       }
-       .logo-img{
+
+    }
+
+    .logo-img {
         height: 60px;
         width: 100px;
     }
-    .nav-logo{
+
+    .nav-logo {
         width: 30%;
         align-items: center;
         display: flex;
@@ -28,114 +30,43 @@
 
 
 
-        /* header down side starts  */
-      
-    .container{
+    /* header down side starts  */
+
+    .container {
         margin-top: 70px;
     }
-    .container h2{
+
+    .container h2 {
         font-size: 20px;
     }
-    .semesters{
+
+    .semesters {
         display: grid;
-        grid-template-columns: repeat(2, 1fr); /* Creates four equal columns */
+        grid-template-columns: repeat(2, 1fr);
+        /* Creates four equal columns */
         row-gap: 15px;
         column-gap: 10px;
         margin-left: 10px;
         margin-right: 10px;
-      }
+    }
 
-      /*curriculum1 */
+    /*curriculum1 */
 
-      .curriculum1{
+    .curriculum1 {
         height: 120px;
-      }
-    .curriculum1 h1{
+    }
+
+    .curriculum1 h1 {
         font-size: 16px;
         font-weight: bold;
     }
-    .curriculum1 label{
-        margin-left: 10px;
-        font-size: 14px;
-    }
-    #downloadButton1{
-        padding: 5px 10px;
-        margin-top: 10px;
-        font-size: 14px;
-        margin-left: 10px;
-        margin-bottom: 10px;
-    }
-      
 
-    .curriculum2{
-        height: 120px;
-      }
-    .curriculum2 h1{
-        font-size: 16px;
-        font-weight: bold;
-    }
-    .curriculum2 label{
+    .curriculum1 label {
         margin-left: 10px;
         font-size: 14px;
-    }
-    #downloadButton2{
-        padding: 5px 10px;
-        margin-top: 10px;
-        font-size: 14px;
-        margin-left: 10px;
-        margin-bottom: 10px;
     }
 
-    .curriculum3{
-        height: 120px;
-      }
-    .curriculum3 h1{
-        font-size: 16px;
-        font-weight: bold;
-    }
-    .curriculum3 label{
-        margin-left: 10px;
-        font-size: 14px;
-    }
-    #downloadButton3{
-        padding: 5px 10px;
-        margin-top: 10px;
-        font-size: 14px;
-        margin-left: 10px;
-        margin-bottom: 10px;
-    }
-
-    .curriculum4{
-        height: 120px;
-      }
-    .curriculum4 h1{
-        font-size: 16px;
-        font-weight: bold;
-    }
-    .curriculum4 label{
-        margin-left: 10px;
-        font-size: 14px;
-    }
-    #downloadButton4{
-        padding: 5px 10px;
-        margin-top: 10px;
-        font-size: 14px;
-        margin-left: 10px;
-        margin-bottom: 10px;
-    }
-
-    .curriculum5{
-        height: 120px;
-      }
-    .curriculum5 h1{
-        font-size: 16px;
-        font-weight: bold;
-    }
-    .curriculum5 label{
-        margin-left: 10px;
-        font-size: 14px;
-    }
-    #downloadButton5{
+    #downloadButton1 {
         padding: 5px 10px;
         margin-top: 10px;
         font-size: 14px;
@@ -144,18 +75,87 @@
     }
 
 
-    .curriculum6{
+    .curriculum2 {
         height: 120px;
-      }
-    .curriculum6 h1{
+    }
+
+    .curriculum2 h1 {
         font-size: 16px;
         font-weight: bold;
     }
-    .curriculum6 label{
+
+    .curriculum2 label {
         margin-left: 10px;
         font-size: 14px;
     }
-    #downloadButton6{
+
+    #downloadButton2 {
+        padding: 5px 10px;
+        margin-top: 10px;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .curriculum3 {
+        height: 120px;
+    }
+
+    .curriculum3 h1 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .curriculum3 label {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    #downloadButton3 {
+        padding: 5px 10px;
+        margin-top: 10px;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .curriculum4 {
+        height: 120px;
+    }
+
+    .curriculum4 h1 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .curriculum4 label {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    #downloadButton4 {
+        padding: 5px 10px;
+        margin-top: 10px;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .curriculum5 {
+        height: 120px;
+    }
+
+    .curriculum5 h1 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .curriculum5 label {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    #downloadButton5 {
         padding: 5px 10px;
         margin-top: 10px;
         font-size: 14px;
@@ -164,18 +164,21 @@
     }
 
 
-    .curriculum7{
+    .curriculum6 {
         height: 120px;
-      }
-    .curriculum7 h1{
+    }
+
+    .curriculum6 h1 {
         font-size: 16px;
         font-weight: bold;
     }
-    .curriculum7 label{
+
+    .curriculum6 label {
         margin-left: 10px;
         font-size: 14px;
     }
-    #downloadButton7{
+
+    #downloadButton6 {
         padding: 5px 10px;
         margin-top: 10px;
         font-size: 14px;
@@ -184,18 +187,44 @@
     }
 
 
-    .curriculum8{
+    .curriculum7 {
         height: 120px;
-      }
-    .curriculum8 h1{
+    }
+
+    .curriculum7 h1 {
         font-size: 16px;
         font-weight: bold;
     }
-    .curriculum8 label{
+
+    .curriculum7 label {
         margin-left: 10px;
         font-size: 14px;
     }
-    #downloadButton8{
+
+    #downloadButton7 {
+        padding: 5px 10px;
+        margin-top: 10px;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+
+    .curriculum8 {
+        height: 120px;
+    }
+
+    .curriculum8 h1 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .curriculum8 label {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    #downloadButton8 {
         padding: 5px 10px;
         margin-top: 10px;
         font-size: 14px;
@@ -205,18 +234,21 @@
 
 
 
-    .curriculum9{
+    .curriculum9 {
         height: 120px;
-      }
-    .curriculum9 h1{
+    }
+
+    .curriculum9 h1 {
         font-size: 16px;
         font-weight: bold;
     }
-    .curriculum9 label{
+
+    .curriculum9 label {
         margin-left: 10px;
         font-size: 14px;
     }
-    #downloadButton9{
+
+    #downloadButton9 {
         padding: 5px 10px;
         margin-top: 10px;
         font-size: 14px;
@@ -230,112 +262,39 @@
 
 
 
-    .mba-container{
+    .mba-container {}
 
-    }
-    .mba-container h2{
+    .mba-container h2 {
         font-size: 20px;
     }
-    .mba-semesters{
+
+    .mba-semesters {
         display: grid;
-        grid-template-columns: repeat(2, 1fr); /* Creates four equal columns */
+        grid-template-columns: repeat(2, 1fr);
+        /* Creates four equal columns */
         row-gap: 15px;
         column-gap: 10px;
         margin-left: 10px;
         margin-right: 10px;
-      }
+    }
 
-      /*curriculum1 */
+    /*curriculum1 */
 
-      .mba-curriculum1{
+    .mba-curriculum1 {
         height: 120px;
-      }
-    .mba-curriculum1 h1{
+    }
+
+    .mba-curriculum1 h1 {
         font-size: 16px;
         font-weight: bold;
     }
-    .mba-curriculum1 label{
-        margin-left: 10px;
-        font-size: 14px;
-    }
-    #mba-downloadButton1{
-        padding: 5px 10px;
-        margin-top: 10px;
-        font-size: 14px;
-        margin-left: 10px;
-        margin-bottom: 10px;
-    }
-      
 
-    .mba-curriculum2{
-        height: 120px;
-      }
-    .mba-curriculum2 h1{
-        font-size: 16px;
-        font-weight: bold;
-    }
-    .mba-curriculum2 label{
+    .mba-curriculum1 label {
         margin-left: 10px;
         font-size: 14px;
-    }
-    #mba-downloadButton2{
-        padding: 5px 10px;
-        margin-top: 10px;
-        font-size: 14px;
-        margin-left: 10px;
-        margin-bottom: 10px;
     }
 
-    .mba-curriculum3{
-        height: 120px;
-      }
-    .mba-curriculum3 h1{
-        font-size: 16px;
-        font-weight: bold;
-    }
-    .mba-curriculum3 label{
-        margin-left: 10px;
-        font-size: 14px;
-    }
-    #mba-downloadButton3{
-        padding: 5px 10px;
-        margin-top: 10px;
-        font-size: 14px;
-        margin-left: 10px;
-        margin-bottom: 10px;
-    }
-
-    .mba-curriculum4{
-        height: 120px;
-      }
-    .mba-curriculum4 h1{
-        font-size: 16px;
-        font-weight: bold;
-    }
-    .mba-curriculum4 label{
-        margin-left: 10px;
-        font-size: 14px;
-    }
-    #mba-downloadButton4{
-        padding: 5px 10px;
-        margin-top: 10px;
-        font-size: 14px;
-        margin-left: 10px;
-        margin-bottom: 10px;
-    }
-
-    .mba-curriculum5{
-        height: 120px;
-      }
-    .mba-curriculum5 h1{
-        font-size: 16px;
-        font-weight: bold;
-    }
-    .mba-curriculum5 label{
-        margin-left: 10px;
-        font-size: 14px;
-    }
-    #mba-downloadButton5{
+    #mba-downloadButton1 {
         padding: 5px 10px;
         margin-top: 10px;
         font-size: 14px;
@@ -344,18 +303,87 @@
     }
 
 
-    .mba-curriculum6{
+    .mba-curriculum2 {
         height: 120px;
-      }
-    .mba-curriculum6 h1{
+    }
+
+    .mba-curriculum2 h1 {
         font-size: 16px;
         font-weight: bold;
     }
-    .mba-curriculum6 label{
+
+    .mba-curriculum2 label {
         margin-left: 10px;
         font-size: 14px;
     }
-    #mba-downloadButton6{
+
+    #mba-downloadButton2 {
+        padding: 5px 10px;
+        margin-top: 10px;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .mba-curriculum3 {
+        height: 120px;
+    }
+
+    .mba-curriculum3 h1 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .mba-curriculum3 label {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    #mba-downloadButton3 {
+        padding: 5px 10px;
+        margin-top: 10px;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .mba-curriculum4 {
+        height: 120px;
+    }
+
+    .mba-curriculum4 h1 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .mba-curriculum4 label {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    #mba-downloadButton4 {
+        padding: 5px 10px;
+        margin-top: 10px;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .mba-curriculum5 {
+        height: 120px;
+    }
+
+    .mba-curriculum5 h1 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .mba-curriculum5 label {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    #mba-downloadButton5 {
         padding: 5px 10px;
         margin-top: 10px;
         font-size: 14px;
@@ -364,18 +392,21 @@
     }
 
 
-    .mba-curriculum7{
+    .mba-curriculum6 {
         height: 120px;
-      }
-    .mba-curriculum7 h1{
+    }
+
+    .mba-curriculum6 h1 {
         font-size: 16px;
         font-weight: bold;
     }
-    .mba-urriculum7 label{
+
+    .mba-curriculum6 label {
         margin-left: 10px;
         font-size: 14px;
     }
-    #mba-downloadButton7{
+
+    #mba-downloadButton6 {
         padding: 5px 10px;
         margin-top: 10px;
         font-size: 14px;
@@ -384,18 +415,44 @@
     }
 
 
-    .mba-curriculum8{
+    .mba-curriculum7 {
         height: 120px;
-      }
-    .mba-curriculum8 h1{
+    }
+
+    .mba-curriculum7 h1 {
         font-size: 16px;
         font-weight: bold;
     }
-    .mba-curriculum8 label{
+
+    .mba-urriculum7 label {
         margin-left: 10px;
         font-size: 14px;
     }
-    #mba-downloadButton8{
+
+    #mba-downloadButton7 {
+        padding: 5px 10px;
+        margin-top: 10px;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+
+    .mba-curriculum8 {
+        height: 120px;
+    }
+
+    .mba-curriculum8 h1 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .mba-curriculum8 label {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    #mba-downloadButton8 {
         padding: 5px 10px;
         margin-top: 10px;
         font-size: 14px;
@@ -405,18 +462,21 @@
 
 
 
-    .mba-curriculum9{
+    .mba-curriculum9 {
         height: 120px;
-      }
-    .mba-curriculum9 h1{
+    }
+
+    .mba-curriculum9 h1 {
         font-size: 16px;
         font-weight: bold;
     }
-    .mba-curriculum9 label{
+
+    .mba-curriculum9 label {
         margin-left: 10px;
         font-size: 14px;
     }
-    #mba-downloadButton9{
+
+    #mba-downloadButton9 {
         padding: 5px 10px;
         margin-top: 10px;
         font-size: 14px;
@@ -424,51 +484,150 @@
         margin-bottom: 10px;
     }
 
+    /*BCA Start*/
+    .bca-container {
+        margin-top: 70px;
+    }
+
+    .bca-container h2 {
+        font-size: 20px;
+    }
+
+    .bca-semesters {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* Creates four equal columns */
+        row-gap: 15px;
+        column-gap: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /*curriculum1 */
+
+    .bca-curriculum {
+        height: 120px;
+    }
+
+    .bca-curriculum h1 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .bca-curriculum label {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    #bca-downloadButton {
+        padding: 5px 10px;
+        margin-top: 10px;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    /*BCA End*/
+
+
+
+    /*BBA Start*/
+    .bba-container {
+        margin-top: 70px;
+    }
+
+    .bba-container h2 {
+        font-size: 20px;
+    }
+
+    .bba-semesters {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* Creates four equal columns */
+        row-gap: 15px;
+        column-gap: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /*curriculum1 */
+
+    .bba-curriculum {
+        height: 120px;
+    }
+
+    .bba-curriculum h1 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .bba-curriculum label {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    #bba-downloadButton {
+        padding: 5px 10px;
+        margin-top: 10px;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    /*BBA End*/
 
     /* footer section starts  */
 
-    footer{
+    footer {
         /* margin-top: 50px;
         position: absolute;
         left: 0%;
         right: 0%; */
     }
-    
 
-    .footer-content{
+
+    .footer-content {
         height: 250px;
         margin-top: 0px;
-        
+
     }
-    .quotes li{
+
+    .quotes li {
         opacity: 0px;
         display: none;
     }
-    .footer-home a{
+
+    .footer-home a {
         height: 30px;
         margin-top: 0px;
     }
-    .footer-content h3{
+
+    .footer-content h3 {
         margin-top: 0px;
     }
-    .footer-heading{
+
+    .footer-heading {
         font-size: 16px;
     }
-    .footer-quote li{
+
+    .footer-quote li {
         font-size: 12px;
     }
-    .footer-contact li a{
+
+    .footer-contact li a {
         font-size: 12px;
         /* background-color: red; */
     }
-    .footer-contact p{
+
+    .footer-contact p {
         font-size: 15px;
     }
-    #beat p{
+
+    #beat p {
         font-size: 15px;
     }
-    #beat li a{
+
+    #beat li a {
         font-size: 12px;
     }
 }
-
