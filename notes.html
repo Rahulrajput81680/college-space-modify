@@ -237,6 +237,21 @@
                 </div>
             </div> 
         </div>
+
+
+
+        <div id="viewer" style="width: 50%; height: 500px;"></div>
+        <script type="text/javascript" src="https://cloudpdf.io/viewer.min.js"></script>
+        <script>
+          const config = { 
+            documentId: 'c4cb321c-e2e1-4c96-bf91-c691a113cbef',
+            darkMode: true, 
+          };
+          CloudPDF(config, document.getElementById('viewer')).then((instance) => {
+            
+          });
+        </script>
+
         <!--notes downlode end-->
 
     
