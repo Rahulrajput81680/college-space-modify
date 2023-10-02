@@ -9,9 +9,9 @@
 
 - 🔭 We are currently working on **various web projects**
 
-- 👯 I’m looking to collaborate on **this projects**
+- 👯 We looking to collaborate on **this projects**
 
-- 🤝 I’m looking for help with [contribution](https://github.com/kunalvvs/ResourceZone)
+- 🤝 we looking for help with [contribution](https://github.com/Rahulrajput81680/college-space-modify)
 
 - 👨‍💻 All of my projects are available at [https://kunalvvs.github.io/Kunals/](https://kunalvvs.github.io/Kunals/)
 
@@ -39,3 +39,14 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=kunalvvs&show_icons=true&locale=en" alt="kunalvvs" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=kunalvvs&" alt="kunalvvs" /></p>
+
+<h3 align="center">So, here you go! Contribute to the Open Source Website of Resource Zone 🤩 Excited?</h3>
+<div align="center">
+<a href="https://github.com/Rahulrajput81680/college-space-modify"><img src="https://sloc.xyz/github/Rahulrajput81680/college-space-modify" alt="LOC"/></a>
+<a href="https://github.com/Rahulrajput81680/college-space-modify"><img src="https://img.shields.io/github/stars/Rahulrajput81680/college-space-modify" alt="Stars Badge"/></a>
+<a href="https://github.com/Rahulrajput81680/college-space-modify/network/members"><img src="https://img.shields.io/github/forks/Rahulrajput81680/college-space-modify" alt="Forks Badge"/></a>
+<a href="https://github.com/Rahulrajput81680/college-space-modify/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Rahulrajput81680/college-space-modify?color=2b9348"></a>
+<a href="https://github.com/Rahulrajput81680/college-space-modify/issues"><img src="https://img.shields.io/github/issues/Rahulrajput81680/college-space-modify" alt="Issues Badge"/></a>
+<a href="https://github.com/Rahulrajput81680/college-space-modify"><img src="https://badges.frapsoft.com/os/v2/open-source.svg" alt="Open Source"/></a>
+<a href="./LICENSE"><img src="https://img.shields.io/github/license/Rahulrajput81680/college-space-modify" alt="License Badge"/></a>
+</div>
