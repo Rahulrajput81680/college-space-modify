@@ -6,13 +6,13 @@
 
 var icon = document.getElementById("icon");
 
-icon.onclick = function(){
+icon.onclick = function () {
     document.body.classList.toggle("dark-theme");
-    if(document.body.classList.contains("dark-theme")){
+    if (document.body.classList.contains("dark-theme")) {
         icon.src = "./images/sun.png";
     }
-    else{
-        icon.src= "./images/moon2.png";
+    else {
+        icon.src = "./images/moon2.png";
     }
 }
 
@@ -20,13 +20,13 @@ icon.onclick = function(){
 
 var icon1 = document.getElementById("dark-icon");
 
-icon1.onclick = function(){
+icon1.onclick = function () {
     document.body.classList.toggle("dark-theme1");
-    if(document.body.classList.contains("dark-theme1")){
+    if (document.body.classList.contains("dark-theme1")) {
         icon1.src = "./images/sun.png";
     }
-    else{
-        icon1.src= "./images/moon2.png";
+    else {
+        icon1.src = "./images/moon2.png";
     }
 }
 
@@ -504,3 +504,278 @@ document.getElementById('mba-downloadButton9').addEventListener('click', functio
         alert('coming soon');
     }
 });
+
+
+
+//BCA Start
+// semester 1
+
+document.getElementById('bca-downloadButton1').addEventListener('click', function () {
+    const yearDropdown = document.getElementById('bca-yearDropdown1');
+    const selectedYear = yearDropdown.value;
+    const downloadLink = document.getElementById('bca-downloadLink1');
+    const downloadAnchor = document.getElementById('bca-downloadAnchor1');
+
+    // Define the curriculum file URLs for each year
+    const curriculumFiles = {
+        // '2022-23': './papers/BCA.pdf',
+    };
+
+    if (curriculumFiles[selectedYear]) {
+        downloadAnchor.href = curriculumFiles[selectedYear];
+        downloadLink.style.display = 'block';
+    } else {
+        downloadLink.style.display = 'none';
+        alert('coming soon');
+    }
+});
+
+// semester 2
+
+document.getElementById('bca-downloadButton2').addEventListener('click', function () {
+    const yearDropdown = document.getElementById('bca-yearDropdown2');
+    const selectedYear = yearDropdown.value;
+    const downloadLink = document.getElementById('bca-downloadLink2');
+    const downloadAnchor = document.getElementById('bca-downloadAnchor2');
+
+    // Define the curriculum file URLs for each year
+    const curriculumFiles = {
+        // '2022-23': './papers/BCA.pdf',
+    };
+
+    if (curriculumFiles[selectedYear]) {
+        downloadAnchor.href = curriculumFiles[selectedYear];
+        downloadLink.style.display = 'block';
+    } else {
+        downloadLink.style.display = 'none';
+        alert('coming soon');
+    }
+});
+
+// semester 3
+
+document.getElementById('bca-downloadButton3').addEventListener('click', function () {
+    const yearDropdown = document.getElementById('bca-yearDropdown3');
+    const selectedYear = yearDropdown.value;
+    const downloadLink = document.getElementById('bca-downloadLink3');
+    const downloadAnchor = document.getElementById('bca-downloadAnchor3');
+
+    // Define the curriculum file URLs for each year
+    const curriculumFiles = {
+        // '2022-23': './papers/BCA.pdf',
+    };
+
+    if (curriculumFiles[selectedYear]) {
+        downloadAnchor.href = curriculumFiles[selectedYear];
+        downloadLink.style.display = 'block';
+    } else {
+        downloadLink.style.display = 'none';
+        alert('coming soon');
+    }
+});
+
+// semester 4
+
+document.getElementById('bca-downloadButton4').addEventListener('click', function () {
+    const yearDropdown = document.getElementById('bca-yearDropdown4');
+    const selectedYear = yearDropdown.value;
+    const downloadLink = document.getElementById('bca-downloadLink4');
+    const downloadAnchor = document.getElementById('bca-downloadAnchor4');
+
+    // Define the curriculum file URLs for each year
+    const curriculumFiles = {
+        // '2022-23': './papers/BCA.pdf',
+    };
+
+    if (curriculumFiles[selectedYear]) {
+        downloadAnchor.href = curriculumFiles[selectedYear];
+        downloadLink.style.display = 'block';
+    } else {
+        downloadLink.style.display = 'none';
+        alert('coming soon');
+    }
+});
+
+// semester 5
+
+document.getElementById('bca-downloadButton5').addEventListener('click', function () {
+    const yearDropdown = document.getElementById('bca-yearDropdown5');
+    const selectedYear = yearDropdown.value;
+    const downloadLink = document.getElementById('bca-downloadLink5');
+    const downloadAnchor = document.getElementById('bca-downloadAnchor5');
+
+    // Define the curriculum file URLs for each year
+    const curriculumFiles = {
+        // '2022-23': './papers/BCA.pdf',
+    };
+
+    if (curriculumFiles[selectedYear]) {
+        downloadAnchor.href = curriculumFiles[selectedYear];
+        downloadLink.style.display = 'block';
+    } else {
+        downloadLink.style.display = 'none';
+        alert('coming soon');
+    }
+});
+
+// semester 6
+
+document.getElementById('bca-downloadButton6').addEventListener('click', function () {
+    const yearDropdown = document.getElementById('bca-yearDropdown6');
+    const selectedYear = yearDropdown.value;
+    const downloadLink = document.getElementById('bca-downloadLink6');
+    const downloadAnchor = document.getElementById('bca-downloadAnchor6');
+
+    // Define the curriculum file URLs for each year
+    const curriculumFiles = {
+        // '2022-23': './papers/BCA.pdf',
+    };
+
+    if (curriculumFiles[selectedYear]) {
+        downloadAnchor.href = curriculumFiles[selectedYear];
+        downloadLink.style.display = 'block';
+    } else {
+        downloadLink.style.display = 'none';
+        alert('coming soon');
+    }
+});
+
+// BCA end
+
+
+
+
+//BBA Start
+// semester 1
+
+document.getElementById('bba-downloadButton1').addEventListener('click', function () {
+    const yearDropdown = document.getElementById('bba-yearDropdown1');
+    const selectedYear = yearDropdown.value;
+    const downloadLink = document.getElementById('bba-downloadLink1');
+    const downloadAnchor = document.getElementById('bba-downloadAnchor1');
+
+    // Define the curriculum file URLs for each year
+    const curriculumFiles = {
+        // '2022-23': './papers/BCA.pdf',
+    };
+
+    if (curriculumFiles[selectedYear]) {
+        downloadAnchor.href = curriculumFiles[selectedYear];
+        downloadLink.style.display = 'block';
+    } else {
+        downloadLink.style.display = 'none';
+        alert('coming soon');
+    }
+});
+
+// semester 2
+
+document.getElementById('bba-downloadButton2').addEventListener('click', function () {
+    const yearDropdown = document.getElementById('bba-yearDropdown2');
+    const selectedYear = yearDropdown.value;
+    const downloadLink = document.getElementById('bba-downloadLink2');
+    const downloadAnchor = document.getElementById('bba-downloadAnchor2');
+
+    // Define the curriculum file URLs for each year
+    const curriculumFiles = {
+        // '2022-23': './papers/BCA.pdf',
+    };
+
+    if (curriculumFiles[selectedYear]) {
+        downloadAnchor.href = curriculumFiles[selectedYear];
+        downloadLink.style.display = 'block';
+    } else {
+        downloadLink.style.display = 'none';
+        alert('coming soon');
+    }
+});
+
+// semester 3
+
+document.getElementById('bba-downloadButton3').addEventListener('click', function () {
+    const yearDropdown = document.getElementById('bba-yearDropdown3');
+    const selectedYear = yearDropdown.value;
+    const downloadLink = document.getElementById('bba-downloadLink3');
+    const downloadAnchor = document.getElementById('bba-downloadAnchor3');
+
+    // Define the curriculum file URLs for each year
+    const curriculumFiles = {
+        // '2022-23': './papers/BCA.pdf',
+    };
+
+    if (curriculumFiles[selectedYear]) {
+        downloadAnchor.href = curriculumFiles[selectedYear];
+        downloadLink.style.display = 'block';
+    } else {
+        downloadLink.style.display = 'none';
+        alert('coming soon');
+    }
+});
+
+// semester 4
+
+document.getElementById('bba-downloadButton4').addEventListener('click', function () {
+    const yearDropdown = document.getElementById('bba-yearDropdown4');
+    const selectedYear = yearDropdown.value;
+    const downloadLink = document.getElementById('bba-downloadLink4');
+    const downloadAnchor = document.getElementById('bba-downloadAnchor4');
+
+    // Define the curriculum file URLs for each year
+    const curriculumFiles = {
+        // '2022-23': './papers/BCA.pdf',
+    };
+
+    if (curriculumFiles[selectedYear]) {
+        downloadAnchor.href = curriculumFiles[selectedYear];
+        downloadLink.style.display = 'block';
+    } else {
+        downloadLink.style.display = 'none';
+        alert('coming soon');
+    }
+});
+
+// semester 5
+
+document.getElementById('bba-downloadButton5').addEventListener('click', function () {
+    const yearDropdown = document.getElementById('bba-yearDropdown5');
+    const selectedYear = yearDropdown.value;
+    const downloadLink = document.getElementById('bba-downloadLink5');
+    const downloadAnchor = document.getElementById('bba-downloadAnchor5');
+
+    // Define the curriculum file URLs for each year
+    const curriculumFiles = {
+        // '2022-23': './papers/BCA.pdf',
+    };
+
+    if (curriculumFiles[selectedYear]) {
+        downloadAnchor.href = curriculumFiles[selectedYear];
+        downloadLink.style.display = 'block';
+    } else {
+        downloadLink.style.display = 'none';
+        alert('coming soon');
+    }
+});
+
+// semester 6
+
+document.getElementById('bba-downloadButton6').addEventListener('click', function () {
+    const yearDropdown = document.getElementById('bba-yearDropdown6');
+    const selectedYear = yearDropdown.value;
+    const downloadLink = document.getElementById('bba-downloadLink6');
+    const downloadAnchor = document.getElementById('bba-downloadAnchor6');
+
+    // Define the curriculum file URLs for each year
+    const curriculumFiles = {
+        // '2022-23': './papers/BCA.pdf',
+    };
+
+    if (curriculumFiles[selectedYear]) {
+        downloadAnchor.href = curriculumFiles[selectedYear];
+        downloadLink.style.display = 'block';
+    } else {
+        downloadLink.style.display = 'none';
+        alert('coming soon');
+    }
+});
+
+// BBA end
