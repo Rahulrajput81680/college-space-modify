@@ -879,17 +879,17 @@
  }
 
  .bca-downloadButton {
-   padding: 10px 20px;
-   background-color: #007bff;
-   color: #fff;
-   border: none;
-   cursor: pointer;
-   margin-top: 10px;
-   width: 110px;
-   font-size: 16px;
-   font-weight: bold;
-   margin-left: 20px;
-   /* margin-bottom: 10px; */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 110px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 20px;
+  /* margin-bottom: 10px; */
  }
 
  .bca-downloadLink {
@@ -946,16 +946,16 @@
  }
 
  .bba-downloadButton {
-   padding: 10px 20px;
-   background-color: #007bff;
-   color: #fff;
-   border: none;
-   cursor: pointer;
-   margin-top: 10px;
-   width: 110px;
-   font-size: 16px;
-   font-weight: bold;
-   margin-left: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 110px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 20px;
    /* margin-bottom: 10px; */
  }
 
