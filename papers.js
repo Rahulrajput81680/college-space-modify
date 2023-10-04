@@ -281,10 +281,8 @@ document.getElementById('mba-downloadButton1').addEventListener('click', functio
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2019-20': './papers/',
-        // '2020-21': './papers/MCA Int 1st Sem (2020-21).pdf',
         // '2021-22': './papers/MCA Int 1st Sem (2021-22).pdf',
-        // '2022-23': './course curriculum/MCA_Integrated_4_Year.pdf',
-        // '2019': './course curriculum/MCA 5th year 2021-22.pdf',
+        '2022-23': 'https://drive.google.com/file/d/1yKUDVNbcdi_cxn88QV9uoteZILqzpkDa/view?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -308,10 +306,8 @@ document.getElementById('mba-downloadButton2').addEventListener('click', functio
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2019-20': './papers/',
-        // '2020-21': './papers/MCA Int 1st Sem (2020-21).pdf',
         // '2021-22': './papers/MCA Int 1st Sem (2021-22).pdf',
-        // '2022-23': './course curriculum/MCA_Integrated_4_Year.pdf',
-        // '2019': './course curriculum/MCA 5th year 2021-22.pdf',
+        '2022-23': 'https://drive.google.com/file/d/1NIfxBFA-PsHladEh5NaGhpNAtuzvCi6G/view?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -334,10 +330,8 @@ document.getElementById('mba-downloadButton3').addEventListener('click', functio
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2019-20': './papers/',
-        // '2020-21': './papers/MCA Int 1st Sem (2020-21).pdf',
-        // '2021-22': './papers/MCA Int 3rd Sem (2021-22).pdf',
-        // '2022-23': './course curriculum/MCA_Integrated_4_Year.pdf',
-        // '2019': './course curriculum/MCA 5th year 2021-22.pdf',
+        // '2021-22': './papers/MCA Int 4th Sem (2021-22).pdf',
+        '2022-23': 'https://drive.google.com/file/d/13NBMhuE3mZqeJbLQdiPLQ60y-hGn_WNd/view?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -360,10 +354,8 @@ document.getElementById('mba-downloadButton4').addEventListener('click', functio
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2019-20': './papers/',
-        // '2020-21': './papers/MCA Int 1st Sem (2020-21).pdf',
         // '2021-22': './papers/MCA Int 4th Sem (2021-22).pdf',
-        // '2022-23': './course curriculum/MCA_Integrated_4_Year.pdf',
-        // '2019': './course curriculum/MCA 5th year 2021-22.pdf',
+        '2022-23': 'https://drive.google.com/file/d/1Gd4IBAZQluF6vTcvk_2CgAxBo4epFzAy/view?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -386,10 +378,8 @@ document.getElementById('mba-downloadButton5').addEventListener('click', functio
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2019-20': './papers/',
-        // '2020-21': './papers/MCA Int 1st Sem (2020-21).pdf',
-        // '2021-22': './papers/MCA Int 5th Sem (2021-22).pdf',
-        // '2022-23': './papers/MCA Int 5th Sem (2022-23).pdf',
-        // '2019': './course curriculum/MCA 5th year 2021-22.pdf',
+        // '2021-22': './papers/MCA Int 4th Sem (2021-22).pdf',
+        '2022-23': 'https://drive.google.com/file/d/1lBzce6iaKgOp84QiQrHDvvQvtlgRNitQ/view?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -412,10 +402,8 @@ document.getElementById('mba-downloadButton6').addEventListener('click', functio
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2019-20': './papers/',
-        // '2020-21': './papers/MCA Int 1st Sem (2020-21).pdf',
-        // '2021-22': './papers/MCA Int 1st Sem (2021-22).pdf',
-        // '2022-23': './course curriculum/MCA_Integrated_4_Year.pdf',
-        // '2019': './course curriculum/MCA 5th year 2021-22.pdf',
+        // '2021-22': './papers/MCA Int 4th Sem (2021-22).pdf',
+        '2022-23': 'https://drive.google.com/file/d/15hkfAYoVmqdW36NrvBi4Y33TwTpBbhU7/view?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -438,10 +426,8 @@ document.getElementById('mba-downloadButton7').addEventListener('click', functio
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2019-20': './papers/',
-        // '2020-21': './papers/MCA Int 1st Sem (2020-21).pdf',
-        // '2021-22': './papers/MCA Int 7th Sem (2021-22).pdf',
-        // '2022-23': './course curriculum/MCA_Integrated_4_Year.pdf',
-        // '2019': './course curriculum/MCA 5th year 2021-22.pdf',
+        // '2021-22': './papers/MCA Int 4th Sem (2021-22).pdf',
+        '2022-23': 'https://drive.google.com/file/d/1IEL2W9NBeXWYT-hty81RNsuCgZ9nTN2S/view?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -464,10 +450,8 @@ document.getElementById('mba-downloadButton8').addEventListener('click', functio
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2019-20': './papers/',
-        // '2020-21': './papers/MCA Int 1st Sem (2020-21).pdf',
-        // '2021-22': './papers/MCA Int 8th Sem (2021-22).pdf',
-        // '2022-23': './course curriculum/MCA_Integrated_4_Year.pdf',
-        // '2019': './course curriculum/MCA 5th year 2021-22.pdf',
+        // '2021-22': './papers/MCA Int 4th Sem (2021-22).pdf',
+        '2022-23': 'https://drive.google.com/file/d/1XvVUYS-SO87snulTL3409WXJgrLrtaAy/view?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -490,10 +474,8 @@ document.getElementById('mba-downloadButton9').addEventListener('click', functio
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2019-20': './papers/',
-        // '2020-21': './papers/MCA Int 1st Sem (2020-21).pdf',
-        // '2021-22': './papers/MCA Int 8th Sem (2021-22).pdf',
-        // '2022-23': './course curriculum/MCA_Integrated_4_Year.pdf',
-        // '2019': './course curriculum/MCA 5th year 2021-22.pdf',
+        // '2021-22': './papers/MCA Int 4th Sem (2021-22).pdf',
+        '2022-23': 'https://drive.google.com/file/d/1c7vsMmo6azZyKZDdR7_nX5zskrzeAguT/view?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
