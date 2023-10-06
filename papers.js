@@ -67,7 +67,7 @@ document.getElementById('downloadButton1').addEventListener('click', function ()
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -92,7 +92,7 @@ document.getElementById('downloadButton2').addEventListener('click', function ()
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -116,7 +116,7 @@ document.getElementById('downloadButton3').addEventListener('click', function ()
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -140,7 +140,7 @@ document.getElementById('downloadButton4').addEventListener('click', function ()
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -164,7 +164,7 @@ document.getElementById('downloadButton5').addEventListener('click', function ()
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -188,7 +188,7 @@ document.getElementById('downloadButton6').addEventListener('click', function ()
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -212,7 +212,7 @@ document.getElementById('downloadButton7').addEventListener('click', function ()
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -236,7 +236,7 @@ document.getElementById('downloadButton8').addEventListener('click', function ()
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -260,7 +260,7 @@ document.getElementById('downloadButton9').addEventListener('click', function ()
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -290,7 +290,7 @@ document.getElementById('mba-downloadButton1').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -315,7 +315,7 @@ document.getElementById('mba-downloadButton2').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -339,7 +339,7 @@ document.getElementById('mba-downloadButton3').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -363,7 +363,7 @@ document.getElementById('mba-downloadButton4').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -387,7 +387,7 @@ document.getElementById('mba-downloadButton5').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -411,7 +411,7 @@ document.getElementById('mba-downloadButton6').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -435,7 +435,7 @@ document.getElementById('mba-downloadButton7').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -459,7 +459,7 @@ document.getElementById('mba-downloadButton8').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -483,7 +483,7 @@ document.getElementById('mba-downloadButton9').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -508,7 +508,7 @@ document.getElementById('bca-downloadButton1').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -530,7 +530,7 @@ document.getElementById('bca-downloadButton2').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -552,7 +552,7 @@ document.getElementById('bca-downloadButton3').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -574,7 +574,7 @@ document.getElementById('bca-downloadButton4').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -596,7 +596,7 @@ document.getElementById('bca-downloadButton5').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -618,7 +618,7 @@ document.getElementById('bca-downloadButton6').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -646,7 +646,7 @@ document.getElementById('bba-downloadButton1').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -668,7 +668,7 @@ document.getElementById('bba-downloadButton2').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -690,7 +690,7 @@ document.getElementById('bba-downloadButton3').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -712,7 +712,7 @@ document.getElementById('bba-downloadButton4').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -734,7 +734,7 @@ document.getElementById('bba-downloadButton5').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
@@ -756,7 +756,7 @@ document.getElementById('bba-downloadButton6').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
-        alert('coming soon');
+        alert('Will upload soon');
     }
 });
 
