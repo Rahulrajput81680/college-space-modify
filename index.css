@@ -633,18 +633,32 @@ body{
     margin: 0 auto;
     margin-top: 0rem;
     gap: 20px;
+    margin-bottom: 2rem;
     /* background-color: lightskyblue; */
     
 }
 .slideshow-container img{
-    margin-top: 5rem;
+    /* margin-top: 2rem; */
+    /* margin-bottom: 2rem; */
+    height: 300px;
+    width: full;
    
 }
 
 .slide {
     flex: 0 0 33.33%; /* Three images visible at a time */
     transition: transform 0.5s ease;
+    width: 250px;
+    height: 360px;
+    background-color: orange;
+    margin-top: 2rem;
+
     
+}
+.slide h3{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0px;
 }
 /* .slide img{
     gap: 20px;
@@ -681,7 +695,23 @@ body{
     background-color: #333;
 }
 
-
+.goodies-content{
+    text-align: center;
+}
+.goodies-content p{
+    font-size: 22px;
+    font-weight: 800;
+    color: blue;
+}
+.goodies-content button{
+    font-size: 16px;
+    background-color: orange;
+    font-weight: bold;
+    padding: 5px;
+}
+.goodies-content button:hover{
+   background-color: cyan;
+}
 /* contact section starts */
 
 .feedback h1{
