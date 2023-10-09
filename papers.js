@@ -423,6 +423,7 @@ document.getElementById('mba-downloadButton6').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
+
         alert('coming soon');
     }
 });
