@@ -1,51 +1,54 @@
 /* side bar section starts  */
 
 ::-webkit-scrollbar {
-    width: 12px; /* Width of the scrollbar */
-  }
-  
-  /* Customize the scrollbar thumb */
-  ::-webkit-scrollbar-thumb {
-    background-color: gray;
-    border-radius: 10px; /* Rounded corners for the thumb */
-  }
+    width: 12px;
+    /* Width of the scrollbar */
+}
 
-  /* Customize the scrollbar track */
-  ::-webkit-scrollbar-track {
-    background-color: var(--secondry-color); /* Track color */
-  }
+/* Customize the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 10px;
+    /* Rounded corners for the thumb */
+}
+
+/* Customize the scrollbar track */
+::-webkit-scrollbar-track {
+    background-color: var(--secondry-color);
+    /* Track color */
+}
 
 .container {
     display: flex;
-  }
-  
-  .menu-icon {
+}
+
+.menu-icon {
     cursor: pointer;
     padding: 10px;
     color: white;
-    
-  }
-  
-  .bar {
+
+}
+
+.bar {
     width: 25px;
     height: 2px;
     background-color: orange;
     margin: 4px 0;
     transition: 0.4s;
-  }
-  
-  .sidebar {
+}
+
+.sidebar {
     height: 100%;
     width: 0;
     position: fixed;
     top: 0;
     right: -250px;
-    background-image:linear-gradient(to left, #4b0082, #800080, #ff69b4);
+    background-image: linear-gradient(to left, #4b0082, #800080, #ff69b4);
     overflow-x: hidden;
     transition: 0.4s;
-  }
-  
-  .sidebar ul {
+}
+
+.sidebar ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -54,44 +57,44 @@
     align-items: center;
     justify-content: center;
     height: 100%;
-  }
-  
-  .sidebar li {
+}
+
+.sidebar li {
     margin: 10px 0;
-  }
-  
-  .sidebar a {
+}
+
+.sidebar a {
     text-decoration: none;
     color: white;
     font-size: 22px;
     font-weight: bold;
-  }
-  
-  .sidebar a:hover {
+}
+
+.sidebar a:hover {
     color: #007bff;
-  }
-  
-  .sidebar.active {
+}
+
+.sidebar.active {
     width: 250px;
     left: 0;
-  }
+}
 
-  .close-icon {
+.close-icon {
     position: absolute;
     top: 10px;
     right: 10px;
     font-size: 24px;
     cursor: pointer;
     color: white;
-  }
-  
-  .close-icon:hover {
+}
+
+.close-icon:hover {
     color: #007bff;
-  }
-  
+}
 
 
-  #icon{
+
+#icon {
     width: 40px;
     cursor: pointer;
     margin-right: 100px;
@@ -99,43 +102,59 @@
 
 /* dark mode css starts  */
 
-:root{
+:root {
     --primary-color: #fff;
     --secondry-color: #212121;
 }
-.dark-theme{
-     --primary-color: #000106;
+
+.dark-theme {
+    --primary-color: #000106;
     --secondry-color: #fff;
 }
-body{
+
+body {
     background-color: var(--primary-color);
 }
 
-  
-body{
+
+body {
     /* background-image:linear-gradient(to left, pink, orange, skyBLue); */
 }
-.placements h1{
-    margin-top: 6rem;
-    text-align: center;
-    margin-bottom: 2rem;
-    color: var(--secondry-color);
-}
-/* .placements{
+
+/* roadmap section start */
+
+.placements {
+    margin-top: 50px;
     width: 100%;
-    height: 650px;
-} */
-button{
+    height: 800px;
+    background-image: url(images/ppp_bg_images/BG2.jpg);
+    background-size: cover;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.placements h1 {
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.roadmap-div1 button {
     border: paleturquoise;
-    border-radius: 5px;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
     cursor: pointer;
 }
-.roadmap{
-    display: flex;
+
+.roadmap {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     /* margin-top: 10rem; */
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
     margin: 0px 2rem 0px 2rem;
     gap: 50px;
@@ -143,27 +162,30 @@ button{
     box-shadow: 0 0 10px black; */
 }
 
-.roadmap-div1-content{
+.roadmap-div1-content {
     width: 400px;
 }
-.roadmap-div1-content img{
+
+.roadmap-div1-content img {
     width: 180px;
     height: 180px;
     display: flex;
     margin-left: 25%;
 }
-.roadmap-div1-content h2{
-    margin-left: 60px;
-    margin-right: 50px;
+
+.roadmap-div1-content h2 {
+    text-align: center;
     font-size: 20px;
     font-weight: 800;
     color: var(--secondry-color);
 }
-.roadmap-div1-content p{
+
+.roadmap-div1-content p {
     margin-left: 60px;
     margin-right: 50px;
 }
-.roadmap-div1-content button{
+
+.roadmap-div1-content button {
     /* border-radius: 30%; */
     background-color: blue;
     color: white;
@@ -172,22 +194,24 @@ button{
     font-weight: bold;
 
 }
-.roadmap-div1-content button:hover{
+
+.roadmap-div1-content button:hover {
     background-color: orange;
     transition: 0.5s;
     scale: 1.1;
 }
 
 /* cheatsheet css starts  */
-.cheatsheets h1{
+.cheatsheets h1 {
     text-align: center;
     margin-top: 3rem;
     color: var(--secondry-color);
 }
-.cheatsheet{
+
+.cheatsheet {
     display: flex;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     /* margin-top: 10rem; */
     justify-content: center;
     text-align: center;
@@ -200,28 +224,32 @@ button{
     background-color: lightgoldenrodyellow;
 }
 
-.cheatsheet-div1-content{
+.cheatsheet-div1-content {
     width: 400px;
     margin: 20px 0px 20px 0px;
 }
-.cheatsheet-div1-content img{
+
+.cheatsheet-div1-content img {
     width: 180px;
     height: 180px;
     display: flex;
     margin-left: 25%;
 }
-.cheatsheet-div1-content h2{
+
+.cheatsheet-div1-content h2 {
     margin-left: 60px;
     margin-right: 50px;
     font-size: 20px;
     font-weight: 800;
     color: blue;
 }
-.cheatsheet-div1-content p{
+
+.cheatsheet-div1-content p {
     margin-left: 60px;
     margin-right: 50px;
 }
-.cheatsheet-div1-content button{
+
+.cheatsheet-div1-content button {
     /* border-radius: 30%; */
     background-color: blue;
     color: white;
@@ -230,92 +258,120 @@ button{
     font-weight: bold;
 
 }
-.cheatsheet-div1-content button:hover{
+
+.cheatsheet-div1-content button:hover {
     background-color: orange;
     transition: 0.5s;
     scale: 1.1;
 }
 
 /* coding potd css starts  */
-
-.coding{
-    margin-top: 100px;
-    display: flex;
+.code {
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 5%;
+    width: 90%;
+    height: 300px;
+    align-items: center;
     justify-content: center;
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    margin-left: 4rem;
-    margin-right: 4rem;
+    display: flex;
 }
-.platform{
-    height: 180px;
-    width: 170px;
+
+.coding {
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+}
+
+.platform {
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
     box-sizing: border-box;
     box-shadow: 0 0 10px var(--secondry-color);
-    padding: 10px;
-    margin-top: 20px;
-    margin-left: 20%;
-    margin-bottom: 30px;
 }
-.platform p{
+
+.platform p {
+    text-align: center;
     font-size: 18px;
     color: brown;
-    height: 90px;
     font-weight: 700;
 }
-.platform button{
+
+.platform button {
+    align-items: center;
+    justify-content: center;
     background-color: blue;
     color: white;
-    padding: 5px;
+    width: 100px;
+    height: 30px;
     font-size: 14px;
     font-weight: bold;
-    
+    border-radius: 50px;
+
 }
-.platform button:hover{
+
+.platform button:hover {
     background-color: orange;
+    transition: 0.25s;
 }
 
 /* projects css starts  */
 
-.project-idea h1{
+.project-idea h1 {
     text-align: center;
     color: var(--secondry-color);
 }
-.projects{
+
+.projects {
     /* display: flex; */
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     border: 5px solid darkmagenta;
+    border-radius: 25px;
     margin-left: 5%;
     margin-right: 5%;
-    background-color: lightgreen;
+    background-image: url(images/ppp_bg_images/BG7.jpg);
+    background-size: cover;
 }
-#project1{
+
+#project1 {
     margin-left: 100px;
 }
+
 #project1 ul li {
     margin-bottom: 10px;
-   
+
 }
-#project1 ul li a{
+
+#project1 ul li a {
     text-decoration: none;
+    font-size: larger;
     font-style: none;
-    display:block;
-    cursor: pointer;
-    color: blue;
     display: block;
+    cursor: pointer;
+    color: red;
 }
-.inline-link{
-    display: inline-block; /* Make the hyperlink an inline-block element */
-    white-space: nowrap; /* Prevent line breaks */
-    overflow: hidden; /* Hide any overflowing content */
+
+.inline-link {
+    display: inline-block;
+    /* Make the hyperlink an inline-block element */
+    white-space: nowrap;
+    /* Prevent line breaks */
+    overflow: hidden;
+    /* Hide any overflowing content */
     text-overflow: ellipsis;
 }
 
 /* theory subject starts */
 
-.theory-sub{
+.theory-sub {
     background-image: url(./images/theory-background.jpg);
     background-size: cover;
     background-position: center;
@@ -323,6 +379,7 @@ button{
     height: 750px;
     margin-top: 50px;
 }
+
 .subjects-heading {
     text-align: center;
     margin-top: 50px;
@@ -330,63 +387,74 @@ button{
     font-weight: 800;
     color: var(--secondry-color);
 }
-.underline{
+
+.underline {
     height: 3px;
     margin-left: 45%;
     background-color: blue;
     width: 100px;
 }
-.subjects{
+
+.subjects {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
-.subject{
+
+.subject {
     margin-left: 30%;
     margin-top: 50px;
     /* margin-right: 10%; */
 }
-.subject p{
+
+.subject p {
     font-size: 16px;
     font-weight: 700;
 
 }
-.subject button{
+
+.subject button {
     font-size: 16px;
     background-color: orange;
     margin-left: 30px;
     cursor: pointer;
 }
-.subject button:hover{
+
+.subject button:hover {
     background-color: dodgerblue;
 }
 
 /* other-resources css starts  */
 
-#other-resource-heading{
+#other-resource-heading {
     text-align: center;
     margin-top: 50px;
     color: var(--secondry-color);
 }
-.other-resources{
+
+.other-resources {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
-.other-resource{
+
+.other-resource {
     margin-left: 30%;
     /* margin-right: 30%; */
     margin-top: 50px;
 }
-.other-resource p{
+
+.other-resource p {
     font-size: 16px;
     font-weight: 700;
 
 }
-.other-resource button{
+
+.other-resource button {
     font-size: 16px;
     background-color: orange;
     margin-left: 30px;
     cursor: pointer;
 }
-.other-resource button:hover{
+
+.other-resource button:hover {
     background-color: dodgerblue;
 }
