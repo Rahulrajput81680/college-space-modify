@@ -88,7 +88,10 @@
   .close-icon:hover {
     color: #007bff;
   }
-  
+  img{
+       border: #000106;
+    border-radius: 10px;
+  }
 
 
   #icon{
