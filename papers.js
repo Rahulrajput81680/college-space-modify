@@ -411,7 +411,12 @@ document.getElementById('mba-downloadButton6').addEventListener('click', functio
         downloadLink.style.display = 'block';
     } else {
         downloadLink.style.display = 'none';
+<<<<<<< HEAD
+
+        alert('coming soon');
+=======
         alert('Will upload soon');
+>>>>>>> b48a89fab5f20d1aad9d95150b33c677a0757b42
     }
 });
 
