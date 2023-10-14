@@ -101,7 +101,9 @@
         margin-bottom: 10px;
     }
 
-
+    /* #downloadAnchor1{
+        margin-top: 50px;
+    } */
     .curriculum2 {
         height: 120px;
     }
@@ -126,6 +128,7 @@
 
     .curriculum3 {
         height: 120px;
+        margin-top: 30px;
     }
 
     .curriculum3 h1 {
@@ -148,6 +151,7 @@
 
     .curriculum4 {
         height: 120px;
+        margin-top: 30px;
     }
 
     .curriculum4 h1 {
@@ -170,11 +174,13 @@
 
     .curriculum5 {
         height: 120px;
+        margin-top: 30px;
     }
 
     .curriculum5 h1 {
         font-size: 16px;
         font-weight: bold;
+        margin-top: 30px;
     }
 
     .curriculum5 label {
@@ -193,6 +199,7 @@
 
     .curriculum6 {
         height: 120px;
+        margin-top: 30px;
     }
 
     .curriculum6 h1 {
@@ -216,6 +223,7 @@
 
     .curriculum7 {
         height: 120px;
+        margin-top: 30px;
     }
 
     .curriculum7 h1 {
@@ -239,6 +247,7 @@
 
     .curriculum8 {
         height: 120px;
+        margin-top: 30px;
     }
 
     .curriculum8 h1 {
@@ -263,6 +272,7 @@
 
     .curriculum9 {
         height: 120px;
+        margin-top: 30px;
     }
 
     .curriculum9 h1 {
@@ -293,6 +303,7 @@
 
     .mba-container h2 {
         font-size: 20px;
+        margin-top: 50px;
     }
 
     .mba-semesters {
@@ -309,6 +320,7 @@
 
     .mba-curriculum1 {
         height: 120px;
+        margin-top: 30px;
     }
 
     .mba-curriculum1 h1 {
@@ -332,6 +344,7 @@
 
     .mba-curriculum2 {
         height: 120px;
+        margin-top: 30px;
     }
 
     .mba-curriculum2 h1 {
@@ -354,6 +367,7 @@
 
     .mba-curriculum3 {
         height: 120px;
+        margin-top: 30px;
     }
 
     .mba-curriculum3 h1 {
@@ -376,6 +390,7 @@
 
     .mba-curriculum4 {
         height: 120px;
+        margin-top: 30px;
     }
 
     .mba-curriculum4 h1 {
@@ -398,6 +413,7 @@
 
     .mba-curriculum5 {
         height: 120px;
+        margin-top: 30px;
     }
 
     .mba-curriculum5 h1 {
@@ -421,6 +437,7 @@
 
     .mba-curriculum6 {
         height: 120px;
+        margin-top: 30px;
     }
 
     .mba-curriculum6 h1 {
@@ -444,6 +461,7 @@
 
     .mba-curriculum7 {
         height: 120px;
+        margin-top: 30px;
     }
 
     .mba-curriculum7 h1 {
@@ -467,6 +485,7 @@
 
     .mba-curriculum8 {
         height: 120px;
+        margin-top: 30px;
     }
 
     .mba-curriculum8 h1 {
@@ -491,6 +510,7 @@
 
     .mba-curriculum9 {
         height: 120px;
+        margin-top: 30px;
     }
 
     .mba-curriculum9 h1 {
@@ -534,6 +554,7 @@
 
     .bca-curriculum {
         height: 120px;
+        margin-top: 30px;
     }
 
     .bca-curriculum h1 {
@@ -581,6 +602,7 @@
 
     .bba-curriculum {
         height: 120px;
+        margin-top: 30px;
     }
 
     .bba-curriculum h1 {
