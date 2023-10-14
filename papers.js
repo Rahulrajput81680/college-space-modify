@@ -613,7 +613,7 @@ document.getElementById('mca-downloadButton2').addEventListener('click', functio
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
-         '2021-22': 'https://drive.google.com/drive/folders/1_SYMkXfyaCkcewJgR-GFpIeISdzcPAk0?usp=sharing',
+        '2021-22': 'https://drive.google.com/drive/folders/1_SYMkXfyaCkcewJgR-GFpIeISdzcPAk0?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -683,6 +683,7 @@ document.getElementById('bca-downloadButton1').addEventListener('click', functio
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2022-23': './papers/BCA.pdf',
+        '2021': 'https://drive.google.com/file/d/1zgwTtFcTiPqousYe9hagH3dAFeyknSV6/view?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -727,6 +728,7 @@ document.getElementById('bca-downloadButton3').addEventListener('click', functio
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2022-23': './papers/BCA.pdf',
+        '2022': 'https://drive.google.com/file/d/12e2wBtSzq5NMaSzcd-doYvX2DAEdzp4w/view?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -749,6 +751,7 @@ document.getElementById('bca-downloadButton4').addEventListener('click', functio
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2022-23': './papers/BCA.pdf',
+        '2022': 'https://drive.google.com/file/d/11Z8roIJjmcWUa2JwEGAtZBLgYH_iA_oL/view?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -821,6 +824,9 @@ document.getElementById('bba-downloadButton1').addEventListener('click', functio
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2022-23': './papers/BCA.pdf',
+        '2019': 'https://drive.google.com/file/d/17qfwbUSdHlECKcscsLBI-xjHn2b_KCif/view?usp=sharing',
+        '2020': 'https://drive.google.com/file/d/1skjqjl2XHVcpdrZcDeq8MRpW49rLSBq4/view?usp=sharing',
+        '2021': 'https://drive.google.com/file/d/1yi_bjIZQEloBBLvQaeDockKFsRNenadO/view?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -909,6 +915,7 @@ document.getElementById('bba-downloadButton5').addEventListener('click', functio
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2022-23': './papers/BCA.pdf',
+        '2021': 'https://drive.google.com/file/d/15ey016-rHdawKntAmoTiYkdxzmuDZHqh/view?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -931,6 +938,7 @@ document.getElementById('bba-downloadButton6').addEventListener('click', functio
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2022-23': './papers/BCA.pdf',
+        '2022': 'https://drive.google.com/file/d/1mcd1-AGYdQYFrd82fP-jN3G2EdYzjkpN/view?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
