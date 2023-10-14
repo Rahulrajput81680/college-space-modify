@@ -582,6 +582,7 @@ document.getElementById('mba1-downloadButton4').addEventListener('click', functi
 
 // mca section starts 
 
+// 1st semester 
 document.getElementById('mca-downloadButton1').addEventListener('click', function () {
     const yearDropdown = document.getElementById('mca-yearDropdown1');
     const selectedYear = yearDropdown.value;
@@ -612,7 +613,7 @@ document.getElementById('mca-downloadButton2').addEventListener('click', functio
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
-        // '2022-23': './papers/BCA.pdf',
+         '2021-22': 'https://drive.google.com/drive/folders/1_SYMkXfyaCkcewJgR-GFpIeISdzcPAk0?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -634,7 +635,7 @@ document.getElementById('mca-downloadButton3').addEventListener('click', functio
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
-        '2017-18': '',
+        '2021-22': 'https://drive.google.com/drive/folders/1autd2by7HOIflGEYPWJiDLPrDFqsX8F3?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
