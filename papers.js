@@ -265,7 +265,7 @@ document.getElementById('downloadButton9').addEventListener('click', function ()
 });
 
 
-// mba section starts 
+// mba integrated section starts 
 
 
 
@@ -490,6 +490,185 @@ document.getElementById('mba-downloadButton9').addEventListener('click', functio
 });
 
 
+// mba section starts 
+
+document.getElementById('mba1-downloadButton1').addEventListener('click', function () {
+    const yearDropdown = document.getElementById('mba1-yearDropdown1');
+    const selectedYear = yearDropdown.value;
+    const downloadLink = document.getElementById('mba1-downloadLink1');
+    const downloadAnchor = document.getElementById('mba1-downloadAnchor1');
+
+    // Define the curriculum file URLs for each year
+    const curriculumFiles = {
+        '2019-20': 'https://drive.google.com/file/d/1iSXv2oisPA8fobEMc7WR6UmaGaOOULOM/view?usp=sharing'
+    };
+
+    if (curriculumFiles[selectedYear]) {
+        downloadAnchor.href = curriculumFiles[selectedYear];
+        downloadLink.style.display = 'block';
+    } else {
+        downloadLink.style.display = 'none';
+        alert('Will upload soon');
+    }
+});
+
+// semester 2
+
+document.getElementById('mba1-downloadButton2').addEventListener('click', function () {
+    const yearDropdown = document.getElementById('mba1-yearDropdown2');
+    const selectedYear = yearDropdown.value;
+    const downloadLink = document.getElementById('mba1-downloadLink2');
+    const downloadAnchor = document.getElementById('mba1-downloadAnchor2');
+
+    // Define the curriculum file URLs for each year
+    const curriculumFiles = {
+        // '2022-23': './papers/BCA.pdf',
+    };
+
+    if (curriculumFiles[selectedYear]) {
+        downloadAnchor.href = curriculumFiles[selectedYear];
+        downloadLink.style.display = 'block';
+    } else {
+        downloadLink.style.display = 'none';
+        alert('Will upload soon');
+    }
+});
+
+// semester 3
+
+document.getElementById('mba1-downloadButton3').addEventListener('click', function () {
+    const yearDropdown = document.getElementById('mba1-yearDropdown3');
+    const selectedYear = yearDropdown.value;
+    const downloadLink = document.getElementById('mba1-downloadLink3');
+    const downloadAnchor = document.getElementById('mba1-downloadAnchor3');
+
+    // Define the curriculum file URLs for each year
+    const curriculumFiles = {
+        '2017-18': 'https://drive.google.com/file/d/1y4weml9idfx2UgRhJFh0Haki5q_eZHnf/view?usp=sharing',
+    };
+
+    if (curriculumFiles[selectedYear]) {
+        downloadAnchor.href = curriculumFiles[selectedYear];
+        downloadLink.style.display = 'block';
+    } else {
+        downloadLink.style.display = 'none';
+        alert('Will upload soon');
+    }
+});
+
+// semester 4
+
+document.getElementById('mba1-downloadButton4').addEventListener('click', function () {
+    const yearDropdown = document.getElementById('mba1-yearDropdown4');
+    const selectedYear = yearDropdown.value;
+    const downloadLink = document.getElementById('mba1-downloadLink4');
+    const downloadAnchor = document.getElementById('mba1-downloadAnchor4');
+
+    // Define the curriculum file URLs for each year
+    const curriculumFiles = {
+        // '2022-23': './papers/BCA.pdf',
+    };
+
+    if (curriculumFiles[selectedYear]) {
+        downloadAnchor.href = curriculumFiles[selectedYear];
+        downloadLink.style.display = 'block';
+    } else {
+        downloadLink.style.display = 'none';
+        alert('Will upload soon');
+    }
+});
+
+// mba section ends 
+
+// mca section starts 
+
+document.getElementById('mca-downloadButton1').addEventListener('click', function () {
+    const yearDropdown = document.getElementById('mca-yearDropdown1');
+    const selectedYear = yearDropdown.value;
+    const downloadLink = document.getElementById('mca-downloadLink1');
+    const downloadAnchor = document.getElementById('mca-downloadAnchor1');
+
+    // Define the curriculum file URLs for each year
+    const curriculumFiles = {
+        '2021-22': 'https://drive.google.com/file/d/1dNjmi_Fh4XdUtznoBTb51sxigkqTFeQc/view?usp=sharing',
+    };
+
+    if (curriculumFiles[selectedYear]) {
+        downloadAnchor.href = curriculumFiles[selectedYear];
+        downloadLink.style.display = 'block';
+    } else {
+        downloadLink.style.display = 'none';
+        alert('Will upload soon');
+    }
+});
+
+// semester 2
+
+document.getElementById('mca-downloadButton2').addEventListener('click', function () {
+    const yearDropdown = document.getElementById('mca-yearDropdown2');
+    const selectedYear = yearDropdown.value;
+    const downloadLink = document.getElementById('mca-downloadLink2');
+    const downloadAnchor = document.getElementById('mca-downloadAnchor2');
+
+    // Define the curriculum file URLs for each year
+    const curriculumFiles = {
+        // '2022-23': './papers/BCA.pdf',
+    };
+
+    if (curriculumFiles[selectedYear]) {
+        downloadAnchor.href = curriculumFiles[selectedYear];
+        downloadLink.style.display = 'block';
+    } else {
+        downloadLink.style.display = 'none';
+        alert('Will upload soon');
+    }
+});
+
+// semester 3
+
+document.getElementById('mca-downloadButton3').addEventListener('click', function () {
+    const yearDropdown = document.getElementById('mca-yearDropdown3');
+    const selectedYear = yearDropdown.value;
+    const downloadLink = document.getElementById('mca-downloadLink3');
+    const downloadAnchor = document.getElementById('mca-downloadAnchor3');
+
+    // Define the curriculum file URLs for each year
+    const curriculumFiles = {
+        '2017-18': '',
+    };
+
+    if (curriculumFiles[selectedYear]) {
+        downloadAnchor.href = curriculumFiles[selectedYear];
+        downloadLink.style.display = 'block';
+    } else {
+        downloadLink.style.display = 'none';
+        alert('Will upload soon');
+    }
+});
+
+// semester 4
+
+document.getElementById('mca-downloadButton4').addEventListener('click', function () {
+    const yearDropdown = document.getElementById('mca-yearDropdown4');
+    const selectedYear = yearDropdown.value;
+    const downloadLink = document.getElementById('mca-downloadLink4');
+    const downloadAnchor = document.getElementById('mca-downloadAnchor4');
+
+    // Define the curriculum file URLs for each year
+    const curriculumFiles = {
+        // '2022-23': './papers/BCA.pdf',
+    };
+
+    if (curriculumFiles[selectedYear]) {
+        downloadAnchor.href = curriculumFiles[selectedYear];
+        downloadLink.style.display = 'block';
+    } else {
+        downloadLink.style.display = 'none';
+        alert('Will upload soon');
+    }
+});
+
+// mca section ends 
 
 //BCA Start
 // semester 1

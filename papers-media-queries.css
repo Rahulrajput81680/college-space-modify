@@ -531,6 +531,98 @@
         margin-bottom: 10px;
     }
 
+    /* mba1 section starts  */
+
+    .mba1-container {
+        margin-top: 70px;
+    }
+
+    .mba1-container h2 {
+        font-size: 20px;
+    }
+
+    .mba1-semesters {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* Creates four equal columns */
+        row-gap: 15px;
+        column-gap: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /*curriculum1 */
+
+    .mba1-curriculum {
+        height: 120px;
+        margin-top: 30px;
+    }
+
+    .mba1-curriculum h1 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .mba1-curriculum label {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .mba1-downloadButton {
+        padding: 5px 10px;
+        margin-top: 10px;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    /* mba section ends  */
+
+    /* mca section starts  */
+
+    .mca-container {
+        margin-top: 70px;
+    }
+
+    .mca-container h2 {
+        font-size: 20px;
+    }
+
+    .mca-semesters {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* Creates four equal columns */
+        row-gap: 15px;
+        column-gap: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /*curriculum1 */
+
+    .mca-curriculum {
+        height: 120px;
+        margin-top: 30px;
+    }
+
+    .mca-curriculum h1 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .mca-curriculum label {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .mca-downloadButton {
+        padding: 5px 10px;
+        margin-top: 10px;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    /* mca section ends  */
+
     /*BCA Start*/
     .bca-container {
         margin-top: 70px;
