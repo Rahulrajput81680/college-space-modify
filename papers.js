@@ -755,6 +755,7 @@ document.getElementById('bca-downloadButton4').addEventListener('click', functio
     const curriculumFiles = {
         // '2022-23': './papers/BCA.pdf',
         '2022': 'https://drive.google.com/file/d/11Z8roIJjmcWUa2JwEGAtZBLgYH_iA_oL/view?usp=sharing',
+        '2023': 'https://drive.google.com/file/d/1umn49ZW6Mpxz3pbEI_PASaiQdwtfLNLb/view?usp=sharing'
     };
 
     if (curriculumFiles[selectedYear]) {
