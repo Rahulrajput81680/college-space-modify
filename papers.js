@@ -179,7 +179,7 @@ document.getElementById('downloadButton6').addEventListener('click', function ()
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2019-20': './papers/',
-        // '2021-22': './papers/MCA Int/MCA Int 6th Sem (2021-22).pdf',
+        '2021-22': './papers/MCA Int/MCA Int 6th Sem (2021-22).pdf',
         '2022-23': './papers/MCA Int/MCA Int 6th Sem (2022-23).pdf',
     };
 
@@ -549,6 +549,7 @@ document.getElementById('mba1-downloadButton3').addEventListener('click', functi
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         '2017-18': 'https://mega.nz/file/dnsRSLIT#TB16uQNfqhBiqFHLNdHXfa7cTMYThE4uDH64wQgmfHg',
+        '2019-20': 'https://mega.nz/file/VykgWQLS#k318_1PaM6I6funBo9Tj3A6wRhvpY6km8mxZwrx0NgQ',
         '2022-23': 'https://mega.nz/file/QjlBxDhb#-BfSS9wqvKWh5gTln0cbh16PXJrxMNzwaFP2aZktKc0',
     };
 
@@ -596,7 +597,7 @@ document.getElementById('mca-downloadButton1').addEventListener('click', functio
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
-        '2021-22': 'https://drive.google.com/file/d/1dNjmi_Fh4XdUtznoBTb51sxigkqTFeQc/view?usp=sharing',
+        '2021-22': 'https://mega.nz/file/8mUlnZpY#gpsn7WRXoZTDl4XJeDjZ2Ca4Ergsykqu_jr2By41taM',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -618,7 +619,7 @@ document.getElementById('mca-downloadButton2').addEventListener('click', functio
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
-        '2021-22': 'https://drive.google.com/drive/folders/1_SYMkXfyaCkcewJgR-GFpIeISdzcPAk0?usp=sharing',
+        '2021-22': 'https://mega.nz/file/suFCTJoL#arVnV4yUsLbb6PKgmQO6vZCkQt3aXGdcPVFfJyKKtDw',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -640,7 +641,7 @@ document.getElementById('mca-downloadButton3').addEventListener('click', functio
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
-        '2021-22': 'https://drive.google.com/drive/folders/1autd2by7HOIflGEYPWJiDLPrDFqsX8F3?usp=sharing',
+        '2021-22': 'https://mega.nz/file/1y81VAYa#ty-TvcJLyDN8oCYBbjh4wu9rfS2T-KJQnEit0R3mtgc',
     };
 
     if (curriculumFiles[selectedYear]) {
