@@ -500,9 +500,10 @@ document.getElementById('mba1-downloadButton1').addEventListener('click', functi
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
-        '2019-20': 'https://drive.google.com/file/d/1iSXv2oisPA8fobEMc7WR6UmaGaOOULOM/view?usp=sharing',
-        '2020-21': 'https://drive.google.com/drive/folders/1Aw7Yh0VLGZQz7LIJCjWvceCxx0XJcre1?usp=sharing',
-        '2021-22': 'https://drive.google.com/drive/folders/1Eut8TCuii-RFFLR6zpEeOrgmHZSIQDey?usp=sharing'
+        '2019-20': 'https://mega.nz/file/Br1n0YgD#SmGAvm1WuIAjms6RK4t6k66Cog1xQ2qJ_TF5Hx3kbvE',
+        '2020-21': 'https://mega.nz/file/YjEF1SCA#KdLcV4NoPw-sIpeY6PHBoBtjLU_MjciRITfFCzwOAcw',
+        '2021-22': 'https://mega.nz/file/c7NGiRxY#E19fcvfuza9aSkAWnXMAyJGczHCQVQBx3L3VPDlAe-M',
+        '2022-23': 'https://mega.nz/file/861HjYBQ#2AQuxiriQjf2nkw6ONN8HCEtnVhG5r1J_4s2c7ICC8w',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -524,7 +525,8 @@ document.getElementById('mba1-downloadButton2').addEventListener('click', functi
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
-        '2021-22': 'https://drive.google.com/drive/folders/1GVmFey4QoQJieMHFkiCZeiOpUawhVGu7?usp=sharing',
+        '2021-22': 'https://mega.nz/file/NmlUgQRR#4YbJs96a6leH6PqEAdvE4Q1sAU3yF5QukRK8XGZveTY',
+        '2022-23': 'https://mega.nz/file/YqcmXZTD#aYOgQcVXc2OXH89ovayZZ5SUw7vzQUYtozeLbUfwGbg',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -546,8 +548,8 @@ document.getElementById('mba1-downloadButton3').addEventListener('click', functi
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
-        '2017-18': 'https://drive.google.com/file/d/1y4weml9idfx2UgRhJFh0Haki5q_eZHnf/view?usp=sharing',
-        '2022-23': 'https://drive.google.com/drive/folders/1SFX_0Uz272aRhCNTReTTEnA_QnHHqUwq?usp=sharing'
+        '2017-18': 'https://mega.nz/file/dnsRSLIT#TB16uQNfqhBiqFHLNdHXfa7cTMYThE4uDH64wQgmfHg',
+        '2022-23': 'https://mega.nz/file/QjlBxDhb#-BfSS9wqvKWh5gTln0cbh16PXJrxMNzwaFP2aZktKc0',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -569,7 +571,7 @@ document.getElementById('mba1-downloadButton4').addEventListener('click', functi
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
-        '2022-23': 'https://drive.google.com/drive/folders/1vdVfxK4tsUV1EQkmL7jw_Vx6rmy14ML1?usp=sharing',
+        '2022-23': 'https://mega.nz/file/g2FBAKiI#-eXLqvhuhH6Zx4ab3Bd3B-y6yqK8D7Aqke06QtuwiVU',
     };
 
     if (curriculumFiles[selectedYear]) {
