@@ -134,7 +134,7 @@ body {
     margin-top: 50px;
     width: 100%;
     height: 800px;
-    background-image: url(images/ppp_bg_images/BG2.jpg);
+    background-image: url(images/ppp_bg_images/canva\ bg5.png);
     background-size: cover;
     align-items: center;
     justify-content: space-evenly;
@@ -286,14 +286,13 @@ body {
 
 .coding {
     width: 100%;
-    height: 300px;
+    height: 150px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
    
-
 }
 
 .platform {
@@ -304,9 +303,9 @@ body {
     box-sizing: border-box;
     box-shadow: 0 0 10px var(--secondry-color);
     padding: 10px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin-left: 15%;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .platform p {
@@ -323,9 +322,10 @@ body {
     color: white;
     width: 100px;
     height: 30px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     border-radius: 50px;
+    padding: 5px;
 
 }
 
@@ -338,6 +338,8 @@ body {
 
 .project-idea h1 {
     text-align: center;
+    font-size: 20px;
+    font-weight: bold;
     color: var(--secondry-color);
 }
 
@@ -388,7 +390,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 750px;
+    height: 800px;
     margin-top: 50px;
 }
 
@@ -419,16 +421,22 @@ body {
 }
 
 .subject p {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
+    /* margin-left: 10px; */
 
 }
 
 .subject button {
     font-size: 16px;
     background-color: orange;
-    margin-left: 30px;
+    margin-left: 20px;
     cursor: pointer;
+    border-radius: 50px;
+    padding: 5px;
+    font-weight: bold;
+    width: 120px;
+    text-align: center;
 }
 
 .subject button:hover {
@@ -455,7 +463,7 @@ body {
 }
 
 .other-resource p {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
 
 }
@@ -463,8 +471,13 @@ body {
 .other-resource button {
     font-size: 16px;
     background-color: orange;
-    margin-left: 30px;
+    margin-left: 20px;
     cursor: pointer;
+    border-radius: 50px;
+    padding: 5px;
+    font-weight: bold;
+    width: 120px;
+    text-align: center;
 }
 
 .other-resource button:hover {
