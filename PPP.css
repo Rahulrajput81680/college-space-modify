@@ -131,13 +131,14 @@ body {
 /* roadmap section start */
 
 .placements {
-    margin-top: 50px;
+    margin-top: 70px;
     width: 100%;
     height: 800px;
     background-image: url(images/ppp_bg_images/R.jpeg);
     background-size: cover;
     align-items: center;
     justify-content: space-evenly;
+    border-radius: 30px;
 }
 
 .placements h1 {
