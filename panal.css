@@ -199,6 +199,17 @@ footer{
 }
 .footer-content li{
     padding-bottom: 4px;
+
+}
+.footer-content li img{
+    height: 50px;
+    width: 50px;
+}
+.app li a{
+    color: yellow;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
 }
 .footer-content a{
     text-decoration: none;
