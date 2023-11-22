@@ -311,7 +311,10 @@ header {
     margin-top: 4rem;
 }
 
-
+.ppt-images img{
+    height: full;
+    max-width:1200px;
+}
 
 
 /* footer css starts */
