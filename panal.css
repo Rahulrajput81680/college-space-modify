@@ -51,10 +51,15 @@ html {
 }
 
 .nav-button{
-    width: 70%;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#button1 a:hover{
+    color: blue;
 }
 
 .nav-button a{
