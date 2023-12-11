@@ -141,8 +141,8 @@ label {
     font-size: 0.9rem;
 }
 .app img{
-    height: 40px;
-    width: 40px;
+    /* height: 40px;
+    width: 40px; */
 }
 .app{
     background-color: #222f3d;
