@@ -330,8 +330,7 @@
         document.getElementById('downloadButton').addEventListener('click', function () {
             const yearDropdown = document.getElementById('yearDropdown');
             const selectedYear = yearDropdown.value;
-            const downloadLink = document.getElementById('downloadLink');
-            const downloadAnchor = document.getElementById('downloadAnchor');
+            
 
             // Define the curriculum file URLs for each year
             const curriculumFiles = {
@@ -343,10 +342,9 @@
             };
 
             if (curriculumFiles[selectedYear]) {
-                downloadAnchor.href = curriculumFiles[selectedYear];
-                downloadLink.style.display = 'block';
+                window.open(curriculumFiles[selectedYear], '_blank');
             } else {
-                downloadLink.style.display = 'none';
+                
                 alert('Curriculum not available for the selected year.');
             }
         });
@@ -357,9 +355,7 @@
         document.getElementById('mba-downloadButton').addEventListener('click', function () {
             const yearDropdown1 = document.getElementById('mba-yearDropdown');
             const selectedYear1 = yearDropdown1.value;
-            const downloadLink1 = document.getElementById('mba-downloadLink');
-            const downloadAnchor1 = document.getElementById('mba-downloadAnchor');
-
+            
             // Define the curriculum file URLs for each year
             const curriculumFiles1 = {
                 '2023': './course curriculum/MBA (Integrated) I.pdf',
@@ -370,10 +366,9 @@
             };
 
             if (curriculumFiles1[selectedYear1]) {
-                downloadAnchor1.href = curriculumFiles1[selectedYear1];
-                downloadLink1.style.display = 'block';
+                window.open(curriculumFiles[selectedYear], '_blank');
             } else {
-                downloadLink1.style.display = 'none';
+              
                 alert('Curriculum not available for the selected year.');
             }
         });

@@ -52,9 +52,7 @@ closeIcon.addEventListener('click', () => {
 document.getElementById('downloadButton1').addEventListener('click', function () {
     const yearDropdown = document.getElementById('yearDropdown1');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('downloadLink1');
-    const downloadAnchor = document.getElementById('downloadAnchor1');
-
+    
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         '2020-21': './papers/MCA Int/MCA Int 1st Sem (2020-21).pdf',
@@ -63,13 +61,13 @@ document.getElementById('downloadButton1').addEventListener('click', function ()
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        // Open the file in a new tab
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
         alert('Will upload soon');
     }
 });
+
 
 
 // semester 2
@@ -77,8 +75,7 @@ document.getElementById('downloadButton1').addEventListener('click', function ()
 document.getElementById('downloadButton2').addEventListener('click', function () {
     const yearDropdown = document.getElementById('yearDropdown2');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('downloadLink2');
-    const downloadAnchor = document.getElementById('downloadAnchor2');
+    
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
@@ -88,10 +85,9 @@ document.getElementById('downloadButton2').addEventListener('click', function ()
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
@@ -101,9 +97,7 @@ document.getElementById('downloadButton2').addEventListener('click', function ()
 document.getElementById('downloadButton3').addEventListener('click', function () {
     const yearDropdown = document.getElementById('yearDropdown3');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('downloadLink3');
-    const downloadAnchor = document.getElementById('downloadAnchor3');
-
+   
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2019-20': './papers/',
@@ -112,10 +106,8 @@ document.getElementById('downloadButton3').addEventListener('click', function ()
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
         alert('Will upload soon');
     }
 });
@@ -125,8 +117,7 @@ document.getElementById('downloadButton3').addEventListener('click', function ()
 document.getElementById('downloadButton4').addEventListener('click', function () {
     const yearDropdown = document.getElementById('yearDropdown4');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('downloadLink4');
-    const downloadAnchor = document.getElementById('downloadAnchor4');
+   
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
@@ -136,10 +127,9 @@ document.getElementById('downloadButton4').addEventListener('click', function ()
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
@@ -149,9 +139,7 @@ document.getElementById('downloadButton4').addEventListener('click', function ()
 document.getElementById('downloadButton5').addEventListener('click', function () {
     const yearDropdown = document.getElementById('yearDropdown5');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('downloadLink5');
-    const downloadAnchor = document.getElementById('downloadAnchor5');
-
+    
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2019-20': './papers/',
@@ -160,10 +148,9 @@ document.getElementById('downloadButton5').addEventListener('click', function ()
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
@@ -173,9 +160,7 @@ document.getElementById('downloadButton5').addEventListener('click', function ()
 document.getElementById('downloadButton6').addEventListener('click', function () {
     const yearDropdown = document.getElementById('yearDropdown6');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('downloadLink6');
-    const downloadAnchor = document.getElementById('downloadAnchor6');
-
+  
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2019-20': './papers/',
@@ -184,10 +169,9 @@ document.getElementById('downloadButton6').addEventListener('click', function ()
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
@@ -197,9 +181,7 @@ document.getElementById('downloadButton6').addEventListener('click', function ()
 document.getElementById('downloadButton7').addEventListener('click', function () {
     const yearDropdown = document.getElementById('yearDropdown7');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('downloadLink7');
-    const downloadAnchor = document.getElementById('downloadAnchor7');
-
+   
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2019-20': './papers/',
@@ -208,10 +190,9 @@ document.getElementById('downloadButton7').addEventListener('click', function ()
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
@@ -221,8 +202,7 @@ document.getElementById('downloadButton7').addEventListener('click', function ()
 document.getElementById('downloadButton8').addEventListener('click', function () {
     const yearDropdown = document.getElementById('yearDropdown8');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('downloadLink8');
-    const downloadAnchor = document.getElementById('downloadAnchor8');
+    
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
@@ -232,10 +212,9 @@ document.getElementById('downloadButton8').addEventListener('click', function ()
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
@@ -245,9 +224,7 @@ document.getElementById('downloadButton8').addEventListener('click', function ()
 document.getElementById('downloadButton9').addEventListener('click', function () {
     const yearDropdown = document.getElementById('yearDropdown9');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('downloadLink9');
-    const downloadAnchor = document.getElementById('downloadAnchor9');
-
+    
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2019-20': './papers/',
@@ -256,10 +233,9 @@ document.getElementById('downloadButton9').addEventListener('click', function ()
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
@@ -275,8 +251,7 @@ document.getElementById('downloadButton9').addEventListener('click', function ()
 document.getElementById('mba-downloadButton1').addEventListener('click', function () {
     const yearDropdown = document.getElementById('mba-yearDropdown1');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('mba-downloadLink1');
-    const downloadAnchor = document.getElementById('mba-downloadAnchor1');
+    
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
@@ -286,10 +261,9 @@ document.getElementById('mba-downloadButton1').addEventListener('click', functio
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
@@ -300,8 +274,7 @@ document.getElementById('mba-downloadButton1').addEventListener('click', functio
 document.getElementById('mba-downloadButton2').addEventListener('click', function () {
     const yearDropdown = document.getElementById('mba-yearDropdown2');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('mba-downloadLink2');
-    const downloadAnchor = document.getElementById('mba-downloadAnchor2');
+    
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
@@ -311,10 +284,9 @@ document.getElementById('mba-downloadButton2').addEventListener('click', functio
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
@@ -324,8 +296,7 @@ document.getElementById('mba-downloadButton2').addEventListener('click', functio
 document.getElementById('mba-downloadButton3').addEventListener('click', function () {
     const yearDropdown = document.getElementById('mba-yearDropdown3');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('mba-downloadLink3');
-    const downloadAnchor = document.getElementById('mba-downloadAnchor3');
+    
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
@@ -335,10 +306,9 @@ document.getElementById('mba-downloadButton3').addEventListener('click', functio
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+        
         alert('Will upload soon');
     }
 });
@@ -348,8 +318,7 @@ document.getElementById('mba-downloadButton3').addEventListener('click', functio
 document.getElementById('mba-downloadButton4').addEventListener('click', function () {
     const yearDropdown = document.getElementById('mba-yearDropdown4');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('mba-downloadLink4');
-    const downloadAnchor = document.getElementById('mba-downloadAnchor4');
+    
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
@@ -359,10 +328,9 @@ document.getElementById('mba-downloadButton4').addEventListener('click', functio
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
@@ -372,8 +340,7 @@ document.getElementById('mba-downloadButton4').addEventListener('click', functio
 document.getElementById('mba-downloadButton5').addEventListener('click', function () {
     const yearDropdown = document.getElementById('mba-yearDropdown5');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('mba-downloadLink5');
-    const downloadAnchor = document.getElementById('mba-downloadAnchor5');
+    
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
@@ -383,10 +350,9 @@ document.getElementById('mba-downloadButton5').addEventListener('click', functio
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
@@ -396,9 +362,7 @@ document.getElementById('mba-downloadButton5').addEventListener('click', functio
 document.getElementById('mba-downloadButton6').addEventListener('click', function () {
     const yearDropdown = document.getElementById('mba-yearDropdown6');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('mba-downloadLink6');
-    const downloadAnchor = document.getElementById('mba-downloadAnchor6');
-
+    
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2019-20': './papers/',
@@ -407,10 +371,9 @@ document.getElementById('mba-downloadButton6').addEventListener('click', functio
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+        
 
         alert('coming soon');
         alert('Will upload soon');
@@ -422,9 +385,7 @@ document.getElementById('mba-downloadButton6').addEventListener('click', functio
 document.getElementById('mba-downloadButton7').addEventListener('click', function () {
     const yearDropdown = document.getElementById('mba-yearDropdown7');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('mba-downloadLink7');
-    const downloadAnchor = document.getElementById('mba-downloadAnchor7');
-
+    
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2019-20': './papers/',
@@ -433,10 +394,9 @@ document.getElementById('mba-downloadButton7').addEventListener('click', functio
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
@@ -446,9 +406,7 @@ document.getElementById('mba-downloadButton7').addEventListener('click', functio
 document.getElementById('mba-downloadButton8').addEventListener('click', function () {
     const yearDropdown = document.getElementById('mba-yearDropdown8');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('mba-downloadLink8');
-    const downloadAnchor = document.getElementById('mba-downloadAnchor8');
-
+    
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2019-20': './papers/',
@@ -457,10 +415,9 @@ document.getElementById('mba-downloadButton8').addEventListener('click', functio
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
@@ -470,9 +427,7 @@ document.getElementById('mba-downloadButton8').addEventListener('click', functio
 document.getElementById('mba-downloadButton9').addEventListener('click', function () {
     const yearDropdown = document.getElementById('mba-yearDropdown9');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('mba-downloadLink9');
-    const downloadAnchor = document.getElementById('mba-downloadAnchor9');
-
+    
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2019-20': './papers/',
@@ -481,10 +436,9 @@ document.getElementById('mba-downloadButton9').addEventListener('click', functio
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
@@ -495,8 +449,7 @@ document.getElementById('mba-downloadButton9').addEventListener('click', functio
 document.getElementById('mba1-downloadButton1').addEventListener('click', function () {
     const yearDropdown = document.getElementById('mba1-yearDropdown1');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('mba1-downloadLink1');
-    const downloadAnchor = document.getElementById('mba1-downloadAnchor1');
+    
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
@@ -507,10 +460,9 @@ document.getElementById('mba1-downloadButton1').addEventListener('click', functi
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+        
         alert('Will upload soon');
     }
 });
@@ -520,8 +472,7 @@ document.getElementById('mba1-downloadButton1').addEventListener('click', functi
 document.getElementById('mba1-downloadButton2').addEventListener('click', function () {
     const yearDropdown = document.getElementById('mba1-yearDropdown2');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('mba1-downloadLink2');
-    const downloadAnchor = document.getElementById('mba1-downloadAnchor2');
+  
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
@@ -530,10 +481,9 @@ document.getElementById('mba1-downloadButton2').addEventListener('click', functi
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
@@ -543,8 +493,7 @@ document.getElementById('mba1-downloadButton2').addEventListener('click', functi
 document.getElementById('mba1-downloadButton3').addEventListener('click', function () {
     const yearDropdown = document.getElementById('mba1-yearDropdown3');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('mba1-downloadLink3');
-    const downloadAnchor = document.getElementById('mba1-downloadAnchor3');
+   
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
@@ -554,10 +503,9 @@ document.getElementById('mba1-downloadButton3').addEventListener('click', functi
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+        
         alert('Will upload soon');
     }
 });
@@ -567,8 +515,7 @@ document.getElementById('mba1-downloadButton3').addEventListener('click', functi
 document.getElementById('mba1-downloadButton4').addEventListener('click', function () {
     const yearDropdown = document.getElementById('mba1-yearDropdown4');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('mba1-downloadLink4');
-    const downloadAnchor = document.getElementById('mba1-downloadAnchor4');
+   
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
@@ -576,10 +523,9 @@ document.getElementById('mba1-downloadButton4').addEventListener('click', functi
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
@@ -592,8 +538,7 @@ document.getElementById('mba1-downloadButton4').addEventListener('click', functi
 document.getElementById('mca-downloadButton1').addEventListener('click', function () {
     const yearDropdown = document.getElementById('mca-yearDropdown1');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('mca-downloadLink1');
-    const downloadAnchor = document.getElementById('mca-downloadAnchor1');
+   
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
@@ -601,10 +546,9 @@ document.getElementById('mca-downloadButton1').addEventListener('click', functio
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+      
         alert('Will upload soon');
     }
 });
@@ -614,8 +558,7 @@ document.getElementById('mca-downloadButton1').addEventListener('click', functio
 document.getElementById('mca-downloadButton2').addEventListener('click', function () {
     const yearDropdown = document.getElementById('mca-yearDropdown2');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('mca-downloadLink2');
-    const downloadAnchor = document.getElementById('mca-downloadAnchor2');
+   
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
@@ -623,10 +566,9 @@ document.getElementById('mca-downloadButton2').addEventListener('click', functio
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
@@ -636,8 +578,7 @@ document.getElementById('mca-downloadButton2').addEventListener('click', functio
 document.getElementById('mca-downloadButton3').addEventListener('click', function () {
     const yearDropdown = document.getElementById('mca-yearDropdown3');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('mca-downloadLink3');
-    const downloadAnchor = document.getElementById('mca-downloadAnchor3');
+   
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
@@ -645,10 +586,9 @@ document.getElementById('mca-downloadButton3').addEventListener('click', functio
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
@@ -658,8 +598,7 @@ document.getElementById('mca-downloadButton3').addEventListener('click', functio
 document.getElementById('mca-downloadButton4').addEventListener('click', function () {
     const yearDropdown = document.getElementById('mca-yearDropdown4');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('mca-downloadLink4');
-    const downloadAnchor = document.getElementById('mca-downloadAnchor4');
+    
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
@@ -667,10 +606,9 @@ document.getElementById('mca-downloadButton4').addEventListener('click', functio
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
@@ -683,8 +621,7 @@ document.getElementById('mca-downloadButton4').addEventListener('click', functio
 document.getElementById('bca-downloadButton1').addEventListener('click', function () {
     const yearDropdown = document.getElementById('bca-yearDropdown1');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('bca-downloadLink1');
-    const downloadAnchor = document.getElementById('bca-downloadAnchor1');
+  
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
@@ -693,10 +630,9 @@ document.getElementById('bca-downloadButton1').addEventListener('click', functio
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
@@ -706,19 +642,16 @@ document.getElementById('bca-downloadButton1').addEventListener('click', functio
 document.getElementById('bca-downloadButton2').addEventListener('click', function () {
     const yearDropdown = document.getElementById('bca-yearDropdown2');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('bca-downloadLink2');
-    const downloadAnchor = document.getElementById('bca-downloadAnchor2');
-
+   
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2022-23': './papers/BCA.pdf',
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
@@ -728,8 +661,7 @@ document.getElementById('bca-downloadButton2').addEventListener('click', functio
 document.getElementById('bca-downloadButton3').addEventListener('click', function () {
     const yearDropdown = document.getElementById('bca-yearDropdown3');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('bca-downloadLink3');
-    const downloadAnchor = document.getElementById('bca-downloadAnchor3');
+   
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
@@ -738,10 +670,9 @@ document.getElementById('bca-downloadButton3').addEventListener('click', functio
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
@@ -751,8 +682,7 @@ document.getElementById('bca-downloadButton3').addEventListener('click', functio
 document.getElementById('bca-downloadButton4').addEventListener('click', function () {
     const yearDropdown = document.getElementById('bca-yearDropdown4');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('bca-downloadLink4');
-    const downloadAnchor = document.getElementById('bca-downloadAnchor4');
+   
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
@@ -762,10 +692,9 @@ document.getElementById('bca-downloadButton4').addEventListener('click', functio
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
@@ -775,8 +704,7 @@ document.getElementById('bca-downloadButton4').addEventListener('click', functio
 document.getElementById('bca-downloadButton5').addEventListener('click', function () {
     const yearDropdown = document.getElementById('bca-yearDropdown5');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('bca-downloadLink5');
-    const downloadAnchor = document.getElementById('bca-downloadAnchor5');
+    
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
@@ -784,10 +712,9 @@ document.getElementById('bca-downloadButton5').addEventListener('click', functio
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+      
         alert('Will upload soon');
     }
 });
@@ -797,8 +724,7 @@ document.getElementById('bca-downloadButton5').addEventListener('click', functio
 document.getElementById('bca-downloadButton6').addEventListener('click', function () {
     const yearDropdown = document.getElementById('bca-yearDropdown6');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('bca-downloadLink6');
-    const downloadAnchor = document.getElementById('bca-downloadAnchor6');
+   
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
@@ -806,10 +732,9 @@ document.getElementById('bca-downloadButton6').addEventListener('click', functio
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
@@ -825,8 +750,7 @@ document.getElementById('bca-downloadButton6').addEventListener('click', functio
 document.getElementById('bba-downloadButton1').addEventListener('click', function () {
     const yearDropdown = document.getElementById('bba-yearDropdown1');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('bba-downloadLink1');
-    const downloadAnchor = document.getElementById('bba-downloadAnchor1');
+   
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
@@ -837,10 +761,9 @@ document.getElementById('bba-downloadButton1').addEventListener('click', functio
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
@@ -850,8 +773,7 @@ document.getElementById('bba-downloadButton1').addEventListener('click', functio
 document.getElementById('bba-downloadButton2').addEventListener('click', function () {
     const yearDropdown = document.getElementById('bba-yearDropdown2');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('bba-downloadLink2');
-    const downloadAnchor = document.getElementById('bba-downloadAnchor2');
+   
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
@@ -859,10 +781,9 @@ document.getElementById('bba-downloadButton2').addEventListener('click', functio
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+     
         alert('Will upload soon');
     }
 });
@@ -872,19 +793,16 @@ document.getElementById('bba-downloadButton2').addEventListener('click', functio
 document.getElementById('bba-downloadButton3').addEventListener('click', function () {
     const yearDropdown = document.getElementById('bba-yearDropdown3');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('bba-downloadLink3');
-    const downloadAnchor = document.getElementById('bba-downloadAnchor3');
-
+   
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         // '2022-23': './papers/BCA.pdf',
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
@@ -894,8 +812,7 @@ document.getElementById('bba-downloadButton3').addEventListener('click', functio
 document.getElementById('bba-downloadButton4').addEventListener('click', function () {
     const yearDropdown = document.getElementById('bba-yearDropdown4');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('bba-downloadLink4');
-    const downloadAnchor = document.getElementById('bba-downloadAnchor4');
+   
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
@@ -903,10 +820,9 @@ document.getElementById('bba-downloadButton4').addEventListener('click', functio
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
@@ -916,8 +832,7 @@ document.getElementById('bba-downloadButton4').addEventListener('click', functio
 document.getElementById('bba-downloadButton5').addEventListener('click', function () {
     const yearDropdown = document.getElementById('bba-yearDropdown5');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('bba-downloadLink5');
-    const downloadAnchor = document.getElementById('bba-downloadAnchor5');
+    
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
@@ -926,10 +841,9 @@ document.getElementById('bba-downloadButton5').addEventListener('click', functio
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
@@ -939,8 +853,7 @@ document.getElementById('bba-downloadButton5').addEventListener('click', functio
 document.getElementById('bba-downloadButton6').addEventListener('click', function () {
     const yearDropdown = document.getElementById('bba-yearDropdown6');
     const selectedYear = yearDropdown.value;
-    const downloadLink = document.getElementById('bba-downloadLink6');
-    const downloadAnchor = document.getElementById('bba-downloadAnchor6');
+   
 
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
@@ -949,10 +862,9 @@ document.getElementById('bba-downloadButton6').addEventListener('click', functio
     };
 
     if (curriculumFiles[selectedYear]) {
-        downloadAnchor.href = curriculumFiles[selectedYear];
-        downloadLink.style.display = 'block';
+        window.open(curriculumFiles[selectedYear], '_blank');
     } else {
-        downloadLink.style.display = 'none';
+       
         alert('Will upload soon');
     }
 });
