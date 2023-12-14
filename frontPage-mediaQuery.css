@@ -441,6 +441,26 @@
         background-color: #222f3d;
     }
      */
+
+     /* faq section starts  */
+
+     :hover.faq-item {
+       scale: 1.0;
+      }
+      .faq-container{
+        background: linear-gradient(to right, lightskyblue, #FF69B4, orange);
+      }
+      .faq-item {
+       /* background-color: #ff69b4; */
+    }
+    #faq{
+        font-size: 30px;
+        margin-bottom: 3rem;
+    }
+  
+    
+
+     /* faq section ends  */
     .mobile-footer-copyright{
         background-color: #37475a;
         color: white;

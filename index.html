@@ -279,7 +279,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- about section startss -->
 
     <div class="container">
-        <h1 class="heading">OUR TEAM <span class="sub-heading">MEMBERS</span></h1>
+        <h2 class="heading">OUR TEAM <span class="sub-heading">MEMBERS</span></h2>
         <div class="team-members">
             <div class="team-member">
                 <img src="./images/rahul.png" alt="Rahul Rajput" class="member-image">
@@ -605,9 +605,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     // Toggle the display property between 'block' and 'none'
     if (answer.style.display === 'block') {
-        answer.style.display = 'none';  // If it's currently visible, hide it
+        answer.style.display = 'none'; 
+        answer.style.backgroundColor=pink; // If it's currently visible, hide it
     } else {
-        answer.style.display = 'block'; // If it's currently hidden, show it
+        answer.style.display = 'block'; 
+        answer.style.backgroundColor=pink;// If it's currently hidden, show it
     }
     
     
@@ -629,8 +631,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <!-- FAQ section starts  -->
 
+    <h2 id="faq">Frequently asked questions</h2>
     <div class="faq-container">
-        <h2>Frequently asked questions</h2>
         
         <div class="faq-item" onclick="toggleAnswer(1)">
             <div class="question">

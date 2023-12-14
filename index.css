@@ -461,8 +461,9 @@ body{
     margin: 20px auto;
     box-sizing: border-box;
     
+    
 }
-.faq-container h2{
+#faq{
     text-align: center;
     font-size: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
