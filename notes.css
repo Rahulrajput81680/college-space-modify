@@ -396,7 +396,7 @@ a:hover {
 .subject-notes{
   margin-top: 50px;
 }
-.subject-notes h1{
+#sub-head{
   color: var(--secondry-color2);
   text-align: center;
   text-decoration: underline;
