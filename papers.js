@@ -446,6 +446,7 @@ document.getElementById('mba-downloadButton9').addEventListener('click', functio
 
 // mba section starts 
 
+//Semester 1
 document.getElementById('mba1-downloadButton1').addEventListener('click', function () {
     const yearDropdown = document.getElementById('mba1-yearDropdown1');
     const selectedYear = yearDropdown.value;
@@ -463,7 +464,7 @@ document.getElementById('mba1-downloadButton1').addEventListener('click', functi
         window.open(curriculumFiles[selectedYear], '_blank');
     } else {
         
-        alert('Will upload soon');
+        alert('Year 2022-23,2021-22,2020-21,2019-20 are avilable \n\nOther will upload soon');
     }
 });
 
@@ -484,7 +485,7 @@ document.getElementById('mba1-downloadButton2').addEventListener('click', functi
         window.open(curriculumFiles[selectedYear], '_blank');
     } else {
        
-        alert('Will upload soon');
+        alert('Year 2022-23,2021-22 are avilable \n\nOther will upload soon');
     }
 });
 
@@ -506,7 +507,7 @@ document.getElementById('mba1-downloadButton3').addEventListener('click', functi
         window.open(curriculumFiles[selectedYear], '_blank');
     } else {
         
-        alert('Will upload soon');
+        alert('Year 2022-23,2029-20,2017-18 are avilable \n\nOther will upload soon');
     }
 });
 
@@ -526,7 +527,7 @@ document.getElementById('mba1-downloadButton4').addEventListener('click', functi
         window.open(curriculumFiles[selectedYear], '_blank');
     } else {
        
-        alert('Will upload soon');
+        alert('Year 2022-23 are avilable \n\nOther will upload soon');
     }
 });
 
