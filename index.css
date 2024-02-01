@@ -74,8 +74,8 @@ body{
     position: fixed;
     top: 0;
     right: -250px;
-    /* background-image:linear-gradient(to left, #4b0082, #800080, #ff69b4); */
-    background-image:linear-gradient(to bottom, #ff9933, #ffffff, #128807);
+    background-image:linear-gradient(to left, #4b0082, #800080, #ff69b4);
+    /* background-image:linear-gradient(to bottom, #ff9933, #ffffff, #128807); */
     overflow-x: hidden;
     transition: 0.4s;
   }
@@ -97,7 +97,7 @@ body{
   
   .sidebar a {
     text-decoration: none;
-    color: blue;
+    color: white;
     font-size: 22px;
     font-weight: bold;
   }
