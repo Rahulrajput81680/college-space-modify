@@ -117,6 +117,25 @@ html {
     transition:1s;
     
 }
+
+/* load more section starts  */
+
+.loadMoreBtn{
+    font-size: 18px;
+    margin-left: 45%;
+    background-color: skyblue;
+}
+
+.load2,.load3{
+    display: none;
+}
+#loadMoreBtn2{
+    display: none;
+}
+#loadMoreBtn3{
+    display: none;
+}
+  /* load more section ends */
 .carreer-last-p{
     color: var(--secondry-color3);
 }
