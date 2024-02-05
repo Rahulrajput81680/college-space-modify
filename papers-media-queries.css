@@ -299,7 +299,6 @@
 
 
 
-    .mba-container {}
 
     .mba-container h2 {
         font-size: 20px;
@@ -465,7 +464,7 @@
     }
 
     .mba-curriculum7 h1 {
-    
+
         font-size: 16px;
         font-weight: bold;
     }
@@ -576,6 +575,7 @@
         margin-left: 10px;
         margin-bottom: 10px;
     }
+
     /* mba section ends  */
 
     /* mca section starts  */
@@ -622,6 +622,7 @@
         margin-left: 10px;
         margin-bottom: 10px;
     }
+
     /* mca section ends  */
 
     /*BCA Start*/
@@ -720,20 +721,15 @@
 
     /* footer section starts  */
 
-    #contact-us{
+    #contact-us {
         display: none;
     }
-    #mobile-contact-us{
+
+    #mobile-contact-us {
         display: block;
     }
-    .mobile-footer{
-        margin-top: 50px;
-        position: absolute;
-        left: 0%;
-        right: 0%;
-    }
-    
-    .mobile-footer-home a{
+
+    .mobile-footer-home a {
         background-color: #37475a;
         color: white;
         height: 50px;
@@ -743,54 +739,76 @@
         font-size: 1rem;
         text-decoration: none;
     }
-    
-    .mobile-footer-content{
+
+    .mobilefooter {
         background-color: #222f3d;
         color: white;
-        height: 250px;
-        display: flex;
+        height: 425px;
         align-items: center;
         justify-content: space-evenly;
     }
-    .mobile-footer-content li{
-        padding-bottom: 4px;
-    }
-    .mobile-footer-content a{
-        text-decoration: none;
-        color: white;
-        font-size: 0.9rem;
-    }
-    .app img{
-        /* height: 40px;
-        width: 40px; */
-    }
-    .app{
-        background-color: #222f3d;
-    }
-    .app a{
-        color: yellow;
-        text-decoration: none;
-        text-align: center;
-        /* margin-left: 20px; */
-        cursor: pointer;
-        font-size: 1rem;
-    }
-    .mobile-footer-copyright{
-        background-color: #37475a;
-        color: white;
-        height: 50px;
+
+    .applink {
+        height: 100px;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .mobile-footer-contact-mobile{
-        display: none;
+
+    .otherlinks {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 50px;
+        width: 100%;
     }
-    .mobile-footer-contact{
-        background-color: #222f3d;
+
+    .links {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        border: 2px solid white;
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
     }
-    .mobile-footer-contact p{
+
+    .quicklinkss {
+        height: 175px;
+        width: 100%;
+        text-decoration: none;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    .quicklinkss a {
+        margin-right: 10px;
+        text-decoration: none;
         color: white;
     }
-    
+
+    .quicklinkss h4 {
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .copyright {
+        height: 50px;
+        width: 100%;
+        background-color: #37475a;
+        color: white;
+        font-weight: bold;
+        font-size: large;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .copyright a {
+        color: white;
+        text-decoration: none;
+    }
+
 }
