@@ -4,177 +4,198 @@
 
 
     /* dark mode section starts  */
-    :root{
-        --primary-color:white;
+    :root {
+        --primary-color: white;
         --secondry-color: linear-gradient(to right, #ff0000, blue);
         --secondry-color2: #212121;
-      }
-      .dark-theme1{
-         --primary-color: #212121;
-         --secondry-color: linear-gradient(to right, cyan, orange);
-         --secondry-color2:white;
-      }
-      body{
+    }
+
+    .dark-theme1 {
+        --primary-color: #212121;
+        --secondry-color: linear-gradient(to right, cyan, orange);
+        --secondry-color2: white;
+    }
+
+    body {
         background-color: var(--primary-color);
-      }
-      
-      #dark-icon{
+    }
+
+    #dark-icon {
         width: 40px;
         cursor: pointer;
         margin: 50px 0px 0px 50%;
-      }
+    }
 
     /* header starts  */
 
-    .header{
+    .header {
         display: block;
     }
 
     /* header media query starts  */
 
 
-   .nav-button a{
-    font-size: 16px;
-   
-   }
-   .logo-img{
-    height: 60px;
-    width: 100px;
-}
-.nav-logo{
-    width: 30%;
-    align-items: center;
-    display: flex;
-}
+    .nav-button a {
+        font-size: 16px;
+
+    }
+
+    .logo-img {
+        height: 60px;
+        width: 100px;
+    }
+
+    .nav-logo {
+        width: 30%;
+        align-items: center;
+        display: flex;
+    }
 
     /* header down side starts  */
 
 
 
-.detail-description{
+    .detail-description {
 
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 100px;
-}
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 100px;
+    }
 
-.curriculum {
-    max-width: 400px;
-    padding: 20px;
-    margin: 0px 15px 20px 15px;
-    box-shadow: 0 0 10px var(--secondry-color2);
-    /* justify-content: space-evenly; */
-}
-.curriculum h1 {
-    font-size: 20px;
-}
-label {
-    margin-right: 10px;
-    font-size: 16px;
-}
+    .curriculum {
+        max-width: 400px;
+        padding: 20px;
+        margin: 0px 15px 20px 15px;
+        box-shadow: 0 0 10px var(--secondry-color2);
+        /* justify-content: space-evenly; */
+    }
 
-/* curriculum down side starts  */
+    .curriculum h1 {
+        font-size: 20px;
+    }
 
+    label {
+        margin-right: 10px;
+        font-size: 16px;
+    }
 
-.subject-notes h1{
-    font-size: 20px;
-    color: var(--secondry-color2);
-  
-  }
-
-  .semester{
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .all-sem a{
-    font-size: 15px;
-    font-style: italic;
-  }
-  .all-sem p{
-    font-size: 18px;
-    text-decoration: underline;
-    color: blueviolet;
-  }
-
-  /* footer section starts  */
+    /* curriculum down side starts  */
 
 
- /* footer section starts  */
- #contact-us{
-    display: none;
-}
-#mobile-contact-us{
-    display: block;
-}
-.mobile-footer{
-    margin-top: 50px;
-    position: absolute;
-    left: 0%;
-    right: 0%;
-}
+    .subject-notes h1 {
+        font-size: 20px;
+        color: var(--secondry-color2);
 
-.mobile-footer-home a{
-    background-color: #37475a;
-    color: white;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    font-size: 1rem;
-    text-decoration: none;
-}
+    }
 
-.mobile-footer-content{
-    background-color: #222f3d;
-    color: white;
-    height: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.mobile-footer-content li{
-    padding-bottom: 4px;
-}
-.mobile-footer-content a{
-    text-decoration: none;
-    color: white;
-    font-size: 0.9rem;
-}
-.app img{
-    /* height: 40px;
-    width: 40px; */
-}
-.app{
-    background-color: #222f3d;
-}
-.app a{
-    color: yellow;
-    text-decoration: none;
-    text-align: center;
-    /* margin-left: 20px; */
-    cursor: pointer;
-    font-size: 1rem;
-}
-.mobile-footer-copyright{
-    background-color: #37475a;
-    color: white;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.mobile-footer-contact-mobile{
-    display: none;
-}
-.mobile-footer-contact{
-    background-color: #222f3d;
-}
-.mobile-footer-contact p{
-    color: white;
-}
+    .semester {
+        grid-template-columns: repeat(1, 1fr);
+    }
 
-}
+    .all-sem a {
+        font-size: 15px;
+        font-style: italic;
+    }
+
+    .all-sem p {
+        font-size: 18px;
+        text-decoration: underline;
+        color: blueviolet;
+    }
+
+    /* footer section starts  */
 
 
+    /* footer section starts  */
+    #contact-us {
+        display: none;
+    }
 
+    #mobile-contact-us {
+        display: block;
+    }
 
+    .mobile-footer-home a {
+        background-color: #37475a;
+        color: white;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 1rem;
+        text-decoration: none;
+    }
+
+    .mobilefooter {
+        background-color: #222f3d;
+        color: white;
+        height: 425px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .applink {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .otherlinks {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 50px;
+        width: 100%;
+    }
+
+    .links {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        border: 2px solid white;
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+    }
+
+    .quicklinkss {
+        height: 175px;
+        width: 100%;
+        text-decoration: none;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    .quicklinkss a {
+        margin-right: 10px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .quicklinkss h4 {
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .copyright {
+        height: 50px;
+        width: 100%;
+        background-color: #37475a;
+        color: white;
+        font-weight: bold;
+        font-size: large;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .copyright a {
+        color: white;
+        text-decoration: none;
+    }
+
+}

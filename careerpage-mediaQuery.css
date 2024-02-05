@@ -4,27 +4,29 @@
 
     /* dark mode starts  */
 
-    :root{
-        --primary-color:white;
+    :root {
+        --primary-color: white;
         --secondry-color: #212121;
-        --secondry-color2:pink;
-      }
-      .dark-theme2{
-         --primary-color: #212121;
-         --secondry-color:white;
-         --secondry-color2:#212121;
-      }
-      body{
+        --secondry-color2: pink;
+    }
+
+    .dark-theme2 {
+        --primary-color: #212121;
+        --secondry-color: white;
+        --secondry-color2: #212121;
+    }
+
+    body {
         background-color: var(--primary-color);
-      }
-      
-      #dark-icon{
+    }
+
+    #dark-icon {
         width: 40px;
         cursor: pointer;
         margin: 50px 0px 0px 50%;
-      }
+    }
 
-    .header{
+    .header {
         display: block;
     }
 
@@ -78,56 +80,68 @@
         background-color: rgb(245, 223, 223);
         margin-top: 4%;
         background-color: var(--secondry-color2);
-        
-        }
-        .hero h2 {
-            color: var(--secondry-color);
-        }
-        .hero h3{
-            color: var(--secondry-color);
-        }
-        .hero p{
-            color: var(--secondry-color);
-        }
+
+    }
+
+    .hero h2 {
+        color: var(--secondry-color);
+    }
+
+    .hero h3 {
+        color: var(--secondry-color);
+    }
+
+    .hero p {
+        color: var(--secondry-color);
+    }
+
     .hero-content {
-         max-width: 100%;
-         margin: 100px 20px 0px 20px;
-        font-family: Helvetica,sans-serif;
-        }
-    .hero-content p{
+        max-width: 100%;
+        margin: 100px 20px 0px 20px;
+        font-family: Helvetica, sans-serif;
+    }
+
+    .hero-content p {
         margin-top: 30px;
         margin-bottom: 30px;
-        }
-    .hero-content h2{
+    }
+
+    .hero-content h2 {
         font-size: 40px;
         text-align: start;
         font-weight: 800;
     }
-    .circle video{
+
+    .circle video {
         width: 100px;
         height: 100px;
     }
+
     .circle-images {
         width: 100%;
         margin-top: 20px;
         /* position: relative; */
     }
-    .circle{
+
+    .circle {
         display: flex;
-        flex-wrap: wrap;  
+        flex-wrap: wrap;
         flex-direction: row;
     }
-    .image1{
+
+    .image1 {
         margin-left: 20px;
         margin-bottom: 0px;
         margin-top: 70px;
     }
-    .image2{
-       margin-top: 0px;
-       margin-left: 0px;
-       margin-bottom: 0px;
+
+    .image2 {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
     }
-    .image3{
+
+    .image3 {
         margin-top: 70px;
         margin-right: 20px;
     }
@@ -135,32 +149,37 @@
     /* hero section se down side starts  */
 
 
-    .wrapper{
+    .wrapper {
         display: none;
     }
-    
-    .containers{
+
+    .containers {
         display: none;
         /* margin-left: 50px; */
     }
-    .slide-container{
-        width:100%;
+
+    .slide-container {
+        width: 100%;
         box-shadow: 0px 0px 20px blue;
         margin-left: 0px;
         margin-right: 20px;
         background-color: var(--primary-color);
     }
-    .slide-container h1{
+
+    .slide-container h1 {
         text-align: center;
         font-size: 25px;
         margin-top: 20px;
         font-weight: 600;
         color: var(--secondry-color);
     }
+
     .slide {
-        flex:0 0 100%; /* Three images visible at a time */
+        flex: 0 0 100%;
+        /* Three images visible at a time */
         transition: transform 0.5s ease;
     }
+
     .slideshow-container {
         display: flex;
         overflow: hidden;
@@ -169,27 +188,31 @@
         margin-left: 50px;
         /* background-color: lightskyblue; */
     }
-    .slideshow-container img{
+
+    .slideshow-container img {
         margin: 50px 0px 0px 50px;
         height: 150px;
         width: 150px;
-        
+
     }
-    .slide0-desc{
+
+    .slide0-desc {
         display: flex;
         justify-content: space-evenly;
     }
-    .slide0-desc button{
+
+    .slide0-desc button {
         font-size: 16px;
         color: blue;
     }
-    .slide0-desc h1{
+
+    .slide0-desc h1 {
         font-size: 22px;
         margin-top: 25px;
         color: black;
     }
-    
-    #slide0{
+
+    #slide0 {
         height: 280px;
         width: 50px;
         /* box-sizing: content-box; */
@@ -197,121 +220,148 @@
         margin-left: 0px;
         box-shadow: 0 0 10px black;
     }
-  
+
     /* website video starts  */
 
-    .youtube-video-container1{
+    .youtube-video-container1 {
         display: block;
     }
-    .youtube-video-container{
+
+    .youtube-video-container {
         display: none;
     }
 
 
-     /* footer section starts  */
- /* footer section starts  */
- #contact-us{
-    display: none;
-}
-#mobile-contact-us{
-    display: block;
-}
-.mobile-footer{
-    margin-top: 50px;
-    position: absolute;
-    left: 0%;
-    right: 0%;
-}
+    /* footer section starts  */
+    /* footer section starts  */
+    #contact-us {
+        display: none;
+    }
 
-.mobile-footer-home a{
-    background-color: #37475a;
-    color: white;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    font-size: 1rem;
-    text-decoration: none;
-}
+    #mobile-contact-us {
+        display: block;
+    }
 
-.mobile-footer-content{
-    background-color: #222f3d;
-    color: white;
-    height: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.mobile-footer-content li{
-    padding-bottom: 4px;
-}
-.mobile-footer-content a{
-    text-decoration: none;
-    color: white;
-    font-size: 0.9rem;
-}
-.app img{
-    /* height: 40px;
-    width: 40px; */
-}
-.app{
-    /* background-color: #222f3d; */
-}
-.app a{
-    /* color: yellow;
-    text-decoration: none;
-    text-align: center;
-    /* margin-left: 20px; */
-    /* cursor: pointer;
-    font-size: 1rem; */ */
-}
-.mobile-footer-copyright{
-    background-color: #37475a;
-    color: white;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.mobile-footer-contact-mobile{
-    display: none;
-}
-.mobile-footer-contact{
-    background-color: #222f3d;
-}
-.mobile-footer-contact p{
-    color: white;
-}
+    .mobile-footer-home a {
+        background-color: #37475a;
+        color: white;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 1rem;
+        text-decoration: none;
+    }
 
-.career_page {
-    background: var(--primary-color2);
-}
-.about-container {
-    background-color: var(--primary-color);
-}
-.about{
-    color: var(--secondry-color3);
-}
-.job-opening {
-    background: var(--primary-color);
-}
-.current-opportunities{
-    color: var(--secondry-color3);
-}
-.cards-container .card .btn {
-    color: var(--primary-color);
-}
-.carreer-last-p{
-    color: var(--secondry-color3);
-}
-.about{
-    color: var(--secondry-color);
-}
-.current-opportunities{
-    color:var(--secondry-color);
-}
-.carreer-last-p{
-    color: var(--secondry-color);
-}
+    .mobilefooter {
+        background-color: #222f3d;
+        color: white;
+        height: 425px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .applink {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .otherlinks {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 50px;
+        width: 100%;
+    }
+
+    .links {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        border: 2px solid white;
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+    }
+
+    .quicklinkss {
+        height: 175px;
+        width: 100%;
+        text-decoration: none;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    .quicklinkss a {
+        margin-right: 10px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .quicklinkss h4 {
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .copyright {
+        height: 50px;
+        width: 100%;
+        background-color: #37475a;
+        color: white;
+        font-weight: bold;
+        font-size: large;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .copyright a{
+        color: white;
+        text-decoration: none;
+    }
+
+    /* mobile footer end */
+    .career_page {
+        background: var(--primary-color2);
+    }
+
+    .about-container {
+        background-color: var(--primary-color);
+    }
+
+    .about {
+        color: var(--secondry-color3);
+    }
+
+    .job-opening {
+        background: var(--primary-color);
+    }
+
+    .current-opportunities {
+        color: var(--secondry-color3);
+    }
+
+    .cards-container .card .btn {
+        color: var(--primary-color);
+    }
+
+    .carreer-last-p {
+        color: var(--secondry-color3);
+    }
+
+    .about {
+        color: var(--secondry-color);
+    }
+
+    .current-opportunities {
+        color: var(--secondry-color);
+    }
+
+    .carreer-last-p {
+        color: var(--secondry-color);
+    }
 
 }
