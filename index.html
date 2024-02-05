@@ -429,31 +429,33 @@
     <!-- slideshow section starts -->
 
 
-    <h1 class="slider-heading">Our Some <span class="slider-sub-heading">Goodies</span></h1>
+    <h1 class="slider-heading">Our <span class="slider-sub-heading">Acquirement</span></h1>
     <div class="slide-container">
         <div class="slideshow-container">
 
             <div class="slide">
-                <a href="https://youtu.be/Tjgp_QxXtII?si=MyoedJtqJWVJ9VHn"><img
-                        src="./images/goodies/google all goodies.jpg" alt="Image 1"></a>
-                <h3>Google All goodies</h3>
+                <a href="https://youtube.com/@innovativedeveloper"     target="_blank" rel="noopener">
+                    <video autoplay muted loop><source 
+                        src="images\Our acquirement\Red and Blue Modern YouTube Intro Video .mp4"></video> </a>
+                <!-- <h3>Google All goodies</h3> -->
             </div>
             <div class="slide">
-                <a href="https://youtu.be/RzBpNFk152k?si=rcmag6fv1iNBVxNs"><img
-                        src="./images/goodies/2022 all goodies.png" alt="Image 2"></a>
-                <h3>All Goodies that are earned in 2022</h3>
+                <a href="https://www.innovativenews.me" target="_blank"><img
+                        src="images\Our acquirement\Neutral Minimal Website Launch Instagram Post.png" alt="Image 2"></a>
+                <h3>Blogging Website</h3>
+            </div>
+           
+            <div class="slide">
+                <a href="https://youtube.com/@innovativenewss" target="_blank"> <video autoplay muted loop>
+                    <source   src="images\Our acquirement\Red and White Breaking News Live Youtube Intro .mp4" ></video></a>
+                <!-- <h3>GFG T-shirt</h3> -->
             </div>
             <div class="slide">
-                <a href="https://youtube.com/shorts/pTSszddRo-o?si=Ayisadsx5VLRsWC8"><img
-                        src="./images/goodies/gfg hoodie.jpg" alt="Image 3"></a>
-                <h3>GFG Hoodie</h3>
+                <a href="https://resourcezone.tech" target="_blank"><video autoplay muted loop><source
+                        src="images\Our acquirement\resource zone.mp4" alt="Image 3"></video></a>
+                <!-- <h3>GFG Hoodie</h3> -->
             </div>
-            <div class="slide">
-                <a href="https://youtube.com/shorts/Yi45ptzGrdI?si=5r-BoSyrHnC9bJv-"> <img
-                        src="./images/goodies/gfg tshirt.jpg" alt="Image 4"></a>
-                <h3>GFG T-shirt</h3>
-            </div>
-            <div class="slide">
+          <!-- <div class="slide">
                 <a href=""><img src="./images/goodies/BNB chain.jpg" alt="Image 5"></a>
                 <h3>BNB Chain goodies</h3>
             </div>
@@ -490,15 +492,15 @@
             <div class="slide">
                 <a href=""><img src="./images/goodies/zeeve diary.jpg" alt="Image 12"></a>
                 <h3>Zeeve diary</h3>
-            </div>
+            </div>-->
         </div>
     </div>
     <div class="dots-container">
         <!-- Dots will be added dynamically with JavaScript -->
     </div>
     <div class="goodies-content">
-        <p>if you also want to get such kind of goodies then click below button or contact us</p>
-        <a href="https://www.youtube.com/@innovativedeveloper"> <button>Click Here</button></a>
+        <p>if you also want to get such kind of knowledge then click below button or contact us</p>
+        <a href="https://innovativedeveloper.bio.link"> <button>Click Here</button></a>
     </div>
 
     <!-- script code  -->
@@ -547,11 +549,11 @@
         const autoSlide = () => {
             autoSlideInterval = setInterval(() => {
                 counter++;
-                if (counter >= slides.length - 2) {
+                if (counter >= slides.length) {
                     counter = 0;
                 }
                 slideImage();
-            }, 2500); // Change slide every 1 second
+            }, 4000); // Change slide every 1 second
         };
 
         autoSlide();  // Start automatic slideshow
