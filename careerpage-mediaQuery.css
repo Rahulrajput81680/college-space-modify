@@ -231,6 +231,12 @@
         display: none;
     }
 
+    /* load more button starts  */
+
+    .loadMoreBtn{
+        margin-left: 35%;
+        margin-bottom: 20px;
+    }
 
     /* footer section starts  */
     /* footer section starts  */
