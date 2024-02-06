@@ -101,9 +101,9 @@
         display: flex;
     }
 
-    /* header down side starts  */
+    /* roadmaps media query starts  */
     .placements {
-        height: 2100px;
+        /* height: 2100px; */
     }
 
     .placements h1 {
@@ -127,12 +127,29 @@
         font-size: 16px;
 
     }
-
+    .roadmap-div1-content {
+        width: 350px;
+    }
     .roadmap {
         flex-direction: column;
         grid-template-columns: repeat(1, 1fr);
     }
-
+    .load{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #load2,#load3,#load4{
+       flex-direction: column;
+    }
+    #load2,#load3,#load4{
+        margin-left: 1px;
+        width: fit-content;
+    }
+    
+    
+    .loadMoreBtn{
+        margin-left: 30%;
+        
+    }
     .cheatsheet {
         grid-template-columns: repeat(1, 1fr);
         border: 3px solid blue;
