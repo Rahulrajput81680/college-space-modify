@@ -1,57 +1,63 @@
 html {
     scroll-behavior: smooth;
-  }
-
-  
-*{
-    border: border-box;
-    
 }
+
+
+* {
+    border: border-box;
+
+}
+
 /* header style start*/
-.header{
+.header {
     display: none;
 }
-.nav-bar{
+
+.nav-bar {
     z-index: 1000;
     height: 70px;
     width: 100%;
-    background-image:linear-gradient(to left, #4b0082, #800080, #ff69b4);
+    background-image: linear-gradient(to left, #4b0082, #800080, #ff69b4);
     /* background-image:linear-gradient(to bottom, #ff9933, #ffffff, #128807); */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    position:absolute;
+    position: absolute;
     position: fixed;
     left: 0%;
     right: 0%;
     top: 0%;
     /* overflow-block: hidden; */
-    z-index: 1000;      /* Your other styles for nav-bar */ 
+    z-index: 1000;
+    /* Your other styles for nav-bar */
 }
 
-.nav-logo{
+.nav-logo {
     width: 30%;
     align-items: center;
     display: flex;
     margin-left: 5%;
 }
-.logo-img{
+
+.logo-img {
     height: 60px;
     width: 100px;
 }
-.logo-img:hover{
+
+.logo-img:hover {
     transition: 0.5s;
     scale: 1.1;
-    rotate: 360deg; 
+    rotate: 360deg;
 }
-.logo-icon{
+
+.logo-icon {
     height: 60px;
     background-image: url(images/Zone.png);
     /* width: 100%; */
     background-size: cover;
 }
 
-.nav-button{
+.nav-button {
     width: 80%;
     display: flex;
     align-items: center;
@@ -59,19 +65,20 @@ html {
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-#button1 a:hover{
+
+#button1 a:hover {
     color: blue;
 }
 
-.nav-button a{
+.nav-button a {
     text-decoration: none;
     color: white;
     font-size: large;
 }
 
-#button1:hover{
+#button1:hover {
     text-decoration: underline 2px rgb(188, 208, 59);
-    
+
 }
 
 /*rahul code start*/
@@ -115,7 +122,7 @@ html {
 /* Change color of dropdown menu items on hover */
 .dropdowns-content a:hover {
     background-color: #ddd;
-   
+
 }
 
 /* Show the dropdown menu when the button is hovered */
@@ -123,9 +130,9 @@ html {
     display: block;
 }
 
- /* Style the dropdown container */
+/* Style the dropdown container */
 
- .dropdowns {
+.dropdowns {
     position: relative;
     display: inline-block;
 }
@@ -145,7 +152,7 @@ html {
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -166,6 +173,7 @@ html {
 .dropdowns:hover .dropdowns-content {
     display: block;
 }
+
 /*rahul code end*/
 
 
@@ -174,17 +182,18 @@ html {
 
 /*footer style start*/
 
-#mobile-contact-us{
+#mobile-contact-us {
     display: none;
 }
-footer{
+
+footer {
     margin-top: 50px;
     position: absolute;
     left: 0%;
     right: 0%;
 }
 
-.footer-home a{
+.footer-home a {
     background-color: #37475a;
     color: white;
     height: 50px;
@@ -195,7 +204,7 @@ footer{
     text-decoration: none;
 }
 
-.footer-content{
+.footer-content {
     background-color: #222f3d;
     color: white;
     height: 250px;
@@ -203,33 +212,42 @@ footer{
     align-items: center;
     justify-content: space-evenly;
 }
-.footer-content li{
+
+.footer-content li {
     padding-bottom: 4px;
 
 }
-.footer-content li img{
+
+.footer-content li img {
     height: 50px;
     width: 50px;
 }
-.app li a{
+
+.app li a {
     color: yellow;
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
 }
-.footer-content a{
+
+.footer-content a {
     text-decoration: none;
     color: white;
     font-size: 0.9rem;
 }
 
-.footer-copyright{
+.footer-copyright {
     background-color: #37475a;
     color: white;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.footer-copyright a {
+    text-decoration: none;
+    color: white;
 }
 
 /*footer style end*/
