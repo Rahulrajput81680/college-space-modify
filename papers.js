@@ -57,7 +57,7 @@ document.getElementById('downloadButton1').addEventListener('click', function ()
     const curriculumFiles = {
         '2020-21': 'https://mega.nz/file/IjF3ATpR#jOqdlLGkdIvlVFfvMHA5SgBzMj42oTB9-Y_Pjpw469o',
         '2021-22': 'https://mega.nz/file/Nq12wRzb#08q_xho2RYU8TakfCxR0gkjZW_7buhJ33EkkiYqOvy0',
-        '2022-23': 'https://mega.nz/file/p3EgHCZQ#kn1nESic7NfFRBfnRLcAkymKGq5xYe5GS5mqMVHb5uM',
+        '2022-23': 'https://drive.google.com/file/d/1FO8BQHZOQhNIMX4ZSG2Pd6VdwiBuHfkf/view?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -81,7 +81,7 @@ document.getElementById('downloadButton2').addEventListener('click', function ()
     const curriculumFiles = {
         // '2019-20': './papers/',
         '2021-22': 'https://mega.nz/file/x6d2VIoS#oyqbNnwhnZOR09hdojfD9i8zekATwJurBA435HbeD6o',
-        '2022-23': 'https://mega.nz/file/0nNSxbwa#tGPnkZHKH9PNaGqBG2jkJutLPEAXUIw9kY1I912iC7E',
+        '2022-23': 'https://drive.google.com/file/d/1yUfcrUzpWDAQtBT4xSyg4wux9hXW3pnp/view?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -102,7 +102,7 @@ document.getElementById('downloadButton3').addEventListener('click', function ()
     const curriculumFiles = {
         // '2019-20': './papers/',
         '2021-22': 'https://mega.nz/file/ljtmATjR#aakD_l3-KyjXgHNLcjr0WSWTj8F7CrEOOUZCVyU_rt8',
-        '2022-23': 'https://mega.nz/file/NrEQBJ4Z#hjad0jT64IXiF8CqIrNIZibckBmcCjNq6GfV22f0sf8',
+        '2022-23': 'https://drive.google.com/file/d/1y2gEXzme5MdGxAojnKR7ysnJ2U6mnX4T/view?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -123,7 +123,7 @@ document.getElementById('downloadButton4').addEventListener('click', function ()
     const curriculumFiles = {
         // '2019-20': './papers/',
         '2021-22': 'https://mega.nz/file/hiclCIZT#TwCe1Mk0yMrBKFaCKzQlJujcjDDyTeqTdFxR4RV2j0s',
-        '2022-23': 'https://mega.nz/file/Z6kRmB6Q#wXPVaK-nAVzF8UIqLwIv9AjRINAt1CVuWyX3z-aXwes',
+        '2022-23': 'https://drive.google.com/file/d/1z_rz4HmEnOzVhNYvDfHkvw7z-EN5XvjJ/view?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -144,7 +144,7 @@ document.getElementById('downloadButton5').addEventListener('click', function ()
     const curriculumFiles = {
         // '2019-20': './papers/',
         '2021-22': 'https://mega.nz/file/wuMlxJ4S#oNE5gOiDrWoREhD5L7yDrIMuiHUgEAbP0vkJbU2ZQnE',
-        '2022-23': 'https://mega.nz/file/82UFzTQJ#S-k8Ddu-ofSqAJuHsteIiEBBKMNDHLxt8G30yuOUUH4',
+        '2022-23': 'https://drive.google.com/file/d/1Moe70YY3q8buoqw3nUO6ja8xEpgu1kpK/view?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -165,7 +165,7 @@ document.getElementById('downloadButton6').addEventListener('click', function ()
     const curriculumFiles = {
         // '2019-20': './papers/',
         '2021-22': 'https://mega.nz/file/EuFxTQpY#PZHXsIOefxX3DROQk8q6GObbiXukV9u9TX6T9JUuEbU',
-        '2022-23': 'https://mega.nz/file/82N1XK4Y#qdqI60KBxEKSSuEJytAbR-ICOt5nMpOG4lhledu-9x8',
+        '2022-23': 'https://drive.google.com/file/d/1YlZaEtAorDDOivlltI6gWfva9oKJqqF_/view?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -186,7 +186,7 @@ document.getElementById('downloadButton7').addEventListener('click', function ()
     const curriculumFiles = {
         // '2019-20': './papers/',
         '2021-22': 'https://mega.nz/file/RyMXFDDJ#Hd3FYco3SYMEr4LvKvt5r1_SElgmzrqLcbISVvijk_s',
-        '2022-23': 'https://mega.nz/file/EmcAyQCL#HyYvoLQSjvoYfOLpWaQaNeI31l70p7bRoUtZ2tlciaQ',
+        '2022-23': 'https://drive.google.com/file/d/1_JkCPGdqk9OR3HfWsvxDhnI95yrbC9Ti/view?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -208,7 +208,7 @@ document.getElementById('downloadButton8').addEventListener('click', function ()
     const curriculumFiles = {
         // '2019-20': './papers/',
         '2021-22': 'https://mega.nz/file/428zBITK#yL8BCzWtmC75Mo4VvCk2b8oRkc-SfteZ82txppCWh6A',
-        '2022-23': 'https://mega.nz/file/Iy9i0DJC#KelaevbUM5VSiFYXfY_roIF9zfOeut4EvemST3efbxw',
+        '2022-23': 'https://drive.google.com/file/d/1pn9jUHZr3VKiQIdJOkDlv1jkOxOv4sTH/view?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -229,7 +229,7 @@ document.getElementById('downloadButton9').addEventListener('click', function ()
     const curriculumFiles = {
         // '2019-20': './papers/',
         '2021-22': 'https://mega.nz/file/hyF2FLRY#xtJYgF4FVMRCGpxNpKBLIdC-4SuOD1issZYov2zmsBU',
-        '2022-23': 'https://mega.nz/file/pnVVUDJa#XUpNAvThkmnhiGkbhENlnZYIX3pogrFUrL42YtC9LSg',
+        '2022-23': 'https://drive.google.com/file/d/1lHzYA8eLsIDcDoQnyjcCCUYGV8HjhjRd/view?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -545,7 +545,7 @@ document.getElementById('mca-downloadButton1').addEventListener('click', functio
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         '2021-22': 'https://mega.nz/file/4qlgDCzK#q08FYWuqBc9YGcwvHZcs_jLx-c9eB-4p5FytcSPQUGA',
-        '2022-23': 'https://mega.nz/file/o6UCGADA#OwfDoIX7HYXi-kLPR2FmtvhmfoVXmcnPGhpdYX9DeFk',
+        '2022-23': 'https://drive.google.com/file/d/16feOdBJue_uJdpwEDF9__8lCQH-h-mBj/view?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -566,7 +566,7 @@ document.getElementById('mca-downloadButton2').addEventListener('click', functio
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         '2021-22': 'https://mega.nz/file/E28jXZjJ#QI3AIThLsjVBQoHn-2x-RUw1732hEWP_onBIpzF_Wpk',
-        '2022-23': 'https://mega.nz/file/gycjkCLY#8a8lveP26eJK0jr3cuk39vzdpfxrO0DM1srVc9OFzxM',
+        '2022-23': 'https://drive.google.com/file/d/1eYZQw8FkZbeCbAosMBdgZwlA7fFtsZXc/view?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -587,7 +587,7 @@ document.getElementById('mca-downloadButton3').addEventListener('click', functio
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         '2021-22': 'https://mega.nz/file/4n03VTxB#LgghiaGHxr2x-B7CCiHIh8S_4nfD1BslGeSPm1AGXwc',
-        '2022-23': 'https://mega.nz/file/IzNjxaDY#jHGZ5UBukoersnirOzX4MTofAgjmvgaCMftK704Y9yk',
+        '2022-23': 'https://drive.google.com/file/d/1oXj43CyBKFdmDyQEyOMQmrgOPg-UEkK1/view?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
@@ -608,7 +608,7 @@ document.getElementById('mca-downloadButton4').addEventListener('click', functio
     // Define the curriculum file URLs for each year
     const curriculumFiles = {
         '2021-22': 'https://mega.nz/file/4mlD2IJC#7tzaAFhppiC0ZMTbUBUxEf3Wpfr_7MGLU1es-P1apVA',
-        '2022-23': 'https://mega.nz/file/gm0SwIhZ#eSncwTNNPF50PHMfgtC-EmgkVr4PP6EHDRNWbZ_MiEE',
+        '2022-23': 'https://drive.google.com/file/d/1G9xVZvBZIumlEml2X6zhEMALavqp23Is/view?usp=sharing',
         // '2022-23': './papers/BCA.pdf',
     };
 
