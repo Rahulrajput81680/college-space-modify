@@ -216,7 +216,7 @@ document.getElementById('downloadButton8').addEventListener('click', function ()
         // '2019-20': './papers/',
         '2021-22': 'https://mega.nz/file/428zBITK#yL8BCzWtmC75Mo4VvCk2b8oRkc-SfteZ82txppCWh6A',
         '2022-23': 'https://drive.google.com/file/d/1pn9jUHZr3VKiQIdJOkDlv1jkOxOv4sTH/view?usp=sharing',
-        '2023-24': '',
+        '2023-24': 'https://drive.google.com/file/d/1DjGVnXa1XWRqJx6qVGeODqCyiI_BZet_/view?usp=sharing',
     };
 
     if (curriculumFiles[selectedYear]) {
