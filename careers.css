@@ -5,20 +5,20 @@ html {
 
 ::-webkit-scrollbar {
   width: 12px;
-  /* Width of the scrollbar */
+ 
 }
 
-/* Customize the scrollbar thumb */
+
 ::-webkit-scrollbar-thumb {
   background-color: gray;
   border-radius: 10px;
-  /* Rounded corners for the thumb */
+  
 }
 
-/* Customize the scrollbar track */
+
 ::-webkit-scrollbar-track {
   background-color: var(--secondry-color);
-  /* Track color */
+  
 }
 
 /* dark mode section starts  */
@@ -131,14 +131,10 @@ body {
 .hero {
   display: flex;
   width: 100%;
-  /* background-color: rgb(245, 223, 223); */
-
   background-color: var(--secondry-color2);
   margin-top: 4%;
 
 }
-
-
 
 .hero-content {
   max-width: 40%;
@@ -164,7 +160,6 @@ body {
 
 #internButton:hover {
   transition: 0.5;
-  /* scale: 1.1; */
   background-color: rgb(255, 145, 0);
 
 }
@@ -172,14 +167,12 @@ body {
 .hero h2 {
   font-size: 56px;
   margin-bottom: 20px;
-  /* opacity: 0.8; */
   color: var(--secondry-color);
 }
 
 .hero h3 {
   font-size: 28px;
   color: var(--secondry-color);
-  /* opacity: 0.8; */
 }
 
 .hero p {
@@ -204,8 +197,6 @@ body {
   border-radius: 30%;
   object-fit: cover;
   border-radius: 50%;
-  /* position: relative; */
-  /* margin-right: 100px; */
   margin-top: 50px;
   margin-bottom: 30px;
 
@@ -234,7 +225,6 @@ body {
   width: 64%;
   margin-top: 30px;
   margin-bottom: 30px;
-  /* width: 750px; */
   background-color: var(--primary-color);
   height: 500px;
   margin-left: 0rem;
@@ -243,7 +233,6 @@ body {
   box-shadow: 0px 0px 10px yellow;
   border-radius: 5%;
   margin-left: 10px;
-  /* margin-top: 5rem; */
 }
 
 .slide-container h1 {
@@ -263,9 +252,6 @@ body {
   margin-top: 2rem;
   gap: 20px;
   height: 320px;
-  /* background-color: aqua; */
-
-  /* background-color: lightskyblue; */
 }
 
 .slideshow-container img {
@@ -300,7 +286,6 @@ body {
 .slide0-desc h1 {
   font-size: 30px;
   margin-top: 20px;
-  /* color: var(--secondry-color); */
   color: black;
 }
 
@@ -329,7 +314,7 @@ img {
   margin-top: 20px;
 }
 
-/* Add styles for dots */
+
 .dots-container {
   display: flex;
   justify-content: center;
@@ -351,12 +336,6 @@ img {
 .dot.active {
   background-color: grey;
 }
-
-/* 
-.app{
-  width: 172px;
-  height: 61px;
-} */
 
 
 
@@ -411,7 +390,7 @@ img {
   }
 }
 
-/* Add styles for image movement if needed */
+
 .moveImage {
-  /* Add your movement styles here */
+ 
 }
